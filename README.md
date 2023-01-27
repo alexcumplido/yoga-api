@@ -1,8 +1,8 @@
 # Yoga API 🧘‍♀️
 
-Yoga API will serve you yoga categories and postures. This documentation should help you use the endpoints with HTTP requests.
+Yoga API will serve you yoga categories and postures. This documentation should help you use the endpoints with HTTP requests. At the moment 12 categories and 48 postures can be requested. 
 
-This is a work in progress, be aware your response can look different. This is because changes can be made over time.
+This is a work in progress, be aware your response can look different. This is because changes can be made over time. 
 
 ## Why Yoga Poses ?
 
