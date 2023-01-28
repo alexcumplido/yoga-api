@@ -1,33 +1,50 @@
 # Yoga API 🧘‍♀️
 
-Yoga API will serve you yoga categories and postures. This documentation should help you use the endpoints with HTTP requests. At the moment 12 categories and 48 postures can be requested.  The API is hosted in [Render](https://render.com/).
+Yoga API serves categories and yoga poses upon HTTP request. The API is hosted in [Render](https://render.com/). This documentation should help you use the endpoints. Currently, 12 categories and 48 postures can be requested. 
 
-This is a work in progress, be aware your response can look different. This is because changes can be made over time. 
+
 
 ## Why Yoga Poses ?
 
-After Heroku policy changes around November, some active API about yoga went down. Currently, I am taking the data in some developed projects.
+After Heroku policy changes around November 2022 some working APIs providing data about yoga went down. To keep offering a reliable API I am pluging data from some of these projects into Yoga Api.
 
-Credits for those project developers: 
-
-[cc-smith](https://github.com/cc-smith/yoga-poses)
-
-[rebeccaestes](https://github.com/rebeccaestes/yoga_api)
-
-[chrisman](https://github.com/Stuwert/yoga-builder)
+Credits to [cc-smith](https://github.com/cc-smith/yoga-poses) - [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder)
 
 
-## Endpoints
+## How can I use it?
 
-### Categories endpoint
+Base URL for Yoga API is:
+
+```
+https://yoga-api-nzy4.onrender.com/api/yoga
+```
+
+```
+HTTP 200 OK
+Content-Type: application/json
+
+{
+    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories", 
+    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses", 
+    "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/boat", 
+}
+```
+The base url is the root of the url, if you ever make a request and you get back a 404 NOT FOUND response then check the Base URL first.
+
+
+### Categories
+
+### **Endpoint**
+- ```/categories``` -- get all the categories including associated poses
+- ```/categories/:nameCategory``` -- get specific
 
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/categories
 ```
-
-Endpoint to get all the yoga categories included associated postures in each one.
-
 ```
+HTTP/1.0 200 OK
+Content-Type: application/json
+
 {
     "items": [
         {
@@ -35,7 +52,6 @@ Endpoint to get all the yoga categories included associated postures in each one
             "name": "Core Yoga Poses",
             "short_name": "core_yoga_poses",
             "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
-            "parent_yoga_category_id": null
             "yoga_poses": [
                 {
                     "id": 1,
@@ -49,7 +65,6 @@ Endpoint to get all the yoga categories included associated postures in each one
             "name": "Seated Yoga Poses",
             "short_name": "seated_yoga_poses",
             "description": "Stay supple in your yoga practice with twisting asanas",
-            "parent_yoga_category_id": null
             "yoga_poses": [
                 {
                     "id": 1,
@@ -62,74 +77,79 @@ Endpoint to get all the yoga categories included associated postures in each one
 }
 
 ```
-
-### Poses endpoint
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/poses
+https://yoga-api-nzy4.onrender.com/api/yoga/categories/core yoga poses
+```
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Core Yoga Poses",
+    "short_name": "core_yoga_poses",
+    "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose.",
+    "yoga_poses": [
+        {
+            "id": 1,
+            "sanskrit_name": "Navasana",
+            "english_name": "Boat"
+        },
+        {
+            "id": 2,
+            "sanskrit_name": "Ardha Navasana",
+            "english_name": "Half-Boat"
+        },
+        {
+            "id": 7,
+            "sanskrit_name": "Marjaryasana",
+            "english_name": "Cat"
+        }
+    ]
+}
 ```
 
-Endpoint to get all the yoga postures included and its associated categories.
+### Poses
+
+### **Endpoint**
+- ```/poses/``` -- get all the poses 
+- ```/poses/:namePose``` -- get a single posture
 
 ```
-"items": [
+https://yoga-api-nzy4.onrender.com/api/yoga/poses/
+```
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+{
+    "items": [
         {
             "id": 1,
             "sanskrit_name": "Navasana",
             "english_name": "Boat",
-            "yoga_categories": [
-                {
-                    "id": 1,
-                    "name": "Core Yoga Poses",
-                    "short_name": "core_yoga_poses",
-                    "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
-                    "parent_yoga_category_id": null
-                }
-            ]
+            "yoga_categories": []
+
         },
         {
             "id": 2,
             "sanskrit_name": "Ardha Navasana",
             "english_name": "Half-Boat",
-            "yoga_categories": [
-                {
-                    "id": 1,
-                    "name": "Core Yoga Poses",
-                    "short_name": "core_yoga_poses",
-                    "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
-                    "parent_yoga_category_id": null
-                }
-            ]
-        },
-```
-
-### Single pose endpoint
-```
-https://yoga-api-nzy4.onrender.com/api/yoga/boat
-```
-
-Endpoint to a specific yoga posture and its associated categories. The name of the posture must be in English
-Replace the last query parameter with the pose you want to query.
-
-```
-{
-    "id": 1,
-    "sanskrit_name": "Navasana",
-    "english_name": "Boat",
-    "yoga_categories": [
-        {
-            "id": 1,
-            "name": "Core Yoga Poses",
-            "short_name": "core_yoga_poses",
-            "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
-            "parent_yoga_category_id": null
-        },
-        {
-            "id": 2,
-            "name": "Seated Yoga Poses",
-            "short_name": "seated_yoga_poses",
-            "description": "Stay supple in your yoga practice with twisting asanas"
-            "parent_yoga_category_id": null
+            "yoga_categories": []
         }
     ]
 }
 ```
+
+```
+https://yoga-api-nzy4.onrender.com/api/poses/boat/
+```
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+
+{
+    "id": 1,
+    "sanskrit_name": "Navasana",
+    "english_name": "Boat",
+    "yoga_categories": []
+}
