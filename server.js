@@ -4,38 +4,45 @@ const cors = require('cors');
 app.use(cors());
 
 const PORT = process.env.PORT;
-const yogacategories = require('./yogacategories.json');
-const yogaposes = require('./yogaposes.json');
-const baseURL = require('./yogaBaseUrl.json');
+const baseURL = require('./resources/baseURL.json');
+const yogacategories = require('./resources/categories.json');
+const yogaposes = require('./resources/poses.json');
 
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html');
 }),
 
-app.get('/api/yoga/:filterby?/:category?/:posename?', (request, response) => {
-    const params = request.params.filterby;
-    const paramsCategory = request.params.category;
-    const paramsPose = request.params.posename;
-    console.log(request.params)
+app.get('/api/yoga/', (request, response) => {
+    response.json(baseURL);
+});
 
-    if(params === undefined && paramsCategory == undefined && paramsPose === undefined){
-        response.json(baseURL);
-    } else if (params == 'categories' && paramsCategory === undefined) {
+
+app.get('/api/yoga/routeCategories/:categories/:nameCategory?', (request, response) => {
+    const categories = request.params.categories;
+    const category = request.params.nameCategory;
+    console.log(request.params)
+    if (categories && category === undefined) {
         response.json(yogacategories);  
-    } else if (params == 'categories' && paramsCategory) {
-        const category = yogacategories.items.find(function (element) {
-            return element.name.toLowerCase() === paramsCategory.toLowerCase();
+    } else if (categories  && category) {
+        const singleCategory = yogacategories.items.find(function (element) {
+            return element.name.toLowerCase() === category.toLowerCase();
         });
-        response.json(category);
-    } else if (params == 'poses') {
-        if(paramsPose === undefined) {
-            response.json(yogaposes);
-        } else if (paramsPose) {
-            const pose = yogaposes.items.find( function (element) {
-                return element.english_name.toLowerCase() === paramsPose.toLowerCase();
-            });
-            response.json(pose);
-        }
+        response.json(singleCategory);
+    } 
+});
+
+
+app.get('/api/yoga/routePoses/:poses/:poseName?', (request, response) => {
+    const poses = request.params.poses;
+    const posture = request.params.poseName;
+    console.log(request.params)
+    if (poses && posture === undefined) {
+        response.json(yogaposes);
+    } else if (poses == 'poses' && posture) {
+        const singlePose = yogaposes.items.find(function (element) {
+                return element.english_name.toLowerCase() === posture.toLowerCase();
+        });
+        response.json(singlePose);
     }
 });
 
