@@ -34,12 +34,12 @@ The base url is the root of the url, if you ever make a request and you get back
 ## Categories
 
 ### **Endpoints**
-- ```/categories``` -- get all the categories including related poses
-- ```/categories/:nameCategory``` -- get a specific category including related poses
+- ```/routeCategories/categories``` -- get all the categories including related poses
+- ```/routeCategories/categories/:categoryName?``` -- get a specific category including related poses
 
 **Example request to get all categories:**
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/categories
+https://yoga-api-nzy4.onrender.com/api/yoga/routeCategories/categories
 ```
 **Example response:**
 ```
@@ -80,7 +80,7 @@ Content-Type: application/json
 ```
 **Example request to get a single category:**
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/categories/core yoga poses
+https://yoga-api-nzy4.onrender.com/api/yoga/routeCategories/categories/core yoga poses
 ```
 **Example response:**
 ```
@@ -115,12 +115,12 @@ Content-Type: application/json
 ## Poses
 
 ### **Endpoint**
-- ```/poses/``` -- get all the poses 
-- ```/poses/:namePose``` -- get an individual pose
+- ```routePoses/poses/``` -- get all the poses 
+- ```routePoses/poses/:poseName?``` -- get an individual pose
 
 **Example request to get all poses:**
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/poses/
+https://yoga-api-nzy4.onrender.com/api/yoga/routePoses/poses/
 ```
 **Example response :**
 ```
@@ -147,7 +147,7 @@ Content-Type: application/json
 ```
 **Example request to get a single pose :**
 ```
-https://yoga-api-nzy4.onrender.com/api/poses/boat/
+https://yoga-api-nzy4.onrender.com/api/routePoses/poses/boat/
 ```
 **Example response:**
 ```
