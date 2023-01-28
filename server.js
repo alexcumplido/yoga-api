@@ -4,9 +4,10 @@ const cors = require('cors');
 app.use(cors());
 
 const PORT = process.env.PORT;
-const yogacategories = require('./yogacategories.json');
-const yogaposes = require('./yogaposes.json');
-const baseURL = require('./yogaBaseUrl.json');
+const baseURL = require('./resources/baseURL.json');
+const yogacategories = require('./resources/categories.json');
+const yogaposes = require('./resources/poses.json');
+
 
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html');
