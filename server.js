@@ -13,32 +13,50 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html');
 }),
 
-app.get('/api/yoga/:filterby?/:category?/:posename?', (request, response) => {
-    const params = request.params.filterby;
-    const paramsCategory = request.params.category;
-    const paramsPose = request.params.posename;
-    console.log(request.params)
 
-    if(params === undefined && paramsCategory == undefined && paramsPose === undefined){
-        response.json(baseURL);
-    } else if (params == 'categories' && paramsCategory === undefined) {
-        response.json(yogacategories);  
-    } else if (params == 'categories' && paramsCategory) {
-        const category = yogacategories.items.find(function (element) {
-            return element.name.toLowerCase() === paramsCategory.toLowerCase();
-        });
-        response.json(category);
-    } else if (params == 'poses') {
-        if(paramsPose === undefined) {
-            response.json(yogaposes);
-        } else if (paramsPose) {
-            const pose = yogaposes.items.find( function (element) {
-                return element.english_name.toLowerCase() === paramsPose.toLowerCase();
-            });
-            response.json(pose);
-        }
-    }
+app.get('/api/yoga/', (request, response) => {
+    response.json(baseURL);
 });
+
+app.get('/api/yoga/:categories/:category?', (request, response) => {
+    const categories = request.params.categories;
+    const category = request.params.category;
+    if (categories == 'categories' && category === undefined) {
+        response.json(yogacategories);  
+    } else if (categories == 'categories' && category) {
+        const singleCategory = yogacategories.items.find(function (element) {
+            return element.name.toLowerCase() === category.toLowerCase();
+        });
+        response.json(singleCategory);
+    } 
+});
+
+
+
+// app.get('/api/yoga/:filterby?/:category?/:posename?', (request, response) => {
+//     const params = request.params.filterby;
+//     const paramsCategory = request.params.category;
+//     const paramsPose = request.params.posename;
+//     console.log(request.params)
+
+//     if (params == 'categories' && paramsCategory === undefined) {
+//         response.json(yogacategories);  
+//     } else if (params == 'categories' && paramsCategory) {
+//         const category = yogacategories.items.find(function (element) {
+//             return element.name.toLowerCase() === paramsCategory.toLowerCase();
+//         });
+//         response.json(category);
+//     } else if (params == 'poses') {
+//         if(paramsPose === undefined) {
+//             response.json(yogaposes);
+//         } else if (paramsPose) {
+//             const pose = yogaposes.items.find( function (element) {
+//                 return element.english_name.toLowerCase() === paramsPose.toLowerCase();
+//             });
+//             response.json(pose);
+//         }
+//     }
+// });
 
 app.listen(PORT || 8000, () => {
  console.log(`Server running in port number ${PORT || 8000}`)
