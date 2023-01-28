@@ -22,7 +22,8 @@ HTTP 200 OK
 Content-Type: application/json
 
 {
-    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories", 
+    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories",
+    "category": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/core yoga poses",  
     "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses", 
     "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/boat", 
 }
@@ -36,7 +37,7 @@ The base url is the root of the url, if you ever make a request and you get back
 - ```/categories``` -- get all the categories including related postures for each one
 - ```/categories/:nameCategory``` -- get a specific category including related postures
 
-**Example request to get all cateogires:**
+**Example request to get all :**
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/categories
 ```
