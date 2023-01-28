@@ -14,20 +14,27 @@ app.get('/', (request, response) => {
 
 app.get('/api/yoga/:filterby?/:category?/:posename?', (request, response) => {
     const params = request.params.filterby;
+    const paramsCategory = request.params.category;
     const paramsPose = request.params.posename;
     console.log(request.params)
-    if(params === undefined && paramsPose === undefined){
+
+    if(params === undefined && paramsCategory == undefined && paramsPose === undefined){
         response.json(baseURL);
-    } else if (params == 'categories') {
-        response.json(yogacategories);
+    } else if (params == 'categories' && paramsCategory === undefined) {
+        response.json(yogacategories);  
+    } else if (params == 'categories' && paramsCategory) {
+        const category = yogacategories.items.find(function (element) {
+            return element.name.toLowerCase() === paramsCategory.toLowerCase();
+        });
+        response.json(category);
     } else if (params == 'poses') {
         if(paramsPose === undefined) {
             response.json(yogaposes);
         } else if (paramsPose) {
             const pose = yogaposes.items.find( function (element) {
-            return element.english_name.toLowerCase() === paramsPose.toLowerCase();
-        });
-        response.json(pose);
+                return element.english_name.toLowerCase() === paramsPose.toLowerCase();
+            });
+            response.json(pose);
         }
     }
 });
