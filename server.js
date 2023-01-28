@@ -8,22 +8,22 @@ const baseURL = require('./resources/baseURL.json');
 const yogacategories = require('./resources/categories.json');
 const yogaposes = require('./resources/poses.json');
 
-
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html');
 }),
-
 
 app.get('/api/yoga/', (request, response) => {
     response.json(baseURL);
 });
 
-app.get('/api/yoga/:categories/:category?', (request, response) => {
+
+app.get('/api/yoga/routeCategories/:categories/:nameCategory?', (request, response) => {
     const categories = request.params.categories;
-    const category = request.params.category;
-    if (categories == 'categories' && category === undefined) {
+    const category = request.params.nameCategory;
+    console.log(request.params)
+    if (categories && category === undefined) {
         response.json(yogacategories);  
-    } else if (categories == 'categories' && category) {
+    } else if (categories  && category) {
         const singleCategory = yogacategories.items.find(function (element) {
             return element.name.toLowerCase() === category.toLowerCase();
         });
@@ -32,31 +32,19 @@ app.get('/api/yoga/:categories/:category?', (request, response) => {
 });
 
 
-
-// app.get('/api/yoga/:filterby?/:category?/:posename?', (request, response) => {
-//     const params = request.params.filterby;
-//     const paramsCategory = request.params.category;
-//     const paramsPose = request.params.posename;
-//     console.log(request.params)
-
-//     if (params == 'categories' && paramsCategory === undefined) {
-//         response.json(yogacategories);  
-//     } else if (params == 'categories' && paramsCategory) {
-//         const category = yogacategories.items.find(function (element) {
-//             return element.name.toLowerCase() === paramsCategory.toLowerCase();
-//         });
-//         response.json(category);
-//     } else if (params == 'poses') {
-//         if(paramsPose === undefined) {
-//             response.json(yogaposes);
-//         } else if (paramsPose) {
-//             const pose = yogaposes.items.find( function (element) {
-//                 return element.english_name.toLowerCase() === paramsPose.toLowerCase();
-//             });
-//             response.json(pose);
-//         }
-//     }
-// });
+app.get('/api/yoga/routePoses/:poses/:poseName?', (request, response) => {
+    const poses = request.params.poses;
+    const posture = request.params.poseName;
+    console.log(request.params)
+    if (poses && posture === undefined) {
+        response.json(yogaposes);
+    } else if (poses == 'poses' && posture) {
+        const singlePose = yogaposes.items.find(function (element) {
+                return element.english_name.toLowerCase() === posture.toLowerCase();
+        });
+        response.json(singlePose);
+    }
+});
 
 app.listen(PORT || 8000, () => {
  console.log(`Server running in port number ${PORT || 8000}`)
