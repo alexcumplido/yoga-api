@@ -6,16 +6,19 @@ app.use(cors());
 const PORT = process.env.PORT;
 const yogacategories = require('./yogacategories.json');
 const yogaposes = require('./yogaposes.json');
+const baseURL = require('./yogaBaseUrl.json');
 
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html');
 }),
 
-app.get('/api/yoga/:filterby/:posename?', (request, response) => {
+app.get('/api/yoga/:filterby?/:category?/:posename?', (request, response) => {
     const params = request.params.filterby;
     const paramsPose = request.params.posename;
     console.log(request.params)
-    if(params == 'categories') {
+    if(params === undefined && paramsPose === undefined){
+        response.json(baseURL);
+    } else if (params == 'categories') {
         response.json(yogacategories);
     } else if (params == 'poses') {
         if(paramsPose === undefined) {
