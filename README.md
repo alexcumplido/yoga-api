@@ -126,7 +126,7 @@ Content-Type: application/json
 ### **Endpoint**
 
 - `routePoses/poses/` -- get all the poses
-- `routePoses/poses/:poseName?` -- get an individual pose
+- `routePoses/poses/:poseName?` -- get an individual pose by name
 
 **Example request to get all poses:**
 
