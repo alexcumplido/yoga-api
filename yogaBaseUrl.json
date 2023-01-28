@@ -1,0 +1,5 @@
+{
+    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories", 
+    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses", 
+    "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/boat"
+}   

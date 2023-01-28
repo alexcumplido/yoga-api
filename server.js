@@ -6,25 +6,35 @@ app.use(cors());
 const PORT = process.env.PORT;
 const yogacategories = require('./yogacategories.json');
 const yogaposes = require('./yogaposes.json');
+const baseURL = require('./yogaBaseUrl.json');
 
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html');
 }),
 
-app.get('/api/yoga/:filterby/:posename?', (request, response) => {
+app.get('/api/yoga/:filterby?/:category?/:posename?', (request, response) => {
     const params = request.params.filterby;
+    const paramsCategory = request.params.category;
     const paramsPose = request.params.posename;
     console.log(request.params)
-    if(params == 'categories') {
-        response.json(yogacategories);
+
+    if(params === undefined && paramsCategory == undefined && paramsPose === undefined){
+        response.json(baseURL);
+    } else if (params == 'categories' && paramsCategory === undefined) {
+        response.json(yogacategories);  
+    } else if (params == 'categories' && paramsCategory) {
+        const category = yogacategories.items.find(function (element) {
+            return element.name.toLowerCase() === paramsCategory.toLowerCase();
+        });
+        response.json(category);
     } else if (params == 'poses') {
         if(paramsPose === undefined) {
             response.json(yogaposes);
         } else if (paramsPose) {
             const pose = yogaposes.items.find( function (element) {
-            return element.english_name.toLowerCase() === paramsPose.toLowerCase();
-        });
-        response.json(pose);
+                return element.english_name.toLowerCase() === paramsPose.toLowerCase();
+            });
+            response.json(pose);
         }
     }
 });
