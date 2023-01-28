@@ -17,9 +17,9 @@ app.get('/api/yoga/', (request, response) => {
 });
 
 
-app.get('/api/yoga/routeCategories/:categories/:nameCategory?', (request, response) => {
+app.get('/api/yoga/routeCategories/:categories/:categoryName?', (request, response) => {
     const categories = request.params.categories;
-    const category = request.params.nameCategory;
+    const category = request.params.categoryName;
     console.log(request.params)
     if (categories && category === undefined) {
         response.json(yogacategories);  
