@@ -1,13 +1,12 @@
 # Yoga API 🧘‍♀️
 
-Yoga API serves categories and yoga poses upon HTTP request. The API is hosted on [Render](https://render.com/). This documentation should help you use the endpoints. Currently, 12 categories and 48 postures can be requested. 
+Yoga API serves categories and yoga poses upon HTTP request. The API is hosted on [Render](https://render.com/). This documentation should help you use the endpoints. Currently, 12 categories and 48 postures can be requested.
 
 ## Why Yoga Poses ?
 
 After Heroku policy changes around November 2022 some working APIs providing data about yoga went down. To keep offering a reliable API I am pluging data from some of these projects into Yoga Api.
 
 Credits to: [cc-smith](https://github.com/cc-smith/yoga-poses) - [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder)
-
 
 ## How can I use this API?
 
@@ -16,32 +15,38 @@ Base URL for Yoga API is:
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga
 ```
+
 **Request :**
+
 ```
 HTTP 200 OK
 Content-Type: application/json
 
 {
     "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories",
-    "category": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/core yoga poses",  
-    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses", 
-    "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/boat", 
+    "category": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/core yoga poses",
+    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses",
+    "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/boat",
 }
 ```
-The base url is the root of the url, if you ever make a request and you get back a 404 NOT FOUND response then check the base URL first.
 
+The base url is the root of the url, if you ever make a request and you get back a 404 NOT FOUND response then check the base URL first.
 
 ## Categories
 
 ### **Endpoints**
-- ```/routeCategories/categories``` -- get all the categories including related poses
-- ```/routeCategories/categories/:categoryName?``` -- get a specific category including related poses
+
+- `/routeCategories/categories` -- get all the categories including related poses
+- `/routeCategories/categories/:categoryName?` -- get a specific category including related poses
 
 **Example request to get all categories:**
+
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/routeCategories/categories
 ```
+
 **Example response:**
+
 ```
 HTTP/1.0 200 OK
 Content-Type: application/json
@@ -78,11 +83,15 @@ Content-Type: application/json
 }
 
 ```
+
 **Example request to get a single category:**
+
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/routeCategories/categories/core yoga poses
 ```
+
 **Example response:**
+
 ```
 HTTP/1.0 200 OK
 Content-Type: application/json
@@ -115,14 +124,18 @@ Content-Type: application/json
 ## Poses
 
 ### **Endpoint**
-- ```routePoses/poses/``` -- get all the poses 
-- ```routePoses/poses/:poseName?``` -- get an individual pose
+
+- `routePoses/poses/` -- get all the poses
+- `routePoses/poses/:poseName?` -- get an individual pose
 
 **Example request to get all poses:**
+
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/routePoses/poses/
 ```
+
 **Example response :**
+
 ```
 HTTP/1.0 200 OK
 Content-Type: application/json
@@ -145,11 +158,15 @@ Content-Type: application/json
     ]
 }
 ```
+
 **Example request to get a single pose :**
+
 ```
 https://yoga-api-nzy4.onrender.com/api/routePoses/poses/boat/
 ```
+
 **Example response:**
+
 ```
 HTTP/1.0 200 OK
 Content-Type: application/json
@@ -160,3 +177,4 @@ Content-Type: application/json
     "english_name": "Boat",
     "yoga_categories": []
 }
+```
