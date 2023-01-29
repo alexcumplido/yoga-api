@@ -9,7 +9,6 @@
     <li><a href="#contact">Contact</a></li>
   </ul>
 </details>
-</br>
 
 # Yoga API 🧘‍♀️
 
@@ -222,8 +221,4 @@ Clone this repository into a newly created directory
 1. Fork the repo
 2. Create a new branch
 3. Implement changes
-4. Commit and submit a pull request with a detailed description
-
-## Contact
-
-[Linkedin](https://www.linkedin.com/in/alexandrecb/)
+4. Commit and submit a pull request with a description
