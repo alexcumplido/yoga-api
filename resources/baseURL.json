@@ -1,6 +1,7 @@
 {
-    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/routeCategories/categories", 
-    "category": "https://yoga-api-nzy4.onrender.com/api/yoga/routeCategories/categories/core yoga poses",  
-    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/routePoses/poses", 
-    "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/routePoses/poses/boat"
+    "baseURL": "https://yoga-api-nzy4.onrender.com/api/yoga/",
+    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/:categories/", 
+    "category": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",  
+    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/:poses/", 
+    "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/"
 }   
