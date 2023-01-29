@@ -50,7 +50,7 @@ The base URL is the root of the URL. If you ever make a request and you get back
 - `/categories/` -- get all categories
 - `/category/:categoryName/` -- get specific category
 
-**Example request:**
+**Example categories request:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/categories/
@@ -95,7 +95,7 @@ Content-Type: application/json
 
 ```
 
-**Example request:**
+**Example category request:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/category/core yoga poses
@@ -132,6 +132,16 @@ Content-Type: application/json
 }
 ```
 
+**Example category not found:**
+
+```
+HTTP/1.0 400 Bad request
+Content-Type: application/json
+{
+    "message": "category not found"
+}
+```
+
 ## Poses
 
 ### **Endpoints**
@@ -139,7 +149,7 @@ Content-Type: application/json
 - `/poses/` -- get all poses
 - `/poses/:poseName?` -- get specific pose
 
-**Example request:**
+**Example poses request:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/poses/
@@ -170,7 +180,7 @@ Content-Type: application/json
 }
 ```
 
-**Example request:**
+**Example pose request:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/poses/boat/
@@ -187,6 +197,16 @@ Content-Type: application/json
     "sanskrit_name": "Navasana",
     "english_name": "Boat",
     "yoga_categories": []
+}
+```
+
+**Example response not found:**
+
+```
+HTTP/1.0 400 Bad request
+Content-Type: application/json
+{
+    "message": "pose not found"
 }
 ```
 
