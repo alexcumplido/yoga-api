@@ -16,11 +16,8 @@ app.get("/api/yoga/", (request, response) => {
   response.json(baseURL);
 });
 
-app.get("/api/yoga/:categories/", (request, response) => {
-  const categories = request.params.categories;
-  if (categories) {
-    response.json(yogacategories);
-  }
+app.get("/api/yoga/categories/", (request, response) => {
+  response.json(yogacategories);
 });
 
 app.get("/api/yoga/category/:categoryName/", (request, response) => {
@@ -37,11 +34,8 @@ app.get("/api/yoga/category/:categoryName/", (request, response) => {
   }
 });
 
-app.get("/api/yoga/:poses/", (request, response) => {
-  const poses = request.params.poses;
-  if (poses) {
-    response.json(yogaposes);
-  }
+app.get("/api/yoga/poses/", (request, response) => {
+  response.json(yogaposes);
 });
 
 app.get("/api/yoga/pose/:poseName/", (request, response) => {
