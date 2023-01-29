@@ -10,10 +10,11 @@ const yogaposes = require("./resources/poses.json");
 
 app.get("/", (request, response) => {
   response.sendFile(__dirname + "/index.html");
-}),
-  app.get("/api/yoga/", (request, response) => {
-    response.json(baseURL);
-  });
+});
+
+app.get("/api/yoga/", (request, response) => {
+  response.json(baseURL);
+});
 
 app.get("/api/yoga/:categories/", (request, response) => {
   const categories = request.params.categories;
