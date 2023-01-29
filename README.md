@@ -40,8 +40,8 @@ The base URL is the root of the URL. If you ever make a request and you get back
 
 ### **Endpoints**
 
-- `/categories/` -- get all the categories including related poses
-- `/category/:categoryName/` -- get a specific category including related poses
+- `/categories/` -- get all categories
+- `/category/:categoryName/` -- get specific category
 
 **Example request to get all categories:**
 
@@ -129,8 +129,8 @@ Content-Type: application/json
 
 ### **Endpoints**
 
-- `/poses/` -- get all the poses
-- `/poses/:poseName?` -- get an specific pose
+- `/poses/` -- get all poses
+- `/poses/:poseName?` -- get specific pose
 
 **Example request to get all poses:**
 
