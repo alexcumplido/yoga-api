@@ -31,7 +31,7 @@ app.get("/api/yoga/category/:categoryName/", (request, response) => {
     if (singleCategory) {
       response.json(singleCategory);
     } else {
-      response.status(400).json({ message: "Category not found" });
+      response.status(400).json({ message: "category not found" });
     }
   }
 });
@@ -52,7 +52,7 @@ app.get("/api/yoga/pose/:poseName/", (request, response) => {
     if (singlePose) {
       response.json(singlePose);
     } else {
-      response.status(400).json({ message: "Pose not found" });
+      response.status(400).json({ message: "pose not found" });
     }
   }
 });
