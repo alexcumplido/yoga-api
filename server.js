@@ -28,7 +28,11 @@ app.get("/api/yoga/category/:categoryName/", (request, response) => {
     const singleCategory = yogacategories.items.find(function (element) {
       return element.name.toLowerCase() === category.toLowerCase();
     });
-    response.json(singleCategory);
+    if (singleCategory) {
+      response.json(singleCategory);
+    } else {
+      response.status(400).json({ message: "Category not found" });
+    }
   }
 });
 
@@ -45,7 +49,11 @@ app.get("/api/yoga/pose/:poseName/", (request, response) => {
     const singlePose = yogaposes.items.find(function (element) {
       return element.english_name.toLowerCase() === pose.toLowerCase();
     });
-    response.json(singlePose);
+    if (singlePose) {
+      response.json(singlePose);
+    } else {
+      response.status(400).json({ message: "Pose not found" });
+    }
   }
 });
 
