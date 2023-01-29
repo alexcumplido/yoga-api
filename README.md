@@ -1,8 +1,21 @@
+<details>
+  <summary>Contents</summary>
+  <ul>
+    <li><a href="#yoga-api">Yoga API</a></li>
+    <li><a href="#how-can-i-use-this-api">How can I use this API?</a></li>
+    <li><a href="#categories">Categories</a></li>
+    <li><a href="#poses">Poses</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</details>
+</br>
+
 # Yoga API 🧘‍♀️
 
 This API serves yoga categories and poses upon HTTP request. This documentation should help you use the endpoints. Currently, 12 categories and 48 postures can be found.
 
-If your response looks different, it is normal. This is a work in progress, and probably more data and modifications will be made.
+If your response looks different, it is normal. This is a work in progress, and probably modifications will be made.
 
 ## Why Yoga Poses ?
 
@@ -182,3 +195,35 @@ Content-Type: application/json
     "yoga_categories": []
 }
 ```
+
+## Installation
+
+Clone this repository into a newly created directory
+
+```shell
+    # Clone repo
+    $ git clone git@github.com:alexcumplido/yoga-api.git
+```
+
+```shell
+    # Install dependencies
+    npm install
+    yarn install
+```
+
+```shell
+    # Run project
+    npm start
+    yarn start
+```
+
+## Contributing
+
+1. Fork the repo
+2. Create a new branch
+3. Implement changes
+4. Commit and submit a pull request with a detailed description
+
+## Contact
+
+[Linkedin](https://www.linkedin.com/in/alexandrecb/)
