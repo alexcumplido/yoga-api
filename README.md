@@ -22,9 +22,9 @@ Content-Type: application/json
 
 {
     "baseURL": "https://yoga-api-nzy4.onrender.com/api/yoga/",
-    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/:categories/",
+    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/",
     "category": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",
-    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/:poses/",
+    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/",
     "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/"
 }
 
@@ -132,7 +132,7 @@ Content-Type: application/json
 ### **Endpoints**
 
 - `/poses/` -- get all poses
-- `/poses/:poseName?` -- get specific pose
+- `/poses/:poseName` -- get specific pose
 
 **Example poses request:**
 
