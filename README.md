@@ -185,7 +185,7 @@ Content-Type: application/json
 }
 ```
 
-**Example response not found:**
+**Example pose not found:**
 
 ```
 HTTP/1.0 400 Bad request
