@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 app.use(cors());
-
+//Create ENV
 const PORT = process.env.PORT;
 const baseURL = require("./resources/baseURL.json");
 const yogacategories = require("./resources/categories.json");
