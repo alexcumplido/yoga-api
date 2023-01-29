@@ -6,14 +6,15 @@
     <li><a href="#categories">Categories</a></li>
     <li><a href="#poses">Poses</a></li>
     <li><a href="#installation">Installation</a></li>
+    <li><a href="#contributing">Contributing</a></li>
   </ul>
 </details>
 
 # Yoga API 🧘‍♀️
 
-Serving yoga categories and poses upon HTTP request. Currently, 12 categories and 48 postures can be found. If your response looks different, it is normal. This is a work in progress and modifications will be made.
+Currently, 12 categories and around 50 postures can be found. If your response looks different, it is normal. This is a work in progress and modifications will be made. This API is deployed live at [Render](https://render.com/).
 
-After Heroku policy changes around November 2022, the main APIs providing data about yoga stopped working. I am plugging data from some of those projects into this one creating new endpoints. This API is hosted on [Render](https://render.com/).
+After Heroku policy changes around November 2022, the main APIs providing data about yoga stopped working. I am plugging data from some of those projects into this one creating new endpoints.
 
 Credits to those developers: [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [cc-smith](https://github.com/cc-smith/yoga-poses) - [chrisman](https://github.com/Stuwert/yoga-builder)
 
@@ -122,11 +123,6 @@ Content-Type: application/json
             "id": 2,
             "sanskrit_name": "Ardha Navasana",
             "english_name": "Half-Boat"
-        },
-        {
-            "id": 7,
-            "sanskrit_name": "Marjaryasana",
-            "english_name": "Cat"
         }
     ]
 }
@@ -137,6 +133,7 @@ Content-Type: application/json
 ```
 HTTP/1.0 400 Bad request
 Content-Type: application/json
+
 {
     "message": "category not found"
 }
@@ -205,14 +202,13 @@ Content-Type: application/json
 ```
 HTTP/1.0 400 Bad request
 Content-Type: application/json
+
 {
     "message": "pose not found"
 }
 ```
 
 ## Installation
-
-Clone this repository into a newly created directory
 
 ```shell
     # Clone repo
