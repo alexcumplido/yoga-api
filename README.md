@@ -2,9 +2,9 @@
 
 Currently, 12 categories and around 50 postures can be found. If your response looks different, it is normal. This is a work in progress and modifications will be made. This API is deployed live at [Render](https://render.com/).
 
-After Heroku policy changes around November 2022, the main APIs providing data about yoga stopped working. I am plugging data from some of those projects into this one creating new endpoints.
+After Heroku new policy around November 2022, several APIs providing data about yoga stopped working. I am plugging data from some of those projects into this one creating new endpoints.
 
-Credits to those developers: [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [cc-smith](https://github.com/cc-smith/yoga-poses) - [chrisman](https://github.com/Stuwert/yoga-builder)
+Credits to those developers: [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [cc-smith](https://github.com/cc-smith/yoga-poses)
 
 ## How can I use this API?
 
@@ -14,7 +14,7 @@ Credits to those developers: [rebeccaestes](https://github.com/rebeccaestes/yoga
 https://yoga-api-nzy4.onrender.com/api/yoga
 ```
 
-**Response :**
+**Response:**
 
 ```
 HTTP 200 OK
@@ -39,7 +39,7 @@ The base URL is the root of the URL. If you ever make a request and you get back
 - `/categories/` -- get all categories
 - `/category/:categoryName/` -- get specific category
 
-**Example categories request:**
+**Example request categories:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/categories/
@@ -84,7 +84,7 @@ Content-Type: application/json
 
 ```
 
-**Example category request:**
+**Example request specific category:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/category/core yoga poses
@@ -134,7 +134,7 @@ Content-Type: application/json
 - `/poses/` -- get all poses
 - `/poses/:poseName` -- get specific pose
 
-**Example poses request:**
+**Example request poses:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/poses/
@@ -165,7 +165,7 @@ Content-Type: application/json
 }
 ```
 
-**Example pose request:**
+**Example request specific pose:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/poses/boat/
