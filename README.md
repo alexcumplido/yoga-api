@@ -1,15 +1,3 @@
-<details>
-  <summary>Contents</summary>
-  <ul>
-    <li><a href="#yoga-api">Yoga API</a></li>
-    <li><a href="#how-can-i-use-this-api">How can I use this API?</a></li>
-    <li><a href="#categories">Categories</a></li>
-    <li><a href="#poses">Poses</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-  </ul>
-</details>
-
 # Yoga API 🧘‍♀️
 
 Currently, 12 categories and around 50 postures can be found. If your response looks different, it is normal. This is a work in progress and modifications will be made. This API is deployed live at [Render](https://render.com/).
