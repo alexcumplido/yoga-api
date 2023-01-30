@@ -1,7 +1,9 @@
 const express = require("express");
+const logger = require("morgan");
 const app = express();
 const cors = require("cors");
 app.use(cors());
+app.use(logger("dev"));
 //Create ENV
 
 const PORT = process.env.PORT;
