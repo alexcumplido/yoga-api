@@ -3,5 +3,6 @@
     "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/", 
     "category": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",  
     "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/", 
-    "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/"
+    "pose": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/",
+    "poseId": "https://yoga-api-nzy4.onrender.com/api/yoga/poseId/:id/"
 }   
