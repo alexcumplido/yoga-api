@@ -11,7 +11,7 @@ Credits to those developers: [rebeccaestes](https://github.com/rebeccaestes/yoga
 **Request base URL:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga
+https://yoga-api-nzy4.onrender.com/api/yoga/
 ```
 
 **Response:**
@@ -34,7 +34,7 @@ The base URL is the root of the URL. If you ever make a request and you get back
 ### **Endpoints**
 
 - `/categories/` -- get all categories
-- `/category/:categoryName/` -- get specific category
+- `/category/:categoryName/` -- get category
 
 **Example request categories:**
 
@@ -74,7 +74,7 @@ https://yoga-api-nzy4.onrender.com/api/yoga/categories/
 **Example request category by name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/category/core yoga poses
+https://yoga-api-nzy4.onrender.com/api/yoga/category/core yoga poses/
 ```
 
 **Example response:**
@@ -113,8 +113,8 @@ Content-Type: application/json
 ### **Endpoints**
 
 - `/poses/` -- get all poses
-- `/pose/:poseName` -- get specific pose by english name
-- `/poseId/:id` -- get specific pose by id
+- `/pose/:poseName` -- get pose by name (english name)
+- `/poseId/:id` -- get pose by id
 
 **Example request poses:**
 
@@ -163,7 +163,7 @@ https://yoga-api-nzy4.onrender.com/api/poses/boat/
 **Example request pose by id:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/poseId/4
+https://yoga-api-nzy4.onrender.com/api/poseId/4/
 ```
 
 **Example response:**
