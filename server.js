@@ -52,6 +52,20 @@ app.get("/api/yoga/pose/:poseName/", (request, response) => {
   }
 });
 
+app.get("/api/yoga/poseId/:id/", (request, response) => {
+  const poseId = request.params.id;
+  if (poseId) {
+    const poseById = yogaposes.items.find(function (element) {
+      return Number(element.id) === Number(poseId);
+    });
+    if (poseById) {
+      response.json(poseById);
+    } else {
+      response.status(400).json({ message: "pose not found" });
+    }
+  }
+});
+
 app.listen(PORT || 8000, () => {
   console.log(`Server running in port number ${PORT || 8000}`);
 });
