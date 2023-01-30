@@ -16,8 +16,8 @@ https://yoga-api-nzy4.onrender.com/api/yoga
 
 **Response:**
 
-```
-HTTP 200 OK
+```json
+HTTP/1.0 200 OK
 Content-Type: application/json
 
 {
@@ -25,8 +25,8 @@ Content-Type: application/json
     "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/",
     "categoryName": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",
     "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/",
-    "poseName": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/"
-    "poseId": https://yoga-api-nzy4.onrender.com/api/yoga/poseId/:id/
+    "poseName": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/",
+    "poseId": "https://yoga-api-nzy4.onrender.com/api/yoga/poseId/:id/"
 }
 
 ```
@@ -48,7 +48,7 @@ https://yoga-api-nzy4.onrender.com/api/yoga/categories/
 
 **Example response:**
 
-```
+```json
 HTTP/1.0 200 OK
 Content-Type: application/json
 
@@ -87,7 +87,7 @@ https://yoga-api-nzy4.onrender.com/api/yoga/category/core yoga poses
 
 **Example response:**
 
-```
+```json
 HTTP/1.0 200 OK
 Content-Type: application/json
 
@@ -108,7 +108,7 @@ Content-Type: application/json
 
 **Example category not found:**
 
-```
+```json
 HTTP/1.0 400 Bad request
 Content-Type: application/json
 
@@ -133,7 +133,7 @@ https://yoga-api-nzy4.onrender.com/api/yoga/poses/
 
 **Example response:**
 
-```
+```json
 HTTP/1.0 200 OK
 Content-Type: application/json
 
@@ -164,7 +164,7 @@ https://yoga-api-nzy4.onrender.com/api/poses/boat/
 
 **Example response:**
 
-```
+```json
 HTTP/1.0 200 OK
 Content-Type: application/json
 
@@ -184,7 +184,7 @@ https://yoga-api-nzy4.onrender.com/api/poseId/4
 
 **Example response:**
 
-```
+```json
 HTTP/1.0 200 OK
 Content-Type: application/json
 
@@ -198,7 +198,7 @@ Content-Type: application/json
 
 **Example pose not found:**
 
-```
+```json
 HTTP/1.0 400 Bad request
 Content-Type: application/json
 
