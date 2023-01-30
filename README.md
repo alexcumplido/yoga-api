@@ -17,18 +17,14 @@ https://yoga-api-nzy4.onrender.com/api/yoga
 **Response:**
 
 ```json
-HTTP/1.0 200 OK
-Content-Type: application/json
-
 {
-    "baseURL": "https://yoga-api-nzy4.onrender.com/api/yoga/",
-    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/",
-    "categoryName": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",
-    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/",
-    "poseName": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/",
-    "poseId": "https://yoga-api-nzy4.onrender.com/api/yoga/poseId/:id/"
+  "baseURL": "https://yoga-api-nzy4.onrender.com/api/yoga/",
+  "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/",
+  "categoryName": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",
+  "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/",
+  "poseName": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/",
+  "poseId": "https://yoga-api-nzy4.onrender.com/api/yoga/poseId/:id/"
 }
-
 ```
 
 The base URL is the root of the URL. If you ever make a request and you get back a 404 NOT FOUND response, then check the base URL first.
@@ -49,34 +45,30 @@ https://yoga-api-nzy4.onrender.com/api/yoga/categories/
 **Example response:**
 
 ```json
-HTTP/1.0 200 OK
-Content-Type: application/json
-
 {
-    "items": [
+  "items": [
+    {
+      "id": 1,
+      "name": "Core Yoga Poses",
+      "short_name": "core_yoga_poses",
+      "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
+      "yoga_poses": [
         {
-            "id": 1,
-            "name": "Core Yoga Poses",
-            "short_name": "core_yoga_poses",
-            "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
-            "yoga_poses": [
-                {
-                    "id": 1,
-                    "sanskrit_name": "Navasana",
-                    "english_name": "Boat",
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Seated Yoga Poses",
-            "short_name": "seated_yoga_poses",
-            "description": "Stay supple in your yoga practice with twisting asanas",
-            "yoga_poses": []
+          "id": 1,
+          "sanskrit_name": "Navasana",
+          "english_name": "Boat"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Seated Yoga Poses",
+      "short_name": "seated_yoga_poses",
+      "description": "Stay supple in your yoga practice with twisting asanas",
+      "yoga_poses": []
+    }
+  ]
 }
-
 ```
 
 **Example request category by name:**
@@ -88,32 +80,31 @@ https://yoga-api-nzy4.onrender.com/api/yoga/category/core yoga poses
 **Example response:**
 
 ```json
-HTTP/1.0 200 OK
-Content-Type: application/json
-
 {
-    "id": 1,
-    "name": "Core Yoga Poses",
-    "short_name": "core_yoga_poses",
-    "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose.",
-    "yoga_poses": [
-        {
-            "id": 1,
-            "sanskrit_name": "Navasana",
-            "english_name": "Boat"
-        }
-    ]
+  "id": 1,
+  "name": "Core Yoga Poses",
+  "short_name": "core_yoga_poses",
+  "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose.",
+  "yoga_poses": [
+    {
+      "id": 1,
+      "sanskrit_name": "Navasana",
+      "english_name": "Boat"
+    }
+  ]
 }
 ```
 
 **Example category not found:**
 
-```json
+```
 HTTP/1.0 400 Bad request
 Content-Type: application/json
+```
 
+```json
 {
-    "message": "category not found"
+  "message": "category not found"
 }
 ```
 
@@ -134,25 +125,21 @@ https://yoga-api-nzy4.onrender.com/api/yoga/poses/
 **Example response:**
 
 ```json
-HTTP/1.0 200 OK
-Content-Type: application/json
-
 {
-    "items": [
-        {
-            "id": 1,
-            "sanskrit_name": "Navasana",
-            "english_name": "Boat",
-            "yoga_categories": []
-
-        },
-        {
-            "id": 2,
-            "sanskrit_name": "Ardha Navasana",
-            "english_name": "Half-Boat",
-            "yoga_categories": []
-        }
-    ]
+  "items": [
+    {
+      "id": 1,
+      "sanskrit_name": "Navasana",
+      "english_name": "Boat",
+      "yoga_categories": []
+    },
+    {
+      "id": 2,
+      "sanskrit_name": "Ardha Navasana",
+      "english_name": "Half-Boat",
+      "yoga_categories": []
+    }
+  ]
 }
 ```
 
@@ -165,14 +152,11 @@ https://yoga-api-nzy4.onrender.com/api/poses/boat/
 **Example response:**
 
 ```json
-HTTP/1.0 200 OK
-Content-Type: application/json
-
 {
-    "id": 1,
-    "sanskrit_name": "Navasana",
-    "english_name": "Boat",
-    "yoga_categories": []
+  "id": 1,
+  "sanskrit_name": "Navasana",
+  "english_name": "Boat",
+  "yoga_categories": []
 }
 ```
 
@@ -185,25 +169,24 @@ https://yoga-api-nzy4.onrender.com/api/poseId/4
 **Example response:**
 
 ```json
-HTTP/1.0 200 OK
-Content-Type: application/json
-
 {
-    "id": 4,
-    "sanskrit_name": "Setu Bandha Sarvangasana",
-    "english_name": "Bridge",
-    "yoga_categories": []
+  "id": 4,
+  "sanskrit_name": "Setu Bandha Sarvangasana",
+  "english_name": "Bridge",
+  "yoga_categories": []
 }
 ```
 
 **Example pose not found:**
 
-```json
+```
 HTTP/1.0 400 Bad request
 Content-Type: application/json
+```
 
+```json
 {
-    "message": "pose not found"
+  "message": "pose not found"
 }
 ```
 
