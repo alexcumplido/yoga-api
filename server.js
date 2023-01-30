@@ -1,23 +1,21 @@
 const express = require("express");
 const logger = require("morgan");
+const app = express();
 const posesRouter = require("./routes/poses.js");
 const categoriesRouter = require("./routes/categories.js");
-const baseURL = require("./resources/baseURL.json");
-const app = express();
-const PORT = process.env.PORT;
+const baseUrlRouter = require("./routes/baseURL.js");
 const cors = require("cors");
+const PORT = process.env.PORT;
 
 app.use(cors());
 app.use(logger("dev"));
+
 app.use(posesRouter);
 app.use(categoriesRouter);
+app.use(baseUrlRouter);
 
 app.get("/", (request, response) => {
   response.sendFile(__dirname + "/index.html");
-});
-
-app.get("/api/yoga/", (request, response) => {
-  response.json(baseURL);
 });
 
 app.all("*", (request, response) => {
