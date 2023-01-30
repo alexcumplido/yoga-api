@@ -23,9 +23,10 @@ Content-Type: application/json
 {
     "baseURL": "https://yoga-api-nzy4.onrender.com/api/yoga/",
     "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/",
-    "category": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",
+    "categoryName": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",
     "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/",
-    "posture": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/"
+    "poseName": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/"
+    "poseId": https://yoga-api-nzy4.onrender.com/api/yoga/poseId/:id/
 }
 
 ```
@@ -71,20 +72,14 @@ Content-Type: application/json
             "name": "Seated Yoga Poses",
             "short_name": "seated_yoga_poses",
             "description": "Stay supple in your yoga practice with twisting asanas",
-            "yoga_poses": [
-                {
-                    "id": 1,
-                    "sanskrit_name": "Navasana",
-                    "english_name": "Boat",
-                }
-            ]
+            "yoga_poses": []
         }
     ]
 }
 
 ```
 
-**Example request specific category:**
+**Example request category by name:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/yoga/category/core yoga poses
@@ -106,11 +101,6 @@ Content-Type: application/json
             "id": 1,
             "sanskrit_name": "Navasana",
             "english_name": "Boat"
-        },
-        {
-            "id": 2,
-            "sanskrit_name": "Ardha Navasana",
-            "english_name": "Half-Boat"
         }
     ]
 }
@@ -132,7 +122,8 @@ Content-Type: application/json
 ### **Endpoints**
 
 - `/poses/` -- get all poses
-- `/poses/:poseName` -- get specific pose
+- `/pose/:poseName` -- get specific pose by english name
+- `/poseId/:id` -- get specific pose by id
 
 **Example request poses:**
 
@@ -165,7 +156,7 @@ Content-Type: application/json
 }
 ```
 
-**Example request specific pose:**
+**Example request pose by name:**
 
 ```
 https://yoga-api-nzy4.onrender.com/api/poses/boat/
@@ -181,6 +172,26 @@ Content-Type: application/json
     "id": 1,
     "sanskrit_name": "Navasana",
     "english_name": "Boat",
+    "yoga_categories": []
+}
+```
+
+**Example request pose by id:**
+
+```
+https://yoga-api-nzy4.onrender.com/api/poseId/4
+```
+
+**Example response:**
+
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+
+{
+    "id": 4,
+    "sanskrit_name": "Setu Bandha Sarvangasana",
+    "english_name": "Bridge",
     "yoga_categories": []
 }
 ```
