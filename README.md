@@ -1,12 +1,10 @@
 # Yoga API 🧘‍♀️
 
-API returning yoga categories and postures in a JSON format. If your response looks different, it is normal. It is a work in progress, and modifications can happen.
+API returning yoga categories and postures in a JSON format. If your response looks different, it is normal, modifications can happen.
 
-After Heroku new policy, several APIs about yoga stopped working. I am plugging data from some of those into this one creating new endpoints. This API is deployed live at [Render](https://render.com/).
+APIs about yoga hosted on Heroku went down due to policy changes. I am plugging data, creating new endpoints, and deploying at [Render](https://render.com/). Credits for the data to: [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [cc-smith](https://github.com/cc-smith/yoga-poses)
 
-Credits to those developers: [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [cc-smith](https://github.com/cc-smith/yoga-poses)
-
-## How can I use this API?
+## Endpoints usage
 
 **Request base URL:**
 
