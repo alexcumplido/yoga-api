@@ -4,28 +4,25 @@ const yogacategories = require("../resources/categories.json");
 
 const categoriesRouter = express.Router();
 
-categoriesRouter.get("/api/yoga/categories/", (request, response) => {
-  response.json(yogacategories);
+categoriesRouter.get("/api/yoga/categories/", (req, res) => {
+  res.status(200).json(yogacategories).end();
 });
 
-categoriesRouter.get(
-  "/api/yoga/category/:categoryName/",
-  (request, response) => {
-    const category = request.params.categoryName;
-    if (isNaN(category)) {
-      const singleCategory = yogacategories.items.find(function (element) {
-        return element.name.toLowerCase() === category.toLowerCase();
-      });
+categoriesRouter.get("/api/yoga/category/:categoryName/", (req, res) => {
+  const category = req.params.categoryName;
+  if (isNaN(category)) {
+    const singleCategory = yogacategories.items.find(function (element) {
+      return element.name.toLowerCase() === category.toLowerCase();
+    });
 
-      if (singleCategory) {
-        response.json(singleCategory);
-      } else {
-        response.status(404).json({ message: "category not found" });
-      }
+    if (singleCategory) {
+      res.status(200).json(singleCategory).end();
     } else {
-      response.status(404).json({ message: "non valid request" });
+      res.status(404).json({ message: "category not found" }).end();
     }
+  } else {
+    res.status(404).json({ message: "non valid request" }).end();
   }
-);
+});
 
 module.exports = categoriesRouter;
