@@ -4,23 +4,23 @@ const yogaposes = require("../resources/poses.json");
 
 const posesRouter = express.Router();
 
-posesRouter.get("/api/yoga/poses/", (request, response) => {
-  response.json(yogaposes);
+posesRouter.get("/api/yoga/poses/", (req, res) => {
+  res.status(200).json(yogaposes).end();
 });
 
-posesRouter.get("/api/yoga/pose/:poseName/", (request, response) => {
-  const pose = request.params.poseName;
+posesRouter.get("/api/yoga/pose/:poseName/", (req, res) => {
+  const pose = req.params.poseName;
   if (isNaN(pose)) {
     const singlePose = yogaposes.items.find(function (element) {
       return element.english_name.toLowerCase() === pose.toLowerCase();
     });
     if (singlePose) {
-      response.json(singlePose);
+      res.status(200).json(singlePose).end();
     } else {
-      response.status(404).json({ message: "pose not found" });
+      res.status(404).json({ message: "pose not found" }).end();
     }
   } else {
-    response.status(400).json({ message: "non valid request" });
+    res.status(400).json({ message: "non valid request" }).end();
   }
 });
 
@@ -31,12 +31,12 @@ posesRouter.get("/api/yoga/poseId/:id/", (request, response) => {
       return Number(element.id) === Number(poseId);
     });
     if (poseById) {
-      response.json(poseById);
+      response.status(200).json(poseById).end();
     } else {
-      response.status(404).json({ message: "pose not found" });
+      response.status(404).json({ message: "pose not found" }).end();
     }
   } else {
-    response.status(400).json({ message: "non valid request" });
+    response.status(400).json({ message: "non valid request" }).end();
   }
 });
 

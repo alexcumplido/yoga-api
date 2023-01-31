@@ -10,18 +10,19 @@ const PORT = process.env.PORT;
 app.use(cors());
 app.use(logger("dev"));
 
-app.use(posesRouter);
-app.use(categoriesRouter);
-app.use(baseUrlRouter);
-
-app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/index.html");
+app.get("/", (req, res) => {
+  res.status(200).sendFile(__dirname + "/index.html");
 });
 
-app.all("*", (request, response) => {
-  response
+app.use(baseUrlRouter);
+app.use(posesRouter);
+app.use(categoriesRouter);
+
+app.all("*", (req, res) => {
+  res
     .status(404)
-    .json({ message: "The enpoint for this route does not exist." });
+    .json({ message: "The enpoint for this route does not exist." })
+    .end();
 });
 
 app.listen(PORT || 8000, () => {
