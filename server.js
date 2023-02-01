@@ -5,9 +5,6 @@ const MongoClient = require("mongodb").MongoClient;
 const baseURL = require("./resources/baseURL.json");
 const yogaposes = require("./resources/poses.json");
 const yogacategories = require("./resources/categories.json");
-// const baseUrlRouter = require("./routes/baseURL.js");
-// const posesRouter = require("./routes/poses.js");
-// const categoriesRouter = require("./routes/categories.js");
 
 const PORT = process.env.PORT;
 const cors = require("cors");
@@ -33,8 +30,6 @@ app.get("/", async (req, res) => {
 app.get("/api/yoga/", (request, response) => {
   response.status(200).json(baseURL).end();
 });
-
-// app.use(baseUrlRouter);
 
 app.get("/api/yoga/categories/", async (req, res) => {
   try {
@@ -105,22 +100,7 @@ app.get("/api/yoga/poseId/:id/", (request, response) => {
   } else {
     response.status(400).json({ message: "non valid request" }).end();
   }
-  //   const poseId = req.params.id;
-  // try {
-  //   const data = await db
-  //     .collection("poses")
-  //     .findOne({ "element.id": poseId })
-  //     .toArray();
-
-  //   console.log(poseId, data);
-  //   res.json(data).end();
-  // } catch (error) {
-  //   res.json(error).end();
-  // }
 });
-
-// app.use(posesRouter);
-// app.use(categoriesRouter);
 
 app.all("*", (req, res) => {
   res
