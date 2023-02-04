@@ -12,8 +12,8 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/:categoryName/", async (req, res) => {
-  const name = req.params.categoryName;
+router.get("/:name/", async (req, res) => {
+  const name = req.params.name;
   if (isNaN(name)) {
     try {
       const data = await services.getCategoryByName(name);
