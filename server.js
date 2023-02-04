@@ -1,20 +1,19 @@
 const express = require("express");
 const logger = require("morgan");
+require("dotenv").config();
 const app = express();
+const cors = require("cors");
 const MongoClient = require("mongodb").MongoClient;
 const baseURL = require("./resources/baseURL.json");
 const yogaposes = require("./resources/poses.json");
 const yogacategories = require("./resources/categories.json");
-
 const PORT = process.env.PORT;
-const cors = require("cors");
-require("dotenv").config();
-app.use(cors());
-app.use(logger("dev"));
-
 let db;
 let dbConnectionStr = process.env.DB_STRING;
 let dbName = "yogaapi";
+
+app.use(cors());
+app.use(logger("dev"));
 
 MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true }).then(
   (client) => {
@@ -70,10 +69,13 @@ app.get("/api/yoga/poses/", async (req, res) => {
   }
 });
 
-app.get("/api/yoga/pose/:poseName/", (req, res) => {
+app.get("/api/yoga/pose/:poseName/", async (req, res) => {
   const pose = req.params.poseName;
   if (isNaN(pose)) {
-    const singlePose = yogaposes.items.find(function (element) {
+    const poses = [];
+    const data = await db.collection("poses").find().toArray();
+    data.forEach((item) => poses.push(item.element));
+    const singlePose = poses.find(function (element) {
       return element.english_name.toLowerCase() === pose.toLowerCase();
     });
     if (singlePose) {
@@ -86,10 +88,13 @@ app.get("/api/yoga/pose/:poseName/", (req, res) => {
   }
 });
 
-app.get("/api/yoga/poseId/:id/", (request, response) => {
+app.get("/api/yoga/poseId/:id/", async (request, response) => {
   const poseId = request.params.id;
   if (!isNaN(poseId)) {
-    const poseById = yogaposes.items.find(function (element) {
+    const poses = [];
+    const data = await db.collection("poses").find().toArray();
+    data.forEach((item) => poses.push(item.element));
+    const poseById = poses.find(function (element) {
       return Number(element.id) === Number(poseId);
     });
     if (poseById) {
