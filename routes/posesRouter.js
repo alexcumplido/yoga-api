@@ -3,16 +3,16 @@ const express = require("express");
 const services = require("../services/services");
 const router = express.Router();
 
-router.get("/", async (req, res) => {
+router.get("/", async (req, res, next) => {
   try {
     const data = await services.getPoses();
     res.status(200).json(data).end();
   } catch (error) {
-    res.status(404).json({ mesage: error.message });
+    next(error);
   }
 });
 
-router.get("/poseName/:name", async (req, res) => {
+router.get("/poseName/:name", async (req, res, next) => {
   const name = req.params.name;
   if (isNaN(name)) {
     try {
@@ -23,14 +23,14 @@ router.get("/poseName/:name", async (req, res) => {
         res.status(404).json({ message: "pose not found" }).end();
       }
     } catch (error) {
-      res.status(404).json({ mesage: error.message });
+      next(error);
     }
   } else {
     res.status(404).json({ message: "non valid request" }).end();
   }
 });
 
-router.get("/poseId/:id", async (req, res) => {
+router.get("/poseId/:id", async (req, res, next) => {
   const poseId = req.params.id;
   if (!isNaN(poseId)) {
     try {
@@ -41,7 +41,7 @@ router.get("/poseId/:id", async (req, res) => {
         res.status(404).json({ message: "pose not found" }).end();
       }
     } catch (error) {
-      res.status(404).json({ mesage: error.message });
+      next(error);
     }
   } else {
     res.status(404).json({ message: "non valid request" }).end();
