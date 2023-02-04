@@ -1,8 +1,8 @@
 {
-    "baseURL": "https://yoga-api-nzy4.onrender.com/api/yoga/",
-    "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/", 
-    "categoryName": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",  
-    "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/", 
-    "poseName": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/",
-    "poseId": "https://yoga-api-nzy4.onrender.com/api/yoga/poseId/:id/"
-}   
+  "baseURL": "https://yoga-api-nzy4.onrender.com/v1/api",
+  "categories": "https://yoga-api-nzy4.onrender.com/api/v1/categories",
+  "categoryName": "https://yoga-api-nzy4.onrender.com/v1/categories/:name",
+  "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
+  "poseName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
+  "poseId": "https://yoga-api-nzy4.onrender.com/v1/poses/poseId/:id"
+}
