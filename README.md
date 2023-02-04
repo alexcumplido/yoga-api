@@ -9,19 +9,19 @@ APIs about yoga hosted on Heroku went down due to policy changes. I am plugging 
 **Request base URL:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/
+https://yoga-api-nzy4.onrender.com/v1/api
 ```
 
 **Response:**
 
 ```json
 {
-  "baseURL": "https://yoga-api-nzy4.onrender.com/api/yoga/",
-  "categories": "https://yoga-api-nzy4.onrender.com/api/yoga/categories/",
-  "categoryName": "https://yoga-api-nzy4.onrender.com/api/yoga/category/:categoryName/",
-  "poses": "https://yoga-api-nzy4.onrender.com/api/yoga/poses/",
-  "poseName": "https://yoga-api-nzy4.onrender.com/api/yoga/pose/:poseName/",
-  "poseId": "https://yoga-api-nzy4.onrender.com/api/yoga/poseId/:id/"
+  "baseURL": "https://yoga-api-nzy4.onrender.com/v1/api",
+  "categories": "https://yoga-api-nzy4.onrender.com/api/v1/categories",
+  "categoryName": "https://yoga-api-nzy4.onrender.com/v1/categories/:categoryName",
+  "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
+  "poseName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
+  "poseId": "https://yoga-api-nzy4.onrender.com/v1/poses/poseId/:id"
 }
 ```
 
@@ -31,13 +31,13 @@ The base URL is the root of the URL. If you ever make a request and you get back
 
 ### **Endpoints**
 
-- `/categories/` -- get all categories
-- `/category/:categoryName/` -- get category
+- `/categories` -- get all categories
+- `/categories/:name` -- get category
 
 **Example request categories:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/categories/
+https://yoga-api-nzy4.onrender.com/v1/categories
 ```
 
 **Example response:**
@@ -72,7 +72,7 @@ https://yoga-api-nzy4.onrender.com/api/yoga/categories/
 **Example request category by name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/category/core yoga poses/
+https://yoga-api-nzy4.onrender.com/v1/categories/core yoga poses
 ```
 
 **Example response:**
@@ -110,14 +110,14 @@ Content-Type: application/json
 
 ### **Endpoints**
 
-- `/poses/` -- get all poses
-- `/pose/:poseName` -- get pose by name (english name)
-- `/poseId/:id` -- get pose by id
+- `/poses` -- get all poses
+- `/poses/poseName/:name` -- get pose by name (english name)
+- `/poses/poseId/:id` -- get pose by id
 
 **Example request poses:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/yoga/poses/
+https://yoga-api-nzy4.onrender.com/v1/yoga/poses
 ```
 
 **Example response:**
@@ -144,7 +144,7 @@ https://yoga-api-nzy4.onrender.com/api/yoga/poses/
 **Example request pose by name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/poses/boat/
+https://yoga-api-nzy4.onrender.com/v1/poses/poseName/boat
 ```
 
 **Example response:**
@@ -161,7 +161,7 @@ https://yoga-api-nzy4.onrender.com/api/poses/boat/
 **Example request pose by id:**
 
 ```
-https://yoga-api-nzy4.onrender.com/api/poseId/4/
+https://yoga-api-nzy4.onrender.com/v1/poses/poseId/4
 ```
 
 **Example response:**
