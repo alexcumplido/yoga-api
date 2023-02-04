@@ -17,7 +17,7 @@ https://yoga-api-nzy4.onrender.com/v1/api
 ```json
 {
   "baseURL": "https://yoga-api-nzy4.onrender.com/v1/api",
-  "categories": "https://yoga-api-nzy4.onrender.com/api/v1/categories",
+  "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
   "categoryName": "https://yoga-api-nzy4.onrender.com/v1/categories/:name",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
   "poseName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
