@@ -1,7 +1,9 @@
 const { json } = require("express");
 const express = require("express");
-const services = require("../services/services");
 const router = express.Router();
+const services = require("../services/services");
+const validatorHandler = require("../middlewares/validatorHandler");
+const { schemaName } = require("../schemas/schemas");
 
 router.get("/", async (req, res, next) => {
   try {
@@ -12,9 +14,11 @@ router.get("/", async (req, res, next) => {
   }
 });
 
-router.get("/:name/", async (req, res, next) => {
-  const name = req.params.name;
-  if (isNaN(name)) {
+router.get(
+  "/:name",
+  validatorHandler(schemaName, "params"),
+  async (req, res, next) => {
+    const name = req.params.name;
     try {
       const data = await services.getCategoryByName(name);
       if (data) {
@@ -25,9 +29,7 @@ router.get("/:name/", async (req, res, next) => {
     } catch (error) {
       next(error);
     }
-  } else {
-    res.status(404).json({ message: "non valid request" }).end();
   }
-});
+);
 
 module.exports = router;

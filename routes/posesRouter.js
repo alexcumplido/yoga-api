@@ -2,6 +2,8 @@ const { json } = require("express");
 const express = require("express");
 const services = require("../services/services");
 const router = express.Router();
+const validatorHandler = require("../middlewares/validatorHandler");
+const { schemaName, schemaId } = require("../schemas/schemas");
 
 router.get("/", async (req, res, next) => {
   try {
@@ -12,9 +14,11 @@ router.get("/", async (req, res, next) => {
   }
 });
 
-router.get("/poseName/:name", async (req, res, next) => {
-  const name = req.params.name;
-  if (isNaN(name)) {
+router.get(
+  "/poseName/:name",
+  validatorHandler(schemaName, "params"),
+  async (req, res, next) => {
+    const name = req.params.name;
     try {
       const data = await services.getPoseByName(name);
       if (data) {
@@ -25,14 +29,14 @@ router.get("/poseName/:name", async (req, res, next) => {
     } catch (error) {
       next(error);
     }
-  } else {
-    res.status(404).json({ message: "non valid request" }).end();
   }
-});
+);
 
-router.get("/poseId/:id", async (req, res, next) => {
-  const poseId = req.params.id;
-  if (!isNaN(poseId)) {
+router.get(
+  "/poseId/:id",
+  validatorHandler(schemaId, "params"),
+  async (req, res, next) => {
+    const poseId = req.params.id;
     try {
       const data = await services.getPoseById(poseId);
       if (data) {
@@ -43,9 +47,7 @@ router.get("/poseId/:id", async (req, res, next) => {
     } catch (error) {
       next(error);
     }
-  } else {
-    res.status(404).json({ message: "non valid request" }).end();
   }
-});
+);
 
 module.exports = router;

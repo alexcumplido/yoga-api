@@ -10,4 +10,4 @@ function errorHandler(err, req, res, next) {
   });
 }
 
-module.exports = { logErrors: logErrors, errorHandler: errorHandler };
+module.exports = { logErrors, errorHandler };
