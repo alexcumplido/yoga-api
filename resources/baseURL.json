@@ -1,5 +1,5 @@
 {
-  "baseURL": "https://yoga-api-nzy4.onrender.com/v1",
+  "baseURL": "https://yoga-api-nzy4.onrender.com/v1/api",
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
   "categoryName": "https://yoga-api-nzy4.onrender.com/v1/categories/:name",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
