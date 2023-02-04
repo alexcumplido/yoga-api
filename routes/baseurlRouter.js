@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get("/", async (req, res) => {
   try {
-    const data = await services.getBaseUrl();
+    const data = await services.getBaseURL();
     res.status(200).json(data).end();
   } catch (error) {
     res.status(404).json({ mesage: error.message });
