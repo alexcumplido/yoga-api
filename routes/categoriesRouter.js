@@ -1,14 +1,13 @@
+const { json } = require("express");
 const express = require("express");
-
 const yogacategories = require("../resources/categories.json");
+const router = express.Router();
 
-const categoriesRouter = express.Router();
-
-categoriesRouter.get("/api/yoga/categories/", (req, res) => {
+router.get("/", (req, res) => {
   res.status(200).json(yogacategories).end();
 });
 
-categoriesRouter.get("/api/yoga/category/:categoryName/", (req, res) => {
+router.get("/:categoryName/", (req, res) => {
   const category = req.params.categoryName;
   if (isNaN(category)) {
     const singleCategory = yogacategories.items.find(function (element) {
@@ -25,4 +24,4 @@ categoriesRouter.get("/api/yoga/category/:categoryName/", (req, res) => {
   }
 });
 
-module.exports = categoriesRouter;
+module.exports = router;

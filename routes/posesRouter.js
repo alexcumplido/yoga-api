@@ -1,15 +1,14 @@
+const { json } = require("express");
 const express = require("express");
-
 const yogaposes = require("../resources/poses.json");
+const router = express.Router();
 
-const posesRouter = express.Router();
-
-posesRouter.get("/api/yoga/poses/", (req, res) => {
+router.get("/", (req, res) => {
   res.status(200).json(yogaposes).end();
 });
 
-posesRouter.get("/api/yoga/pose/:poseName/", (req, res) => {
-  const pose = req.params.poseName;
+router.get("/poseName/:name", (req, res) => {
+  const pose = req.params.name;
   if (isNaN(pose)) {
     const singlePose = yogaposes.items.find(function (element) {
       return element.english_name.toLowerCase() === pose.toLowerCase();
@@ -24,7 +23,7 @@ posesRouter.get("/api/yoga/pose/:poseName/", (req, res) => {
   }
 });
 
-posesRouter.get("/api/yoga/poseId/:id/", (request, response) => {
+router.get("/poseId/:id", (request, response) => {
   const poseId = request.params.id;
   if (!isNaN(poseId)) {
     const poseById = yogaposes.items.find(function (element) {
@@ -40,4 +39,4 @@ posesRouter.get("/api/yoga/poseId/:id/", (request, response) => {
   }
 });
 
-module.exports = posesRouter;
+module.exports = router;
