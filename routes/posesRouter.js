@@ -1,41 +1,50 @@
 const { json } = require("express");
 const express = require("express");
-const yogaposes = require("../resources/poses.json");
+const services = require("../services/services");
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.status(200).json(yogaposes).end();
-});
-
-router.get("/poseName/:name", (req, res) => {
-  const pose = req.params.name;
-  if (isNaN(pose)) {
-    const singlePose = yogaposes.items.find(function (element) {
-      return element.english_name.toLowerCase() === pose.toLowerCase();
-    });
-    if (singlePose) {
-      res.status(200).json(singlePose).end();
-    } else {
-      res.status(404).json({ message: "pose not found" }).end();
-    }
-  } else {
-    res.status(400).json({ message: "non valid request" }).end();
+router.get("/", async (req, res) => {
+  try {
+    const data = await services.getPoses();
+    res.status(200).json(data).end();
+  } catch (error) {
+    res.status(404).json({ mesage: error.message });
   }
 });
 
-router.get("/poseId/:id", (request, response) => {
-  const poseId = request.params.id;
-  if (!isNaN(poseId)) {
-    const poseById = yogaposes.items.find(function (element) {
-      return Number(element.id) === Number(poseId);
-    });
-    if (poseById) {
-      response.status(200).json(poseById).end();
-    } else {
-      response.status(404).json({ message: "pose not found" }).end();
+router.get("/poseName/:name", async (req, res) => {
+  const name = req.params.name;
+  if (isNaN(name)) {
+    try {
+      const data = await services.getPoseByName(name);
+      if (data) {
+        res.status(200).json(data).end();
+      } else {
+        res.status(404).json({ message: "pose not found" }).end();
+      }
+    } catch (error) {
+      res.status(404).json({ mesage: error.message });
     }
   } else {
-    response.status(400).json({ message: "non valid request" }).end();
+    res.status(404).json({ message: "non valid request" }).end();
+  }
+});
+
+router.get("/poseId/:id", async (req, res) => {
+  const poseId = req.params.id;
+  if (!isNaN(poseId)) {
+    try {
+      const data = await services.getPoseById(poseId);
+      if (data) {
+        res.status(200).json(data).end();
+      } else {
+        res.status(404).json({ message: "pose not found" }).end();
+      }
+    } catch (error) {
+      res.status(404).json({ mesage: error.message });
+    }
+  } else {
+    res.status(404).json({ message: "non valid request" }).end();
   }
 });
 
