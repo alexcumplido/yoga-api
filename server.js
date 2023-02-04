@@ -17,10 +17,3 @@ routerApi(app);
 app.listen(PORT || 8000, () => {
   console.log(`Server running in port number ${PORT || 8000}`);
 });
-
-// app.all("*", (req, res) => {
-//   res
-//     .status(404)
-//     .json({ message: "The enpoint for this route does not exist." })
-//     .end();
-// });
