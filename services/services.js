@@ -57,10 +57,10 @@ async function getPoseById(id) {
 }
 
 module.exports = {
-  getBaseUrl: getBaseURL,
-  getCategories: getCategories,
-  getCategoryByName: getCategoryByName,
-  getPoses: getPoses,
-  getPoseByName: getPoseByName,
-  getPoseById: getPoseById,
+  getBaseURL,
+  getCategories,
+  getCategoryByName,
+  getPoses,
+  getPoseByName,
+  getPoseById,
 };
