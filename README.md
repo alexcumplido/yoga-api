@@ -20,7 +20,7 @@ https://yoga-api-nzy4.onrender.com/v1/api
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
   "categoryName": "https://yoga-api-nzy4.onrender.com/v1/categories/:name",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
-  "posesAlphabetically ": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true",
+  "posesAlphabetically": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true",
   "poseName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
   "poseId": "https://yoga-api-nzy4.onrender.com/v1/poses/poseId/:id"
 }
