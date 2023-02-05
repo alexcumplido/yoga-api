@@ -36,6 +36,23 @@ async function getPoses() {
   return poses;
 }
 
+async function getPosesSorted() {
+  const poses = [];
+  const data = await db.collection("poses").find().toArray();
+  data.forEach((item) => poses.push(item.element));
+  poses.sort(function (a, b) {
+    if (a.english_name.toLowerCase() < b.english_name.toLowerCase()) {
+      return -1;
+    }
+    if (a.english_name.toLowerCase() > b.english_name.toLowerCase()) {
+      return 1;
+    }
+    return 0;
+  });
+
+  return poses;
+}
+
 async function getPoseByName(name) {
   const poses = [];
   const data = await db.collection("poses").find().toArray();
@@ -61,6 +78,7 @@ module.exports = {
   getCategories,
   getCategoryByName,
   getPoses,
+  getPosesSorted,
   getPoseByName,
   getPoseById,
 };

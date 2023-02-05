@@ -7,7 +7,12 @@ const { schemaName, schemaId } = require("../schemas/schemas");
 
 router.get("/", async (req, res, next) => {
   try {
-    const data = await services.getPoses();
+    let data;
+    if (req.query.sort === "true") {
+      data = await services.getPosesSorted();
+    } else {
+      data = await services.getPoses();
+    }
     res.status(200).json(data).end();
   } catch (error) {
     next(error);
