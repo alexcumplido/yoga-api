@@ -6,9 +6,10 @@ const validatorHandler = require("../middlewares/validatorHandler");
 const { schemaName, schemaId } = require("../schemas/schemas");
 
 router.get("/", async (req, res, next) => {
+  const sort = req.query.sort === "true" ? true : false;
   try {
     let data;
-    if (req.query.sort === "true") {
+    if (sort) {
       data = await services.getPosesSorted();
     } else {
       data = await services.getPoses();
