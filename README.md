@@ -20,6 +20,7 @@ https://yoga-api-nzy4.onrender.com/v1/api
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
   "categoryName": "https://yoga-api-nzy4.onrender.com/v1/categories/:name",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
+  "posesAlphabetically ": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true",
   "poseName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
   "poseId": "https://yoga-api-nzy4.onrender.com/v1/poses/poseId/:id"
 }
@@ -111,7 +112,8 @@ Content-Type: application/json
 ### **Endpoints**
 
 - `/poses` -- get all poses
-- `/poses/poseName/:name` -- get pose by name (english name)
+- `/poses?sort=true` -- set optional query param and get poses sorted alphabetically by english name
+- `/poses/poseName/:name` -- get pose by name (name must be in english not in sanskrit)
 - `/poses/poseId/:id` -- get pose by id
 
 **Example request poses:**
