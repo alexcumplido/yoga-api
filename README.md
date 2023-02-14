@@ -2,7 +2,7 @@
 
 API Rest returning yoga categories and postures in a JSON format. If your response looks different, it is normal, modifications can happen.
 
-APIs about yoga hosted on Heroku went down due to policy changes. This one is hosted on [Render](https://render.com/). Includes data from existing projects and new endpoints. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [cc-smith](https://github.com/cc-smith/yoga-poses)
+This API is hosted on [Render](https://render.com/). Includes data from existing projects and new endpoints. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [cc-smith](https://github.com/cc-smith/yoga-poses)
 
 ## Endpoints usage
 
