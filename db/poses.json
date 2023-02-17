@@ -1,0 +1,397 @@
+
+{
+    "items": [
+        {
+            "id": 1,
+            "sanskrit_name": "Navasana",
+            "english_name": "Boat",
+            "url_svg_color": "https://res.cloudinary.com/dko1be2jy/image/upload/v1676483071/fl_sanitize/yoga-api/1_txmirf.svg",
+            "url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
+            
+        },
+        {
+            "id": 2,
+            "sanskrit_name": "Ardha Navasana",
+            "english_name": "Half-Boat",
+            "url_svg_color": "https://www.dropbox.com/s/l7n2tva82g78397/2.svg?raw=1",
+            "url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483073/yoga-api/2_ozh7sv.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/1nx0r94msxjwvyp/boatbentlegs.svg?raw=1"
+        },
+        {
+            "id": 3,
+            "sanskrit_name": "Dhanurasana",
+            "english_name": "Bow",
+            "url_svg_color":"https://www.dropbox.com/s/k8nkotpmmo4ttv0/3.svg?raw=1",
+            "url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483072/yoga-api/3_aa0fgk.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/wizj5kwxvez4c0a/bow.svg?raw=1"
+        },
+        {
+            "id": 4,
+            "sanskrit_name": "Setu Bandha Sarvangasana",
+            "english_name": "Bridge",
+            "url_svg_color":"https://www.dropbox.com/s/fxyvom6oqwjao9x/4.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483074/yoga-api/4_qq6nxw.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/f1w64ybg4sn8ejt/bridge.svg?raw=1"
+
+        },
+        {
+            "id": 5,
+            "sanskrit_name": "Baddha Konasana",
+            "english_name": "Butterfly",
+            "url_svg_color":"https://www.dropbox.com/s/9peaz4ei6pp4kzu/5.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483074/yoga-api/5_i64gif.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/3h2pts6xbn28dh7/butterfly%3F.svg?raw=1"
+        },
+        {
+            "id": 6,
+            "sanskrit_name": "Ustrasana",
+            "english_name": "Camel",
+            "url_svg_color":"https://www.dropbox.com/s/z5yx9wsa5ayasht/6.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483075/yoga-api/6_ri1w0e.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/o5gr4lngltsdg5r/camel.svg?raw=1"
+        },
+        {
+            "id": 7,
+            "sanskrit_name": "Marjaryasana",
+            "english_name": "Cat",
+            "url_svg_color":"https://www.dropbox.com/s/w3aptimq6atgcz9/7.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483075/yoga-api/7_a6aspg.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/cginnz98of2jpgr/cat.svg?raw=1"
+        },
+        {
+            "id": 8,
+            "sanskrit_name": "Bitilasana",
+            "english_name": "Cow",
+            "url_svg_color":"https://www.dropbox.com/s/7fvdfil3ovh42ng/8.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483077/yoga-api/8_wi10sn.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/neau4ceai1rskh6/cow.svg?raw=1"
+
+        },
+        {
+            "id": 9,
+            "sanskrit_name": "Utkatasana",
+            "english_name": "Chair",
+            "url_svg_color":"https://www.dropbox.com/s/ms6hzhmdqzi7zng/9.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483078/yoga-api/9_ewvoun.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/9emlawz8vayk8bm/chair.svg?raw=1"
+        },
+        {
+            "id": 10,
+            "sanskrit_name": "Balasana",
+            "english_name": "Child's Pose",
+            "url_svg_color":"https://www.dropbox.com/s/g4go2fg6eokbyb5/10.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483079/yoga-api/10_wzpo85.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/ini3uwali0q5gxa/child.svg?raw=1"
+
+        },
+        {
+            "id": 11,
+            "sanskrit_name": "Sivasana",
+            "english_name": "Corpse",
+            "url_svg_color":"https://www.dropbox.com/s/h6lq6fqpe0426b9/11.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483078/yoga-api/11_dczyrp.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/eohyx2crvtjvaxb/sivasana.svg?raw=1"
+        },
+        {
+            "id": 12,
+            "sanskrit_name": "Alanasana",
+            "english_name": "Crescent Lunge",
+            "url_svg_color":"https://www.dropbox.com/s/c6qe9gx7srq776a/12.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483080/yoga-api/12_pv4p1z.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/1oc1dqv8mfwo8uj/highlunge.svg?raw=1"
+        },
+        {
+            "id": 13,
+            "sanskrit_name": "Bakasana",
+            "english_name": "Crow",
+            "url_svg_color":"https://www.dropbox.com/s/mq56m0v8261fun0/13.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483083/yoga-api/13_hdjxuz.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/ukaxoioh0uooswj/crow.svg?raw=1"
+        },
+        {
+            "id": 14,
+            "sanskrit_name": "Ardha Pincha Mayurasana",
+            "english_name": "Dolphin",
+            "url_svg_color":"https://www.dropbox.com/s/9j9pm0nv2stccxn/14.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483080/yoga-api/14_k9lr9a.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/px1foombb3v24se/dolphin.svg?raw=1"
+        },
+        {
+            "id": 15,
+            "sanskrit_name": "Adho Mukha Svanasana",
+            "english_name": "Downward-Facing Dog",
+            "url_svg_color":"https://www.dropbox.com/s/q716ngnflcptqy6/15.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483081/yoga-api/15_vkviqn.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/75xa1bduu2u5y7d/downdog.svg?raw=1"
+
+        },
+        {
+            "id": 16,
+            "sanskrit_name": "Garudasana",
+            "english_name": "Eagle",
+            "url_svg_color":"https://www.dropbox.com/s/b0nhwh3jkpizzha/16.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483081/yoga-api/16_g7ueht.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/w05qgx7wyxva1y3/eagle.svg?raw=1"
+        },
+        {
+            "id": 17,
+            "sanskrit_name": "Utthita Hasta Padangusthasana",
+            "english_name": "Extended Hand to Toe",
+            "url_svg_color":"https://www.dropbox.com/s/4eu43prcd3z0dru/17.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483084/yoga-api/17_l9joyu.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/0yk0z7f0a4ni37l/extendedhandtotoe.svg?raw=1"
+        },
+        {
+            "id": 18,
+            "sanskrit_name": "Utthita Parsvakonasana",
+            "english_name": "Extended Side Angle",
+            "url_svg_color":"https://www.dropbox.com/s/vv2lag8m78larrs/18.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483083/yoga-api/18_aqufak.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/yzynxmyb9o7eras/extendedsideangle.svg?raw=1"
+        },
+        {
+            "id": 19,
+            "sanskrit_name": "Pincha Mayurasana",
+            "english_name": "Forearm Stand",
+            "url_svg_color":"https://www.dropbox.com/s/xvrj1gan87b61qm/19.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483084/yoga-api/19_jadqwc.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/kjlyju4m91qgoi6/forearmstand.svg?raw=1"
+        },
+        {
+            "id": 20,
+            "sanskrit_name": "Uttanasana",
+            "english_name": "Forward Bend with Shoulder Opener",
+            "url_svg_color":"https://www.dropbox.com/s/3tkvgr18beu06zq/20.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/20_uogrfq.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/sjqfq99pqpelv4v/forwardfoldshoulderstretch.svg?raw=1"
+        },
+        {
+            "id": 21,
+            "sanskrit_name": "Ardha Chandrasana",
+            "english_name": "Half-Moon",
+            "url_svg_color":"https://www.dropbox.com/s/kwscj74x9cqaa3u/21.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/21_etedlp.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/gpumf9eehr8wo9g/halfmoon.svg?raw=1"
+        },
+        {
+            "id": 22,
+            "sanskrit_name": "Adho Mukha Vrksasana",
+            "english_name": "Handstand",
+            "url_svg_color":"https://www.dropbox.com/s/t1noqg33b08z19x/22.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/22_ojzmr8.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/p7pf5j0untktn9c/handstand.svg?raw=1"
+        },
+        {
+            "id": 23,
+            "sanskrit_name": "Anjaneyasana",
+            "english_name": "Low Lunge",
+            "url_svg_color":"https://www.dropbox.com/s/uy4mu5a07z5pysc/23.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483086/yoga-api/23_k2jccj.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/h0ehjaz1wa9xfu1/lowlunge.svg?raw=1"
+        },
+        {
+            "id": 24,
+            "sanskrit_name": "Supta Kapotasana",
+            "english_name": "Pigeon",
+            "url_svg_color":"https://www.dropbox.com/s/uv8hu1iyz3p8ahb/24.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/24_ulgsjo.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/77peru289zm446u/pigeon.svg?raw=1"
+        },
+        {
+            "id": 25,
+            "sanskrit_name": "Eka Pada Rajakapotasana",
+            "english_name": "King Pigeon",
+            "url_svg_color":"https://www.dropbox.com/s/4af05ytprj1sx6i/25.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483087/yoga-api/25_rssro9.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/10usd0gcqgy6o53/kingpigeon.svg?raw=1"
+        },
+        {
+            "id": 26,
+            "sanskrit_name": "Phalakasana",
+            "english_name": "Plank",
+            "url_svg_color":"https://www.dropbox.com/s/ai2qio6uw9yizvx/26.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/26_mxkzlo.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/jg6ge8zpaltx10f/plank.svg?raw=1"
+
+        },
+        {
+            "id": 27,
+            "sanskrit_name": "Halasana",
+            "english_name": "Plow",
+            "url_svg_color":"https://www.dropbox.com/s/qqvquwp5zgspskc/27.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/27_m4yux9.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/zi9231wbajm6d2m/plow.svg?raw=1"
+        },
+        {
+            "id": 28,
+            "sanskrit_name": "Parsvottanasana",
+            "english_name": "Pyramid",
+            "url_svg_color":"https://www.dropbox.com/s/vz3jkubxkpi7ckq/28.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483089/yoga-api/28_uu58tt.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/j7p2600bmf840e0/pyramid.svg?raw=1"
+        },
+        {
+            "id": 29,
+            "sanskrit_name": "Parsva Virabhadrasana",
+            "english_name": "Reverse Warrior",
+            "url_svg_color":"https://www.dropbox.com/s/oi7m7dqn8u5smnn/29.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483089/yoga-api/29_ww7bot.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/q6yn6cb9fglo0wp/reverswarrior.svg?raw=1"
+        },
+        {
+            "id": 30,
+            "sanskrit_name": "Paschimottanasana",
+            "english_name": "Seated Forward Bend",
+            "url_svg_color":"https://www.dropbox.com/s/h0slabw93pv7x2d/30.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/30_gumpl3.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/ji0otecqx42by00/seatedforwardfold.svg?raw=1"
+        },
+        {
+            "id": 31,
+            "sanskrit_name": "Padmasana",
+            "english_name": "Lotus",
+            "url_svg_color":"https://www.dropbox.com/s/dmo06ojrondpbvt/31.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/31_ozseum.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/0oylivjwzuj5fnp/seatedORlotus.svg?raw=1"
+        },
+        {
+            "id": 32,
+            "sanskrit_name": "Ardha Matsyendrasana",
+            "english_name": "Half Lord of the Fishes",
+            "url_svg_color":"https://www.dropbox.com/s/kk23k44eg8q97j1/32.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/32_hafoa0.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/u9joi8lbntxumyh/seatedspinaltwist.svg?raw=1"
+
+        },
+        {
+            "id": 33,
+            "sanskrit_name": "Salamba Sarvangasana",
+            "english_name": "Shoulder Stand",
+            "url_svg_color":"https://www.dropbox.com/s/x8cpfhlvr6sxt2x/33.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/33_r7motl.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/tqj48exec3zub2u/shoulderstand.svg?raw=1"
+        },
+        {
+            "id": 34,
+            "sanskrit_name": "Vasisthasana",
+            "english_name": "Side Plank",
+            "url_svg_color":"https://www.dropbox.com/s/e4sx78dmhc95w2w/34.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/34_qle5tp.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/w35ciia4u570xj8/sideplank.svg?raw=1"
+        },
+        {
+            "id": 35,
+            "sanskrit_name": "Salamba Bhujangasana",
+            "english_name": "Sphinx",
+            "url_svg_color":"https://www.dropbox.com/s/6k3kod1pn7kq2lc/35.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483092/yoga-api/35_dytwvz.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/cl8teqpf9yingwm/sphinx.svg?raw=1"
+        },
+        {
+            "id": 36,
+            "sanskrit_name": "Hanumanasana",
+            "english_name": "Splits",
+            "url_svg_color":"https://www.dropbox.com/s/lxd7jxs53hiipof/36.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483092/yoga-api/36_a2z20a.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/u8dxhc41hjfcxj6/splits.svg?raw=1"
+        },
+        {
+            "id": 37,
+            "sanskrit_name": "Malasana",
+            "english_name": "Squat",
+            "url_svg_color":"https://www.dropbox.com/s/3c3dkep6nuc7kat/37.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/37_moh7ii.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/ntrwtdlr6tdkdxz/squat.svg?raw=1"
+        },
+        {
+            "id": 38,
+            "sanskrit_name": "Uttanasana",
+            "english_name": "Standing Forward Bend",
+            "url_svg_color":"https://www.dropbox.com/s/8qbn5h5vdv8677d/38.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/38_yb3thk.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/u09snmhtposvaq0/standingforwardfold.svg?raw=1"
+        },
+        {
+            "id": 39,
+            "sanskrit_name": "Ashta Chandrasana",
+            "english_name": "Crescent Moon",
+            "url_svg_color":"https://www.dropbox.com/s/ed0e8ato9zo5q83/39.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483095/yoga-api/39_hqj0sa.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/9tv6z3qdcw2vg3a/standingstretch.svg?raw=1"
+        },
+        {
+            "id": 40,
+            "sanskrit_name": "Upavistha Konasana",
+            "english_name": "Side Splits",
+            "url_svg_color":"https://www.dropbox.com/s/u15whz715byriil/40.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/40_dkmow6.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/6z51vzosovhx5w7/straddlesplit.svg?raw=1"
+        },
+        {
+            "id": 41,
+            "sanskrit_name": "Vrksasana",
+            "english_name": "Tree",
+            "url_svg_color":"https://www.dropbox.com/s/a9oomy5zpe8it7t/41.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483094/yoga-api/41_veknug.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/mn2ktlihp12mtfa/tree.svg?raw=1"
+        },
+        {
+            "id": 42,
+            "sanskrit_name": "Trikonasana",
+            "english_name": "Triangle",
+            "url_svg_color":"https://www.dropbox.com/s/j2yegftn67n6cma/42.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/42_jawxqw.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/l41pfqjwmjoy5os/triangle.svg?raw=1"
+        },
+        {
+            "id": 43,
+            "sanskrit_name": "Urdhva Mukha Svsnssana",
+            "english_name": "Upward-Facing Dog",
+            "url_svg_color":"https://www.dropbox.com/s/omv50mmy9fwdiha/43.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/43_m3nxjk.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/vnfx1srlwt1583t/updog.svg?raw=1"
+        },
+        {
+            "id": 44,
+            "sanskrit_name": "Virabhadrasana One",
+            "english_name": "Warrior One",
+            "url_svg_color":"https://www.dropbox.com/s/ieop1i5mhua9rgw/44.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/44_dqeayo.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/j9fip5gm1o1l3fx/warrior1.svg?raw=1"
+        },
+        {
+            "id": 45,
+            "sanskrit_name": "Virabhadrasana Two",
+            "english_name": "Warrior Two",
+            "url_svg_color":"https://www.dropbox.com/s/u4idlugphi90obw/45.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/45_ehimr1.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/rsb3mx41dfq4otl/warrior2.svg?raw=1"
+
+        },
+        {
+            "id": 46,
+            "sanskrit_name": "Virabhadrasana Three",
+            "english_name": "Warrior Three",
+            "url_svg_color":"https://www.dropbox.com/s/ab7bkf94qogpgw8/46.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/46_lz6v7i.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/lwgoky3z37ameif/warrior3.svg?raw=1"
+        },
+        {
+            "id": 47,
+            "sanskrit_name": "Urdhva Dhanurasana",
+            "english_name": "Wheel",
+            "url_svg_color":"https://www.dropbox.com/s/sslv55y8sl6m589/47.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/47_w2jsof.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/kpa1bewuut3lm5q/wheel.svg?raw=1"
+        },
+        {
+            "id": 48,
+            "sanskrit_name": "Camatkarasana",
+            "english_name": "Wild Thing",
+            "url_svg_color":"https://www.dropbox.com/s/hwvuo51lcze4zb1/48.svg?raw=1",
+            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/48_unoav6.jpg",
+            "url_svg_alternative": "https://www.dropbox.com/s/d1dbdvo4l7xry4w/downdogflip.svg?raw=1"
+        }
+    ]
+}
