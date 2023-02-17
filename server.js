@@ -21,3 +21,24 @@ app.use(errorHandler);
 app.listen(PORT || 8000, () => {
   console.log(`Server running in port number ${PORT || 8000}`);
 });
+
+// const Database = require("better-sqlite3");
+// const db = new Database("./db/database.db", { verbose: console.log });
+// const posesJson = require("./db/poses.json");
+// app.get("/database", async (req, res) => {
+//   const queryInsert = db.prepare(
+//     "INSERT INTO poses (sanskrit_name, english_name, img_url) VALUES (?, ?, ?)"
+//   );
+
+//   posesJson.items.forEach(function (element) {
+//     queryInsert.run(
+//       element.sanskrit_name,
+//       element.english_name,
+//       element.img_url
+//     );
+//   });
+
+//   const queryGet = db.prepare("SELECT * FROM  poses");
+//   const poses = queryGet.all();
+//   res.json(poses);
+// });
