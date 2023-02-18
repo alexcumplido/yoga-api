@@ -1,10 +1,10 @@
 # Yoga API 🧘‍♀️
 
-🚧 **_Migrating from MongoDB to a local SQLite database._**🚧
+**🚧 MAINTENANCE: Migrating from MongoDB to SQLite🚧**
 
-API Rest returning yoga categories and poses including basic data and images. If your response looks different, it is normal, modifications can happen.
+API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen.
 
-This API is hosted on [Render](https://render.com/). Includes custom and already existing data from projects. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder)
+This API is hosted on [Render](https://render.com/), and includes custom and already existing data from projects. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder).
 
 ## Latest updates
 
