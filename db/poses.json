@@ -1,397 +1,621 @@
 
 {
-    "items": [
+    "poses": [
         {
-            "id": 1,
+            "pose_id": 1,
             "sanskrit_name": "Navasana",
             "english_name": "Boat",
-            "url_svg_color": "https://res.cloudinary.com/dko1be2jy/image/upload/v1676483071/fl_sanitize/yoga-api/1_txmirf.svg",
-            "url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
-            
+            "difficulty":"Intermediate",
+            "description":
+                "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.  The tailbone is lengthened into the earth and the pubis pulls toward the navel.  The shoulder blades are spread across the back and the hands reach around the back of the calves, with legs pulled towards the body.  The chin is tipped slightly toward the sternum so that the base of the skull lifts lightly away from the back of the neck.  Gaze is forward.",
+            "benefits":"Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion.",
+            "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
+            "img_url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
         },
         {
-            "id": 2,
+            "pose_id": 2,
             "sanskrit_name": "Ardha Navasana",
             "english_name": "Half-Boat",
-            "url_svg_color": "https://www.dropbox.com/s/l7n2tva82g78397/2.svg?raw=1",
-            "url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483073/yoga-api/2_ozh7sv.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/1nx0r94msxjwvyp/boatbentlegs.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "From a seated position the hands are gripped around the back of the legs and the knees are bent in a 90 degree angle.  Both legs are pulled in towards the abdomen.  The core is engaged to maintain balance on the sits bones (be sure that the back does not round).  The front of the torso lengthens between the pubis and top of the sternum as the spine extends in both directions reaching up to the sky and rooting down to the earth.  The gaze is forward and Bandhas are engaged.",
+            "benefits":"Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion.",
+            "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483073/yoga-api/2_ozh7sv.svg",
+            "img_url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483073/yoga-api/2_ozh7sv.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/1nx0r94msxjwvyp/boatbentlegs.svg?raw=1"
         },
         {
-            "id": 3,
+            "pose_id": 3,
             "sanskrit_name": "Dhanurasana",
             "english_name": "Bow",
-            "url_svg_color":"https://www.dropbox.com/s/k8nkotpmmo4ttv0/3.svg?raw=1",
-            "url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483072/yoga-api/3_aa0fgk.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/wizj5kwxvez4c0a/bow.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a prone position with the abdomen on the earth, the hands grip the ankles (but not the tops of the feet) with knees no wider than the width of your hips.  The heels are lifted away from the buttocks and at the same time the thighs are lifted away from the earth working opposing forces as the heart center, hips and back open.  The gaze is forward.",
+            "benefits":"Stretches the entire front of the body, ankles, thighs and groins, abdomen and chest, and throat, and deep hip flexors (psoas).  Strengthens the back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483072/yoga-api/3_aa0fgk.svg",
+            "img_url_jpg":"https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483072/yoga-api/3_aa0fgk.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/wizj5kwxvez4c0a/bow.svg?raw=1"
         },
         {
-            "id": 4,
+            "pose_id": 4,
             "sanskrit_name": "Setu Bandha Sarvangasana",
             "english_name": "Bridge",
-            "url_svg_color":"https://www.dropbox.com/s/fxyvom6oqwjao9x/4.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483074/yoga-api/4_qq6nxw.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/f1w64ybg4sn8ejt/bridge.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a supine position, on your back, the hips are pressed up with the heels of the feet rooted into the earth close to the sits bones.  The toes are actively lifted and the pelvis tucked.  The thighs are parallel to the earth and the fingers are interlaced under the body with the ribcage lifted and the heart open.  The back of the neck rests on the earth.  The gaze is to the sky."
+            ,
+            "benefits":"Stretches the chest, neck, and spine.  Stimulates abdominal organs, lungs, and thyroids.  Rejuvenates tired legs.  Improves digestion.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done supported.  Reduces anxiety, fatigue, backache, headache, and insomnia.  Therapeutic for asthma, high blood pressure, osteoporosis, and sinusitis.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483074/yoga-api/4_qq6nxw.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483074/yoga-api/4_qq6nxw.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/f1w64ybg4sn8ejt/bridge.svg?raw=1"
 
         },
         {
-            "id": 5,
+            "pose_id": 5,
             "sanskrit_name": "Baddha Konasana",
             "english_name": "Butterfly",
-            "url_svg_color":"https://www.dropbox.com/s/9peaz4ei6pp4kzu/5.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483074/yoga-api/5_i64gif.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/3h2pts6xbn28dh7/butterfly%3F.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "In sitting position, bend both knees and drop the knees to each side, opening the hips.  Bring the soles of the feet together and bring the heels as close to the groin as possible, keeping the knees close to the ground.  The hands may reach down and grasp and maneuver the feet so that the soles are facing upwards and the heels and little toes are connected.  The shoulders should be pulled back and no rounding of the spine."
+            ,
+            "benefits":"Opens the hips and groins.  Stretches the shoulders, rib cage and back.  Stimulates the abdominal organs, lungs and heart.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483074/yoga-api/5_i64gif.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483074/yoga-api/5_i64gif.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/3h2pts6xbn28dh7/butterfly%3F.svg?raw=1"
         },
         {
-            "id": 6,
+            "pose_id": 6,
             "sanskrit_name": "Ustrasana",
             "english_name": "Camel",
-            "url_svg_color":"https://www.dropbox.com/s/z5yx9wsa5ayasht/6.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483075/yoga-api/6_ri1w0e.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/o5gr4lngltsdg5r/camel.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a kneeling position the knees are hip width apart and the thighs are perpendicular to the earth.  The inner thighs are narrowed and rotated slightly inward with the buttocks engaged but not hardened.  The tailbone is tucked under but the hips do not puff forward.  The shins and tops of the feet are pressed firmly into the earth.  The ribcage is open, along with the heart center, but the lower front ribs do not protrude sharply towards the sky.  The lower back lifts the ribs away from the pelvis to keep the lower spine as long as possible.  The base of the palms are pressed firmly against the soles (or heels) of the feet and the fingers are pointed toward the toes.  The arms are extended straight and are turned slightly outward at the shoulder joint so the elbow creases face forward without squeezing the shoulder blades together.  The neck is in a relatively neutral position, neither flexed nor extended, or (for the advanced practitioners only) the head drops back.  Be careful not to strain your neck and harden your throat.  The gaze is either towards the sky or towards the earth, depending upon your flexibility.",
+            "benefits":"Stretches the entire front of the body, the ankles, thighs and groins, abdomen and chest, and throat.  Stretches the deep hip flexors (psoas).  Strengthens back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483075/yoga-api/6_ri1w0e.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483075/yoga-api/6_ri1w0e.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/o5gr4lngltsdg5r/camel.svg?raw=1"
         },
         {
-            "id": 7,
+            "pose_id": 7,
             "sanskrit_name": "Marjaryasana",
             "english_name": "Cat",
-            "url_svg_color":"https://www.dropbox.com/s/w3aptimq6atgcz9/7.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483075/yoga-api/7_a6aspg.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/cginnz98of2jpgr/cat.svg?raw=1"
+             "difficulty":"Beginner",
+            "description":
+                "Shift some weight to the palms.  The wrists, elbows and shoulders are in one line.  The abdomen is pulled in and up with the spine arched in a strong Cobra spine.  The crown of the head is towards the earth and the neck is relaxed.  The gaze is between the arms towards the belly."
+            ,
+            "benefits":"Relieves the spine and neck.  Energizes the body.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483075/yoga-api/7_a6aspg.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483075/yoga-api/7_a6aspg.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/cginnz98of2jpgr/cat.svg?raw=1"
         },
         {
-            "id": 8,
+            "pose_id": 8,
             "sanskrit_name": "Bitilasana",
             "english_name": "Cow",
-            "url_svg_color":"https://www.dropbox.com/s/7fvdfil3ovh42ng/8.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483077/yoga-api/8_wi10sn.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/neau4ceai1rskh6/cow.svg?raw=1"
+            "difficulty":"Beginner",
+            "description": "The ribcage is lifted with a gentle sway in the low back.  The tailbone lifts up into dog tilt.  The eyes are soft and the gaze is to the sky.",
+            "benefits":"Removes fatigue.  Improves breathing and the circulation of blood to the brain.  Rejuvenates the entire body.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483077/yoga-api/8_wi10sn.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483077/yoga-api/8_wi10sn.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/neau4ceai1rskh6/cow.svg?raw=1"
 
         },
         {
-            "id": 9,
+            "pose_id": 9,
             "sanskrit_name": "Utkatasana",
             "english_name": "Chair",
-            "url_svg_color":"https://www.dropbox.com/s/ms6hzhmdqzi7zng/9.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483078/yoga-api/9_ewvoun.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/9emlawz8vayk8bm/chair.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "From a standing position, the feet are together and rooted into the earth with toes actively lifted.  The knees are bent and the weight of the body is on the heels of the feet.  The pelvis is tucked in and the ribcage is lifted.  The neck is a natural extension of the spine.  The arms are lifted up toward the sky with the elbows straight and the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The gaze is forward."
+            ,
+            "benefits":"Strengthens the ankles, thighs, calves, and spine.  Stretches shoulders and chest.  Stimulates the abdominal organs, diaphragm, and heart.  Reduces flat feet.  Energizes the entire body.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483078/yoga-api/9_ewvoun.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483078/yoga-api/9_ewvoun.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/9emlawz8vayk8bm/chair.svg?raw=1"
         },
         {
-            "id": 10,
+            "pose_id": 10,
             "sanskrit_name": "Balasana",
             "english_name": "Child's Pose",
-            "url_svg_color":"https://www.dropbox.com/s/g4go2fg6eokbyb5/10.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483079/yoga-api/10_wzpo85.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/ini3uwali0q5gxa/child.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "From a kneeling position, the toes and knees are together with most of the weight of the body resting on the heels of the feet.  The arms are extended back resting alongside the legs.  The forehead rests softly onto the earth.  The gaze is down and inward.",
+            "benefits":"Gently stretches the hips, thighs, and ankles.  Calms the brain and helps relieve stress and fatigue.  Relieves back and neck pain when done with head and torso supported.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483079/yoga-api/10_wzpo85.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483079/yoga-api/10_wzpo85.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/ini3uwali0q5gxa/child.svg?raw=1"
 
         },
         {
-            "id": 11,
+            "pose_id": 11,
             "sanskrit_name": "Sivasana",
             "english_name": "Corpse",
-            "url_svg_color":"https://www.dropbox.com/s/h6lq6fqpe0426b9/11.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483078/yoga-api/11_dczyrp.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/eohyx2crvtjvaxb/sivasana.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "The body rests on the earth in a supine position with the arms resting by the side body.  The palms are relaxed and open toward the sky.  The shoulder blades are pulled back, down and rolled under comfortably, resting evenly on the earth.  The legs are extended down and splayed open.  The heels are in and the toes flop out.  The eyes are closed.  Everything is relaxed.  The gaze is inward."
+            ,
+            "benefits":"Calms the brain and helps relieve stress and mild depression.  Relaxes the body.  Reduces headache, fatigue, and insomnia.  Helps to lower blood pressure.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483078/yoga-api/11_dczyrp.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483078/yoga-api/11_dczyrp.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/eohyx2crvtjvaxb/sivasana.svg?raw=1"
         },
         {
-            "id": 12,
+            "pose_id": 12,
             "sanskrit_name": "Alanasana",
             "english_name": "Crescent Lunge",
-            "url_svg_color":"https://www.dropbox.com/s/c6qe9gx7srq776a/12.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483080/yoga-api/12_pv4p1z.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/1oc1dqv8mfwo8uj/highlunge.svg?raw=1"
+           "difficulty":"Intermediate",
+            "description":
+                "From pose, on the inhalation bring the hands up and interlace the fingers together.  Exhale, bend to one side, lengthening the opposite of the rib cage and stretch."
+            ,
+            "benefits":"Stretches the rib cage, arms and torso.  Tones the oblique muscles.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483080/yoga-api/12_pv4p1z.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483080/yoga-api/12_pv4p1z.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/1oc1dqv8mfwo8uj/highlunge.svg?raw=1"
         },
         {
-            "id": 13,
+            "pose_id": 13,
             "sanskrit_name": "Bakasana",
             "english_name": "Crow",
-            "url_svg_color":"https://www.dropbox.com/s/mq56m0v8261fun0/13.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483083/yoga-api/13_hdjxuz.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/ukaxoioh0uooswj/crow.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From an inverted position, with the hips up and the head down, the arms are bent in a 90-degree angle with the knees resting on the elbows.  The palms are firmly rooted into the earth with knuckles pressed firmly into the earth for support.  The belly is pulled up and in towards the spine with the ribcage and chin lifted.  The weight of the body shifts slightly forward as the toes lift up and off the earth into the full expression of the pose.  The gaze is down and slightly forward."
+            ,
+            "benefits":"Strengthens arms and wrists.  Stretches the upper back.  Strengthens the abdominal muscles.  Opens the groin.  Tones the abdominal organs.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483083/yoga-api/13_hdjxuz.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483083/yoga-api/13_hdjxuz.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/ukaxoioh0uooswj/crow.svg?raw=1"
         },
         {
-            "id": 14,
+            "pose_id": 14,
             "sanskrit_name": "Ardha Pincha Mayurasana",
             "english_name": "Dolphin",
-            "url_svg_color":"https://www.dropbox.com/s/9j9pm0nv2stccxn/14.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483080/yoga-api/14_k9lr9a.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/px1foombb3v24se/dolphin.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "From an inverted position, with the body perpendicular to the earth, the weight of the body is supported on the forearms that are parallel and pressed firmly into the earth.  The palms are flat.  The knuckles are evenly pressed into the earth.  The fingers are spread wide.  Both legs reach up toward the sky in a straight line with the pelvis tucked.  The ribcage is lifted.  The gaze is forward."
+            ,
+            "benefits":"Strengthens arms and shoulders.  Improves focus and balance.  Stretches the upper and lower back.  Strengthens the abdominal muscles.  Tones the abdominal area.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483080/yoga-api/14_k9lr9a.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483080/yoga-api/14_k9lr9a.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/px1foombb3v24se/dolphin.svg?raw=1"
         },
         {
-            "id": 15,
+            "pose_id": 15,
             "sanskrit_name": "Adho Mukha Svanasana",
             "english_name": "Downward-Facing Dog",
-            "url_svg_color":"https://www.dropbox.com/s/q716ngnflcptqy6/15.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483081/yoga-api/15_vkviqn.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/75xa1bduu2u5y7d/downdog.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description": "From the legs are straight with the sits bones tilted up and reaching for the sky.  The feet are flat with the heels firmly rooted.  One palm is flat with the knuckles evenly pressed into the earth.  The other hand reaches under the body and grasps the opposite ankle.  The spine is long and the heart is open toward the sky.  The neck is loose and the crown of the head is relaxed toward the earth.  The gaze is toward the center."
+            ,
+            "benefits":"Calms the brain and helps relieve stress and mild depression.  Energizes the body.  Stretches the shoulders, neck, hamstrings, calves, arches, and hands.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done with the head supported.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483081/yoga-api/15_vkviqn.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483081/yoga-api/15_vkviqn.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/75xa1bduu2u5y7d/downdog.svg?raw=1"
 
         },
         {
-            "id": 16,
+            "pose_id": 16,
             "sanskrit_name": "Garudasana",
             "english_name": "Eagle",
-            "url_svg_color":"https://www.dropbox.com/s/b0nhwh3jkpizzha/16.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483081/yoga-api/16_g7ueht.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/w05qgx7wyxva1y3/eagle.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a standing position the one thigh is crossed over the other with the toes and/or the ankle hooked behind the lower calf.  The weight of the body is balanced on the standing foot.  The arms are crossed in front of the torso so that one arm is crossed above the other arm.  The top arm is tucked into the elbow crook of the bottom arm.  The hands are hooked around each other as well.  Once hooked, the elbows lift up and the fingers stretch towards the ceiling.  The gaze is soft and forward.",
+            "benefits":"Strengthens and stretches the ankles and calves.  Stretches the thighs, hips, shoulders, and upper back.  Improves concentration.  Improves sense of balance.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483081/yoga-api/16_g7ueht.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483081/yoga-api/16_g7ueht.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/w05qgx7wyxva1y3/eagle.svg?raw=1"
         },
         {
-            "id": 17,
+            "pose_id": 17,
             "sanskrit_name": "Utthita Hasta Padangusthasana",
             "english_name": "Extended Hand to Toe",
-            "url_svg_color":"https://www.dropbox.com/s/4eu43prcd3z0dru/17.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483084/yoga-api/17_l9joyu.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/0yk0z7f0a4ni37l/extendedhandtotoe.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "From pose, lift one foot.  Bend forward and catch the toes with the fingers.  Place the other hand on the hip to square the hip towards the front.  Slowly straighten the knee and the torso and open the leg to one side.  Use a strap if necessary.  Gaze towards the front or opposite of the extended leg for balance."
+            ,
+            "benefits":"Opens the hips and groins.  Stretches the hamstrings, IT bands and legs.  Improves balance.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483084/yoga-api/17_l9joyu.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483084/yoga-api/17_l9joyu.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/0yk0z7f0a4ni37l/extendedhandtotoe.svg?raw=1"
         },
         {
-            "id": 18,
+            "pose_id": 18,
             "sanskrit_name": "Utthita Parsvakonasana",
             "english_name": "Extended Side Angle",
-            "url_svg_color":"https://www.dropbox.com/s/vv2lag8m78larrs/18.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483083/yoga-api/18_aqufak.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/yzynxmyb9o7eras/extendedsideangle.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":"From the lower body stays static while the upper body is folded forward at the crease of the hip.  One arm is extended toward the front with the bicep by the ear and the fingers spread wide while the other reaches down to the earth on the inside of the thigh.  The upper torso and the gaze twist up towards the sky."
+            ,
+            "benefits":"Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483083/yoga-api/18_aqufak.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483083/yoga-api/18_aqufak.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/yzynxmyb9o7eras/extendedsideangle.svg?raw=1"
         },
         {
-            "id": 19,
+            "pose_id": 19,
             "sanskrit_name": "Pincha Mayurasana",
             "english_name": "Forearm Stand",
-            "url_svg_color":"https://www.dropbox.com/s/xvrj1gan87b61qm/19.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483084/yoga-api/19_jadqwc.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/kjlyju4m91qgoi6/forearmstand.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "From an inverted position, with the body perpendicular to the earth, the weight of the body is supported on the forearms that are parallel and pressed firmly into the earth.  The palms are flat.  The knuckles are evenly pressed into the earth.  The fingers are spread wide.  Both legs reach up toward the sky in a straight line with the pelvis tucked.  The ribcage is lifted.  The gaze is forward.",
+            "benefits":"Strengthens arms and shoulders.  Improves focus and balance.  Stretches the upper and lower back.  Strengthens the abdominal muscles.  Tones the abdominal area.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483084/yoga-api/19_jadqwc.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483084/yoga-api/19_jadqwc.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/kjlyju4m91qgoi6/forearmstand.svg?raw=1"
         },
         {
-            "id": 20,
+            "pose_id": 20,
             "sanskrit_name": "Uttanasana",
             "english_name": "Forward Bend with Shoulder Opener",
-            "url_svg_color":"https://www.dropbox.com/s/3tkvgr18beu06zq/20.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/20_uogrfq.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/sjqfq99pqpelv4v/forwardfoldshoulderstretch.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a standing position, the body is folded over at the crease of the hip with the spine long.  The neck is relaxed and the crown of the head is towards the earth.  The feet are rooted into the earth.  The toes are actively lifted.  The spine is straight.  The ribcage is lifted.  The chest and the thighs are connected.  The sacrum lifts up toward the sky in dog tilt.  The fingers are interlaced behind the body and the palms are together.  The arms and elbows are straight.  The shoulder blades rotate towards each other as the hands move forward (away from the lower back).  The gaze is down and inward."
+            ,
+            "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and hips.  Strengthens the thighs and knees.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and anxiety.  Relieves headache and insomnia.  Relieves headache and insomnia.  Opens the shoulders.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483085/yoga-api/20_uogrfq.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/20_uogrfq.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/sjqfq99pqpelv4v/forwardfoldshoulderstretch.svg?raw=1"
         },
         {
-            "id": 21,
+            "pose_id": 21,
             "sanskrit_name": "Ardha Chandrasana",
             "english_name": "Half-Moon",
-            "url_svg_color":"https://www.dropbox.com/s/kwscj74x9cqaa3u/21.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/21_etedlp.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/gpumf9eehr8wo9g/halfmoon.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a standing position one leg is straight while the other is extended back parallel to the earth (or a little above parallel) and one hand is on the earth (beyond the little-toe side of the foot, about 12 inches) while the other hand is extended up towards the sky.  The shoulder blades are squeezed together and the fingers move outward in opposing directions.  The weight of the body is supported mostly by the standing leg while the bottom hand has very little weight on it but is used intelligently to regulate balance.  The upper torso is rotated open to the sky.  Both hips are externally rotated.  Energy is extended actively through the flexed toes to keep the raised leg strong.  The inner ankle of the standing foot is lifted strongly upward, as if drawing energy from the earth.  The sacrum and scapulae are firmly pressed against the back torso and lengthen the coccyx toward the raised foot.  The gaze is either up or down, depending on the condition of the neck.  If injured the gaze is down."
+            ,
+            "benefits":"Strengthens the abdomen, ankles, thighs, buttocks and spine.  Stretches the groins, hamstrings, calves, shoulders, chest and spine.  Improves coordination and sense of balance.  Helps relieve stress.  Improves digestion.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483085/yoga-api/21_etedlp.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/21_etedlp.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/gpumf9eehr8wo9g/halfmoon.svg?raw=1"
         },
         {
-            "id": 22,
+            "pose_id": 22,
             "sanskrit_name": "Adho Mukha Vrksasana",
             "english_name": "Handstand",
-            "url_svg_color":"https://www.dropbox.com/s/t1noqg33b08z19x/22.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/22_ojzmr8.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/p7pf5j0untktn9c/handstand.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "In this inverted posture the weight of the body is on the hands - shoulder-width apart with fingers forward and parallel to each other (if the shoulders are tight, the index fingers are turned out slightly).  The shoulder blades are firm against the back torso and pulled up toward the tailbone.  The upper arms are rotated outward with the eye of the elbow to the front of the room to keep the shoulder blades broad while the outer arms hug inward in opposing forces for balance and stability.  The palms are spread and the bases of the index fingers are pressed firmly against the earth.  Balance is maintained by keeping the Bandhas engaged while pressing the earth away with straight arms and flexed feet.  The gaze is down and forward.",
+            "benefits":"Strengthens the shoulders, arms and wrists.  Stretches the belly.  Improves sense of balance.  Calms the brain and helps relieve stress and mild depression.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483085/yoga-api/22_ojzmr8.svg   ",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483085/yoga-api/22_ojzmr8.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/p7pf5j0untktn9c/handstand.svg?raw=1"
         },
         {
-            "id": 23,
+            "pose_id": 23,
             "sanskrit_name": "Anjaneyasana",
             "english_name": "Low Lunge",
-            "url_svg_color":"https://www.dropbox.com/s/uy4mu5a07z5pysc/23.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483086/yoga-api/23_k2jccj.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/h0ehjaz1wa9xfu1/lowlunge.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "The front knee is bent in a 90-degree angle directly above the ankle and the back knee is resting on the earth with the top of the back foot pressed firmly into the earth.  The hips are squared and pressed forward.  The inner thighs scissor towards each other.  The pelvis is tucked under to protect the low back.  The ribcage is lifted.  The arms are lifted.  The hands can be together or separated and facing each other with the fingers spread wide.  The gaze is forward."
+            ,
+            "benefits":"Stretches the chest, lungs, neck, belly and groin (psoas).  Strengthens the shoulders, arms and back muscles.  Strengthens and stretches the thighs, calves and ankles.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483086/yoga-api/23_k2jccj.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483086/yoga-api/23_k2jccj.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/h0ehjaz1wa9xfu1/lowlunge.svg?raw=1"
         },
         {
-            "id": 24,
+            "pose_id": 24,
             "sanskrit_name": "Supta Kapotasana",
             "english_name": "Pigeon",
-            "url_svg_color":"https://www.dropbox.com/s/uv8hu1iyz3p8ahb/24.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/24_ulgsjo.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/77peru289zm446u/pigeon.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "Lie on the back in supine position.  Bend the knees, heels close to SI bones and cross one ankle over the opposite knee.  Thread the hands or reach through between the thighs.  Lift the foot off the floor and hold the bent knee behind the thigh or shin to bring it closer to the chest, make sure that the acrum is rooted to the floor."
+            ,
+            "benefits":"Stretches the hamstrings and quads.  If the elbow is used to push the thigh, it opens the hips as well.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483088/yoga-api/24_ulgsjo.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/24_ulgsjo.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/77peru289zm446u/pigeon.svg?raw=1"
         },
         {
-            "id": 25,
+            "pose_id": 25,
             "sanskrit_name": "Eka Pada Rajakapotasana",
             "english_name": "King Pigeon",
-            "url_svg_color":"https://www.dropbox.com/s/4af05ytprj1sx6i/25.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483087/yoga-api/25_rssro9.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/10usd0gcqgy6o53/kingpigeon.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a seated position with the hips squared, one leg is extended forward with the knee bent and parallel to the earth.  The front heel is rooted close to the groin (or extended out in a 90 degree angle if flexibility allows).  The other leg is extended back with the knee bent and perpendicular to the earth.  The back foot is hooked on the inside of the elbow of the back arm.  The front elbow is bent upward perpendicular to the earth with the bicep by the ear.  The fingers are interlaced to connect the bind behind the body and assist in opening the chest.  The gaze is natural and forward."
+            ,
+            "benefits":"Stretches the thighs, groins (psoas), abdomen, chest, shoulders and neck.  Stimulates the abdominal organs.  Opens the shoulders and chest.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483087/yoga-api/25_rssro9.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483087/yoga-api/25_rssro9.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/10usd0gcqgy6o53/kingpigeon.svg?raw=1"
         },
         {
-            "id": 26,
+            "pose_id": 26,
             "sanskrit_name": "Phalakasana",
             "english_name": "Plank",
-            "url_svg_color":"https://www.dropbox.com/s/ai2qio6uw9yizvx/26.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/26_mxkzlo.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/jg6ge8zpaltx10f/plank.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "The body is parallel to the earth.  The weight of the body is supported by straight arms and active toes.  The abdomen is pulled up towards the spine and the pelvis is tucked in.  The neck is a natural extension of the spine and the chin is slightly tucked.  The palms are flat and the elbows are close to the side body.  The joints are stacked with the wrists, elbows and shoulders in a straight line perpendicular to the earth.  The gaze follows the spine and the eyes are focused down."
+            ,
+            "benefits":"Strengthens the arms, wrists, and spine.  Tones the abdomen.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483088/yoga-api/26_mxkzlo.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/26_mxkzlo.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/jg6ge8zpaltx10f/plank.svg?raw=1"
 
         },
         {
-            "id": 27,
+            "pose_id": 27,
             "sanskrit_name": "Halasana",
             "english_name": "Plow",
-            "url_svg_color":"https://www.dropbox.com/s/qqvquwp5zgspskc/27.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/27_m4yux9.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/zi9231wbajm6d2m/plow.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a supine position, the upper back rests on the earth with the hips and legs revolved back over the torso above and beyond the head towards the earth.  The torso is perpendicular to the earth.  The legs are fully extended with no bend at the knees as the toes reach for the earth.  The hands are either supporting the lower back or extended behind the back on the earth with extended elbows and fingers interlaced (as flexibility allows), opening the shoulders.  The neck is straight.  The chin tucked.  Do not look to the side as this may injure the neck.  The is gaze inward."
+            ,
+            "benefits":"Calms the brain.  Stimulates the abdominal organs and the thyroid glands.  Stretches the shoulders and spine.  Helps relieve the symptoms of menopause.  Reduces stress and fatigue.  Therapeutic for backache, headache, infertility, insomnia,  and sinusitis.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483088/yoga-api/27_m4yux9.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483088/yoga-api/27_m4yux9.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/zi9231wbajm6d2m/plow.svg?raw=1"
         },
         {
-            "id": 28,
+            "pose_id": 28,
             "sanskrit_name": "Parsvottanasana",
             "english_name": "Pyramid",
-            "url_svg_color":"https://www.dropbox.com/s/vz3jkubxkpi7ckq/28.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483089/yoga-api/28_uu58tt.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/j7p2600bmf840e0/pyramid.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a standing position with one leg forward and one back lean the torso forward at the crease of the hip joint.  Stop when the torso is parallel to the floor.  Press the fingertips or flat palms to the floor on either side of the front foot, maintaining a straight elongated spine.  If it isn’t possible to touch the floor, or to maintain a straight spine, support the hands on a pair of blocks.  Press the thighs back and lengthen the torso forward, lifting up through the top of the sternum.  Then, as flexibility allows, bring the front torso closer to the top of the thigh without rounding the spine.  Eventually the long front torso will rest down on the thigh.  The gaze is down."
+            ,
+            "benefits":"Calms the brain.  Stretches the spine, the shoulders, the hips and the hamstrings.  Strengthens the legs.  Stimulates the abdominal organs.  Improves posture and sense of balance.  Improves digestion.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483089/yoga-api/28_uu58tt.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483089/yoga-api/28_uu58tt.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/j7p2600bmf840e0/pyramid.svg?raw=1"
         },
         {
-            "id": 29,
+            "pose_id": 29,
             "sanskrit_name": "Parsva Virabhadrasana",
             "english_name": "Reverse Warrior",
-            "url_svg_color":"https://www.dropbox.com/s/oi7m7dqn8u5smnn/29.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483089/yoga-api/29_ww7bot.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/q6yn6cb9fglo0wp/reverswarrior.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From warrior II , the lower body stays static while the upper body arches back in a gentle back bend.  The top arm is extended back with the bicep by the ear and the fingers spread wide.  The other arm slides down the back leg resting on the thigh or shin, but not the knee joint.  The gaze is up towards the sky."
+            ,
+            "benefits":"Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina.  Relieves backaches, especially through second trimester of pregnancy.  Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483089/yoga-api/29_ww7bot.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483089/yoga-api/29_ww7bot.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/q6yn6cb9fglo0wp/reverswarrior.svg?raw=1"
         },
         {
-            "id": 30,
+            "pose_id": 30,
             "sanskrit_name": "Paschimottanasana",
             "english_name": "Seated Forward Bend",
-            "url_svg_color":"https://www.dropbox.com/s/h0slabw93pv7x2d/30.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/30_gumpl3.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/ji0otecqx42by00/seatedforwardfold.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":[
+                "From a seated position with the sits bones rooted into the earth the legs extend forward to the degree that the chest and thighs can stay connected.  The fingers wrap around the toes.  The upper torso folds forward at the crease of the hips with the spine long.  The gaze is forward."
+            ],
+            "benefits":"Calms the brain and helps relieve stress and mild depression.  Stretches the spine, shoulders and hamstrings.  Stimulates the liver, kidneys, ovaries and uterus.  Improves digestion.  Helps relieve the symptoms of menopause and menstrual discomfort.  Soothes headache and anxiety.  Reduces fatigue.  Therapeutic for high blood pressure, infertility, insomnia and sinusitis.  Traditional texts say that Paschimottanasana increases appetite, reduces obesity and cures diseases.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483091/yoga-api/30_gumpl3.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/30_gumpl3.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/ji0otecqx42by00/seatedforwardfold.svg?raw=1"
         },
         {
-            "id": 31,
+            "pose_id": 31,
             "sanskrit_name": "Padmasana",
             "english_name": "Lotus",
-            "url_svg_color":"https://www.dropbox.com/s/dmo06ojrondpbvt/31.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/31_ozseum.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/0oylivjwzuj5fnp/seatedORlotus.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From bring the bottom ankle and place it on top of the opposite knee, both ankles will be resting on top of the thighs.",
+            "benefits":"Opens the hips, groin and stretches the knees, ankles and thighs.  Strengthens the back and calms the mind, reduces stress and anxiety.  Improves circulation and blood flow in the pelvis.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483091/yoga-api/31_ozseum.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/31_ozseum.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/0oylivjwzuj5fnp/seatedORlotus.svg?raw=1"
         },
         {
-            "id": 32,
+            "pose_id": 32,
             "sanskrit_name": "Ardha Matsyendrasana",
             "english_name": "Half Lord of the Fishes",
-            "url_svg_color":"https://www.dropbox.com/s/kk23k44eg8q97j1/32.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/32_hafoa0.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/u9joi8lbntxumyh/seatedspinaltwist.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "From mountain flex one knee and draw the foot up toward the hip.  Then clasp the foot with the hand on the same side of the body by rotating the elbow in and up while extending the leg back and up from the hip.  Lift the opposite arm overhead, bend the elbow and grasp the foot.  Gaze is up.  Maintain bandhas throughout the pose for stabilization.  Remember to keep the standing leg straight and strong while remaining aware of the tendency to lock the standing leg knee.  Keep the pelvis level to create symmetrical foundation for the full extension of the spine.  Press the tailbone back and down, expand the chest, press the lower tips of the shoulder blades forward and up to facilitate opening of the heart center.  If stable and at ease, release the crown of the head toward the arch of the foot and draw the elbows together.  Breathe!"
+            ,
+            "benefits":"Stretches the shoulders, the chest, the thighs, the groins, and the abdomen.  Strengthens the legs and the ankles.  Improves balance.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483091/yoga-api/32_hafoa0.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/32_hafoa0.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/u9joi8lbntxumyh/seatedspinaltwist.svg?raw=1"
 
         },
         {
-            "id": 33,
+            "pose_id": 33,
             "sanskrit_name": "Salamba Sarvangasana",
             "english_name": "Shoulder Stand",
-            "url_svg_color":"https://www.dropbox.com/s/x8cpfhlvr6sxt2x/33.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/33_r7motl.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/tqj48exec3zub2u/shoulderstand.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a supine position, the upper back is resting on the earth with the hips straight up towards the sky.  The torso is perpendicular to the earth.  The legs are fully extended and the toes are active.  The hands are either supporting the lower back or extended up by the side body in matchstick.  The neck is flat on the earth and the chin is tucked in.  The gaze is inward."
+            ,
+            "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the thyroid and prostate glands and abdominal organs.  Stretches the shoulders and neck.  Tones the legs and buttocks.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and alleviates insomnia.  Therapeutic for asthma, infertility, and sinusitis.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483091/yoga-api/33_r7motl.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483091/yoga-api/33_r7motl.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/tqj48exec3zub2u/shoulderstand.svg?raw=1"
         },
         {
-            "id": 34,
+            "pose_id": 34,
             "sanskrit_name": "Vasisthasana",
             "english_name": "Side Plank",
-            "url_svg_color":"https://www.dropbox.com/s/e4sx78dmhc95w2w/34.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/34_qle5tp.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/w35ciia4u570xj8/sideplank.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From an arm balance position the weight of the body is supported on one side and distributed equally between the bottom arm and foot while the other (top) arm lifts with fingers spread wide and the other (top) foot stacks on top.  The grounded (bottom) foot is flat and gripping the earth from the outside edge of the foot.  If flexibility of the foot is limited then instead of gripping the earth with a flat foot, the weight of the body is balanced on the side edge of the foot that is flexed instead of flat.  The arm supporting the weight of the body and the grounded foot actively press into the floor as the shoulder blades firm against the back and then widen away from the spine drawing toward the tailbone.  Bandhas are engaged to maintain balance and stability.  The crown of the head reaches away from the neck and the gaze is up towards the hand."
+            ,
+            "benefits":"Calms the brain and helps relieve stress and mild depression.  Stretches the shoulders, hamstrings, calves, and arches.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483093/yoga-api/34_qle5tp.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/34_qle5tp.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/w35ciia4u570xj8/sideplank.svg?raw=1"
         },
         {
-            "id": 35,
+            "pose_id": 35,
             "sanskrit_name": "Salamba Bhujangasana",
             "english_name": "Sphinx",
-            "url_svg_color":"https://www.dropbox.com/s/6k3kod1pn7kq2lc/35.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483092/yoga-api/35_dytwvz.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/cl8teqpf9yingwm/sphinx.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "From a prone position with the pelvic bowl is firmly contracted interiorly towards the center line of the body while the pubis is tucked under.  The legs are extended back and the tops of the feet are flat.  The palms are flat and the elbows are on the mat, stacked right below the shoulders.  On an inhalation, lift the sternum and extend the neck away from shoulders with the elbows, palms and pelvic bone firmly attached to the mat."
+            ,
+            "benefits":"Strengthens the spine.  Stretches the chest, the lungs, the shoulders and the abdomen.  Stimulates the abdominal organs.  Opens the heart and the lungs.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483092/yoga-api/35_dytwvz.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483092/yoga-api/35_dytwvz.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/cl8teqpf9yingwm/sphinx.svg?raw=1"
         },
         {
-            "id": 36,
+            "pose_id": 36,
             "sanskrit_name": "Hanumanasana",
             "english_name": "Splits",
-            "url_svg_color":"https://www.dropbox.com/s/lxd7jxs53hiipof/36.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483092/yoga-api/36_a2z20a.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/u8dxhc41hjfcxj6/splits.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "The hips are parallel and squared to the earth with one leg extended forward.  The opposite leg extended back with the knee and foot squared to the earth.  The inner thighs scissor towards each other.  The hands are by the side body or at the heart center in Anjali Mudra (Salutation Seal) or stretched straight up toward the sky.  The ribcage is lifted.  The heart is open.  The gaze is forward."
+            ,
+            "benefits":"Stretches the thighs, hamstrings, and groin.  Stimulates the abdominal organs.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483092/yoga-api/36_a2z20a.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483092/yoga-api/36_a2z20a.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/u8dxhc41hjfcxj6/splits.svg?raw=1"
         },
         {
-            "id": 37,
+            "pose_id": 37,
             "sanskrit_name": "Malasana",
-            "english_name": "Squat",
-            "url_svg_color":"https://www.dropbox.com/s/3c3dkep6nuc7kat/37.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/37_moh7ii.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/ntrwtdlr6tdkdxz/squat.svg?raw=1"
+            "english_name": "Garland Pose",
+            "difficulty":"Beginner",
+            "description":
+                "From a squatting position the feet are as close together as possible (keep your heels on the floor if you can; otherwise, support them on a folded mat).  The thighs are slightly wider than the torso.  The torso is leaning gently forward and tucked snugly between the thighs.  The elbows are pressed against the inner knees and the palms are together in Anjali Mudra (Salutation Seal).  The knees resist the elbows to help lengthen the front torso.  The gaze is soft and forward."
+            ,
+            "benefits":"Stretches the ankles, groins and back torso.  Tones the belly.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483093/yoga-api/37_moh7ii.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/37_moh7ii.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/ntrwtdlr6tdkdxz/squat.svg?raw=1"
         },
         {
-            "id": 38,
+            "pose_id": 38,
             "sanskrit_name": "Uttanasana",
             "english_name": "Standing Forward Bend",
-            "url_svg_color":"https://www.dropbox.com/s/8qbn5h5vdv8677d/38.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/38_yb3thk.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/u09snmhtposvaq0/standingforwardfold.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "From a standing position, the body is folded over at the crease of the hip with the spine long.  The neck is relaxed and the crown of the head is towards the earth.  The feet are rooted into the earth with the toes actively lifted.  The spine is straight.  The ribcage is lifted.  The chest and the thighs are connected.  The sacrum lifts up toward the sky in dog tilt.  The fingertips are resting on the earth next to the toes.  The gaze is down or slightly forward."
+            ,
+            "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and hips.  Strengthens the thighs and knees.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and anxiety.  Relieves headache and insomnia.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483093/yoga-api/38_yb3thk.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/38_yb3thk.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/u09snmhtposvaq0/standingforwardfold.svg?raw=1"
         },
         {
-            "id": 39,
+            "pose_id": 39,
             "sanskrit_name": "Ashta Chandrasana",
             "english_name": "Crescent Moon",
-            "url_svg_color":"https://www.dropbox.com/s/ed0e8ato9zo5q83/39.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483095/yoga-api/39_hqj0sa.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/9tv6z3qdcw2vg3a/standingstretch.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From mountain pose, on the inhalation bring the hands up and interlace the fingers together.  Exhale, bend to one side, lengthening the opposite of the rib cage and stretch."
+            ,
+            "benefits":"Stretches the rib cage, arms and torso.  Tones the oblique muscles.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483095/yoga-api/39_hqj0sa.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483095/yoga-api/39_hqj0sa.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/9tv6z3qdcw2vg3a/standingstretch.svg?raw=1"
         },
         {
-            "id": 40,
+            "pose_id": 40,
             "sanskrit_name": "Upavistha Konasana",
             "english_name": "Side Splits",
-            "url_svg_color":"https://www.dropbox.com/s/u15whz715byriil/40.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/40_dkmow6.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/6z51vzosovhx5w7/straddlesplit.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "From a wide stance the legs are open and extended sideways to your degree of flexibility.  The outer edges of the feet are rotated and gripping toward the earth.  The weight of the body is supported by the arms.  The palms are rooted into the earth with the fingers pointing towards the body.  There should be no excess weight on the knee or ankle joints as you lower down to your degree of flexibility.  The gaze is down and slightly forward."
+            ,
+            "benefits":"Stretches the insides and backs of the legs.  Stimulates the abdominal organs.  Strengthens the spine.  Calms the brain.  Releases groin.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483093/yoga-api/40_dkmow6.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483093/yoga-api/40_dkmow6.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/6z51vzosovhx5w7/straddlesplit.svg?raw=1"
         },
         {
-            "id": 41,
+            "pose_id": 41,
             "sanskrit_name": "Vrksasana",
             "english_name": "Tree",
-            "url_svg_color":"https://www.dropbox.com/s/a9oomy5zpe8it7t/41.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483094/yoga-api/41_veknug.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/mn2ktlihp12mtfa/tree.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From a standing position, one foot is rooted into the earth with the opposite heel rooted into the inner thigh with the toes pointing towards the earth.  The pelvis and the chin are tucked in.  The arms are lifted above the head with the palms together in prayer position.  The gaze is forward.",
+            "benefits":"Strengthens the legs, ankles, and feet.  Improves flexibility in the hips and knees.  Improves balance.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483094/yoga-api/41_veknug.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483094/yoga-api/41_veknug.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/mn2ktlihp12mtfa/tree.svg?raw=1"
         },
         {
-            "id": 42,
+            "pose_id": 42,
             "sanskrit_name": "Trikonasana",
             "english_name": "Triangle",
-            "url_svg_color":"https://www.dropbox.com/s/j2yegftn67n6cma/42.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/42_jawxqw.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/l41pfqjwmjoy5os/triangle.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "From a standing position, the legs are straight and separated into a wide stance.  The feet are aligned and flat on the earth with the back foot in a 60-degree angle towards the front.  The inner thighs are rotated externally away from each other.  The pelvis is tucked and the ribcage is lifted.  One arm extends up towards the sky as the other reaches down to the earth.  Both arms are aligned with the shoulders in a straight line.  The fingers reach out as the shoulder blades squeeze together.  The gaze is toward the front."
+            ,
+            "benefits":"Stretches and strengthens the thighs, knees, and ankles.  Stretches the hips, groin, hamstrings, calves, shoulders, chest, and spine.  Stimulates the abdominal organs.  Helps relieve stress.  Improves digestion.  Helps relieve the symptoms of menopause.  Relieves backache, especially through second trimester of pregnancy.  Therapeutic for anxiety, flat feet, infertility, neck pain, osteoporosis, and sciatica.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483096/yoga-api/42_jawxqw.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/42_jawxqw.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/l41pfqjwmjoy5os/triangle.svg?raw=1"
         },
         {
-            "id": 43,
+            "pose_id": 43,
             "sanskrit_name": "Urdhva Mukha Svsnssana",
             "english_name": "Upward-Facing Dog",
-            "url_svg_color":"https://www.dropbox.com/s/omv50mmy9fwdiha/43.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/43_m3nxjk.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/vnfx1srlwt1583t/updog.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "The body is in a prone position parallel to the earth.  The weight of the body is supported equally by the straight arms and the tops of the feet which press firmly into the earth.  The shoulders are rotated back and down.  The ribcage is lifted and pulled thru to the front in a slight upper thoracic backbend.  The joints are stacked with the wrists, elbows and shoulders in a straight-line.  The neck is a natural extension of the spine and the chin is slightly tucked.  The abdomen is pulled up towards the spine.  The palms are flat and the elbows are close to the side body.  The gaze is forward."
+            ,
+            "benefits":"Improves posture.  Strengthens the spine, arms, and wrists.  Stretches the chest, lungs, shoulders, and abdomen.  Firms the buttocks.  Stimulates abdominal organs.  Helps relieve mild depression, fatigue, and sciatica.  Therapeutic for asthma.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483096/yoga-api/43_m3nxjk.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/43_m3nxjk.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/vnfx1srlwt1583t/updog.svg?raw=1"
         },
         {
-            "id": 44,
+            "pose_id": 44,
             "sanskrit_name": "Virabhadrasana One",
             "english_name": "Warrior One",
-            "url_svg_color":"https://www.dropbox.com/s/ieop1i5mhua9rgw/44.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/44_dqeayo.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/j9fip5gm1o1l3fx/warrior1.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "From a standing position, the legs are in a wide stance with the feet aligned and flat on the earth.  The back foot is in a 60-degree angle towards the front.  The hips are squared.  The inner thighs are rotated towards each other.  The front knee is bent in a 90-degree angle directly above the ankle.  The arms extend up to the sky with the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The ribcage is lifted and the pelvis tucked.  The gaze is forward."
+            ,
+            "benefits":"Stretches the chest, lungs, shoulders, neck, belly and groin (psoas).  Strengthens the shoulders, arms and back muscles.  Strengthens and stretches the thighs, calves and ankles.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483096/yoga-api/44_dqeayo.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/44_dqeayo.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/j9fip5gm1o1l3fx/warrior1.svg?raw=1"
         },
         {
-            "id": 45,
+            "pose_id": 45,
             "sanskrit_name": "Virabhadrasana Two",
             "english_name": "Warrior Two",
-            "url_svg_color":"https://www.dropbox.com/s/u4idlugphi90obw/45.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/45_ehimr1.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/rsb3mx41dfq4otl/warrior2.svg?raw=1"
+            "difficulty":"Beginner",
+            "description":
+                "From a standing position, the legs are separated into a wide stance.  The front knee is bent in a 90-degree angle directly above the ankle.  The back leg is extended and straight with the outside edge of the back foot gripping the earth in a 60-degree angle towards the front.  The inner thighs are externally rotated away from each other.  The pelvis is tucked.  The ribcage is lifted.  The arms are extended out to the sides and are aligned with the shoulders in a straight line with the fingers reaching out as the shoulder blades squeeze together.  The gaze is toward the front fingers."
+            ,
+            "benefits":"Strengthens and stretches the legs and ankles.  Stretches the groin, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina.  Relieves backaches, especially through second trimester of pregnancy.  Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483096/yoga-api/45_ehimr1.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483096/yoga-api/45_ehimr1.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/rsb3mx41dfq4otl/warrior2.svg?raw=1"
 
         },
         {
-            "id": 46,
+            "pose_id": 46,
             "sanskrit_name": "Virabhadrasana Three",
             "english_name": "Warrior Three",
-            "url_svg_color":"https://www.dropbox.com/s/ab7bkf94qogpgw8/46.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/46_lz6v7i.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/lwgoky3z37ameif/warrior3.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "From a standing position, one leg is rooted and perpendicular to the earth while the other leg is raised, extended back and parallel to the earth.  The head of the thighbone of the standing leg presses back towards the heel and is actively rooted into the earth.  The arms and the extended leg lengthen in opposing directions with Bandhas engaged.  The hips are squared and the tailbone presses firmly into the pelvis.  The arms, torso, and extended raised leg should be positioned relatively parallel to the floor.  The gaze is forward or down."
+            ,
+            "benefits":"Strengthens the ankles and legs.  Strengthens the shoulders and muscles of the back.  Tones the abdomen.  Improves balance and posture.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483097/yoga-api/46_lz6v7i.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/46_lz6v7i.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/lwgoky3z37ameif/warrior3.svg?raw=1"
         },
         {
-            "id": 47,
+            "pose_id": 47,
             "sanskrit_name": "Urdhva Dhanurasana",
             "english_name": "Wheel",
-            "url_svg_color":"https://www.dropbox.com/s/sslv55y8sl6m589/47.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/47_w2jsof.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/kpa1bewuut3lm5q/wheel.svg?raw=1"
+            "difficulty":"Expert",
+            "description":
+                "Pressed up from a supine position, lying on your back, the palms are rooted into the earth with the fingers pointed towards the heels.  The feet are grounded.  The hips are pressed up.  The thighs are rotated inward.  The thoracic spine is arched creating a strong crescent arch along the spinal column.  The gaze is forward."
+            ,
+            "benefits":"Strengthens the arms, wrists, legs, buttocks, abs, and spine.  Stimulates the thyroid and pituitary.  Increases energy and counteracts depression.  Therapeutic for asthma, back pain, infertility, and osteoporosis.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483097/yoga-api/47_w2jsof.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/47_w2jsof.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/kpa1bewuut3lm5q/wheel.svg?raw=1"
         },
         {
-            "id": 48,
+            "pose_id": 48,
             "sanskrit_name": "Camatkarasana",
             "english_name": "Wild Thing",
-            "url_svg_color":"https://www.dropbox.com/s/hwvuo51lcze4zb1/48.svg?raw=1",
-            "url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/48_unoav6.jpg",
-            "url_svg_alternative": "https://www.dropbox.com/s/d1dbdvo4l7xry4w/downdogflip.svg?raw=1"
+            "difficulty":"Intermediate",
+            "description":
+                "From downward dog pose, elevate one leg toward the sky and stack the corresponding hip over the other hip.  Bring the upper heel as close to the buttocks as possible.  The hips remain stacked; then bring the shoulders forward slowly over the hands.  Replace the corresponding hand to the upraised leg with the other hand and flip yourself over and extend the top hand forward.  The bottom foot is now facing toward the front of the mat and you remain on the ball of the top foot and the corresponding knee is bent.  Continue to lift hips up towards the sky and continue reaching the free hand towards the front of the room and slightly downwards.  Allow the head to curl back.",
+            "benefits":"Stretches the chest, shoulders, back, and throat.  Strengthens and opens the hips, hip flexors, and thighs.",
+            "img_url_svg":"https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483097/yoga-api/48_unoav6.svg",
+            "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483097/yoga-api/48_unoav6.jpg",
+            "img_url_svg_alt": "https://www.dropbox.com/s/d1dbdvo4l7xry4w/downdogflip.svg?raw=1"
         }
     ]
 }

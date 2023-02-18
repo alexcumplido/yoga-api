@@ -32,9 +32,15 @@ app.listen(PORT || 8000, () => {
 
 //   posesJson.items.forEach(function (element) {
 //     queryInsert.run(
-//       element.sanskrit_name,
+//       element.pose_id,
 //       element.english_name,
-//       element.img_url
+//       element.sanskrit_name,
+//       element.difficulty
+//       element.description,
+//       element.benefits,
+//       element.img_url_svg
+//       element.img_url_jpg,
+//       element.img_url_svg_alt,
 //     );
 //   });
 

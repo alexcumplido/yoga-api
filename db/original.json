@@ -1,0 +1,2248 @@
+"var poses ="[
+   {
+      "file_reference":"bird_of_paradise_revolved.html",
+      "pose_name":"Revolved Bird of Paradise Pose",
+      "sanskrit_name":"Parivṛtta Svarga Dvijāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "svarga = heaven",
+         "dvija = twice born",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "chair_twist.html",
+         " pose, the lower arm reaches back around the legs as the upper arm wraps around the back and the fingers of the respective hands eventually meet and interlace.  One foot stays rooted into the earth and straightens while the opposite leg comes up with a bent knee.  Once you are standing upright extend the leg towards the sky.  The ribcage is lifted and the heart is open in the full expression of the pose.  The gaze is forward."
+      ],
+      "benefits":"Increases the flexibility of the spine and back and stretches the shoulders.  Strengthens the legs.  Increases flexibility of the hip and knee joints.  Improves balance.  Opens the groin.  Stretches the hamstrings."
+   },
+   {
+      "file_reference":"blissful_baby.html",
+      "pose_name":"Happy Baby Pose",
+      "sanskrit_name":"Ānanda Bālāsana",
+      "translation":[
+         "ānanda = happy",
+         "bāla = child",
+         "āsana = posture"
+      ],
+      "alt_name":"Blissful Baby / Dead Bug",
+      "category":"Supine / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "From a supine position, on your back, the knees are bent slightly wider than the hips.  The ankles and shins track the knees in a 90 degree angle perpendicular to the earth.  The hands grip the inside sole of the flexed feet (if you have difficultly holding the feet loop a strap over each sole) and push the knees down, coaxing the thighs in toward the torso, lengthening the spine, releasing the tail bone towards the earth and extending the base of the skull away from the back of the neck.  The gaze is up towards the sky."
+      ],
+      "benefits":"Gently stretches the inner groins and the back spine.  Calms the brain and helps relieve stress and fatigue."
+   },
+   {
+      "file_reference":"boat_full.html",
+      "pose_name":"Boat Pose",
+      "sanskrit_name":"Nāvāsana",
+      "translation":[
+         "nāva = boat",
+         "āsana = posture"
+      ],
+      "category":"Seated / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.  The tailbone is lengthened into the earth and the pubis pulls toward the navel.  The shoulder blades are spread across the back and the hands reach around the back of the calves, with legs pulled towards the body.  The chin is tipped slightly toward the sternum so that the base of the skull lifts lightly away from the back of the neck.  Gaze is forward."
+      ],
+      "benefits":"Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion."
+   },
+   {
+      "file_reference":"boat_half.html",
+      "pose_name":"Half Boat Pose",
+      "sanskrit_name":"Ardha Nāvāsana",
+      "translation":[
+         "ardha = half",
+         "nāva = boat",
+         "āsana = posture"
+      ],
+      "category":"Seated / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "From a seated position the hands are gripped around the back of the legs and the knees are bent in a 90 degree angle.  Both legs are pulled in towards the abdomen.  The core is engaged to maintain balance on the sits bones (be sure that the back does not round).  The front of the torso lengthens between the pubis and top of the sternum as the spine extends in both directions reaching up to the sky and rooting down to the earth.  The gaze is forward and Bandhas are engaged."
+      ],
+      "benefits":"Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion."
+   },
+   {
+      "file_reference":"bound_angle.html",
+      "pose_name":"Bound Angle Pose",
+      "sanskrit_name":"Baddha Koṇāsana",
+      "translation":[
+         "baddha = bound",
+         "koṇa = angle",
+         "āsana = posture"
+      ],
+      "alt_name":"Butterfly / Cobbler\\'s",
+      "category":"Seated / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "In sitting position, bend both knees and drop the knees to each side, opening the hips.  Bring the soles of the feet together and bring the heels as close to the groin as possible, keeping the knees close to the ground.  The hands may reach down and grasp and maneuver the feet so that the soles are facing upwards and the heels and little toes are connected.  The shoulders should be pulled back and no rounding of the spine."
+      ],
+      "benefits":"Opens the hips and groins.  Stretches the shoulders, rib cage and back.  Stimulates the abdominal organs, lungs and heart."
+   },
+   {
+      "file_reference":"bow.html",
+      "pose_name":"Bow Pose",
+      "sanskrit_name":"Dhanurāsana",
+      "translation":[
+         "dhanur = bow",
+         "āsana = posture"
+      ],
+      "category":"Prone / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a prone position with the abdomen on the earth, the hands grip the ankles (but not the tops of the feet) with knees no wider than the width of your hips.  The heels are lifted away from the buttocks and at the same time the thighs are lifted away from the earth working opposing forces as the heart center, hips and back open.  The gaze is forward."
+      ],
+      "benefits":"Stretches the entire front of the body, ankles, thighs and groins, abdomen and chest, and throat, and deep hip flexors (psoas).  Strengthens the back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck."
+   },
+   {
+      "file_reference":"bow_half.html",
+      "pose_name":"Half Bow Pose",
+      "sanskrit_name":"Ardha Dhanurāsana",
+      "translation":[
+         "ardha = half",
+         "dhanu = bow",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "box_neutral.html",
+         ", extend one arm forward and the opposite leg towards the back, keep the neck in line with the spine.  Bend the top knee and bring the extended hand backwards to catch the foot or toes.  Start to lift the knee and chest higher to create an arch like a bow."
+      ],
+      "benefits":"Stretches the back muscles and the front body.  Stimulates the abdominal organs and lungs.  Improves balance."
+   },
+   {
+      "file_reference":"box_neutral.html",
+      "pose_name":"Box Pose",
+      "sanskrit_name":"Cakravākāsana",
+      "translation":[
+         "cakravāka = ruddy goose",
+         "āsana = posture"
+      ],
+      "alt_name":"Table Top",
+      "category":"Arm and Leg Support / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "From a kneeling position, the knees and arms form a box with the spine and neck in a neutral position.  The hips and shoulders are squared to the earth and the palms are rooted with the weight of the body equally distributed between the heel of the hands and the top of the knees.  The joints are stacked with the wrists, elbows and shoulders in a straight line.  The gaze is down."
+      ],
+      "benefits":"Increases abdominal strength.  Warms up the joints, muscles of arms and the legs."
+   },
+   {
+      "file_reference":"bridge.html",
+      "pose_name":"Bridge Pose",
+      "sanskrit_name":"Setu Bandha Sarvāṅgāsana",
+      "translation":[
+         "setu = bridge",
+         "bandha = lock",
+         "sarva = all",
+         "āṅga = limb",
+         "āsana = posture"
+      ],
+      "category":"Supine / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a supine position, on your back, the hips are pressed up with the heels of the feet rooted into the earth close to the sits bones.  The toes are actively lifted and the pelvis tucked.  The thighs are parallel to the earth and the fingers are interlaced under the body with the ribcage lifted and the heart open.  The back of the neck rests on the earth.  The gaze is to the sky."
+      ],
+      "benefits":"Stretches the chest, neck, and spine.  Stimulates abdominal organs, lungs, and thyroids.  Rejuvenates tired legs.  Improves digestion.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done supported.  Reduces anxiety, fatigue, backache, headache, and insomnia.  Therapeutic for asthma, high blood pressure, osteoporosis, and sinusitis."
+   },
+   {
+      "file_reference":"bridge_leg_up.html",
+      "pose_name":"One Legged Bridge Pose",
+      "sanskrit_name":"Eka Pāda Setu Bandha Sarvāṅgāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "setu = bridge",
+         "bandha = lock",
+         "sarva = all",
+         "āṅga = limb",
+         "āsana = posture"
+      ],
+      "category":"Supine / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "bridge.html",
+         " pose, begin to extend one leg out in front, without dropping the hips.  If possible, bring the extended leg higher, toes pointing towards the sky."
+      ],
+      "benefits":"Stretches the rib cage, chest, neck and back muscles.  Tightens the gluts.  Strengthens the legs, knees and thighs."
+   },
+   {
+      "file_reference":"camel.html",
+      "pose_name":"Camel Pose",
+      "sanskrit_name":"Uṣṭrāsana",
+      "translation":[
+         "uṣṭra = camel",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a kneeling position the knees are hip width apart and the thighs are perpendicular to the earth.  The inner thighs are narrowed and rotated slightly inward with the buttocks engaged but not hardened.  The tailbone is tucked under but the hips do not puff forward.  The shins and tops of the feet are pressed firmly into the earth.  The ribcage is open, along with the heart center, but the lower front ribs do not protrude sharply towards the sky.  The lower back lifts the ribs away from the pelvis to keep the lower spine as long as possible.  The base of the palms are pressed firmly against the soles (or heels) of the feet and the fingers are pointed toward the toes.  The arms are extended straight and are turned slightly outward at the shoulder joint so the elbow creases face forward without squeezing the shoulder blades together.  The neck is in a relatively neutral position, neither flexed nor extended, or (for the advanced practitioners only) the head drops back.  Be careful not to strain your neck and harden your throat.  The gaze is either towards the sky or towards the earth, depending upon your flexibility."
+      ],
+      "benefits":"Stretches the entire front of the body, the ankles, thighs and groins, abdomen and chest, and throat.  Stretches the deep hip flexors (psoas).  Strengthens back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck."
+   },
+   {
+      "file_reference":"cat.html",
+      "pose_name":"Cat Pose",
+      "sanskrit_name":"Marjaryāsana",
+      "translation":[
+         "marjarya = cat",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From ",
+         "box_neutral.html",
+         ", shift some weight to the palms.  The wrists, elbows and shoulders are in one line.  The abdomen is pulled in and up with the spine arched in a strong Cobra spine.  The crown of the head is towards the earth and the neck is relaxed.  The gaze is between the arms towards the belly."
+      ],
+      "benefits":"Relieves the spine and neck.  Energizes the body."
+   },
+   {
+      "file_reference":"cat_balance.html",
+      "pose_name":"Balancing the Cat Pose",
+      "sanskrit_name":"Utthita Cakravākāsana",
+      "translation":[
+         "utthita = extended",
+         "cakravāka = ruddy goose",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "box_neutral.html",
+         ", extend one foot towards the back, knee is straight, hips squared to the floor.  Slowly extend the opposite arm forward, keep the hand and neck in line with the spine."
+      ],
+      "benefits":"Stretches the extended leg and arm.  Strengthens the hips and shoulders.  Improves flexibility and balance."
+   },
+   {
+      "file_reference":"chair.html",
+      "pose_name":"Chair Pose",
+      "sanskrit_name":"Utkaṭāsana",
+      "translation":[
+         "utkaṭa = fierce",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "From a standing position, the feet are together and rooted into the earth with toes actively lifted.  The knees are bent and the weight of the body is on the heels of the feet.  The pelvis is tucked in and the ribcage is lifted.  The neck is a natural extension of the spine.  The arms are lifted up toward the sky with the elbows straight and the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The gaze is forward."
+      ],
+      "benefits":"Strengthens the ankles, thighs, calves, and spine.  Stretches shoulders and chest.  Stimulates the abdominal organs, diaphragm, and heart.  Reduces flat feet.  Energizes the entire body."
+   },
+   {
+      "file_reference":"chair_twist.html",
+      "pose_name":"Revolved Chair Pose",
+      "sanskrit_name":"Parivṛtta Utkaṭāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "utkaṭa = fierce",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Beginner",
+      "description":[
+         "From ",
+         "chair_prayer.html",
+         ", the upper body twists to one side with the heart opening towards the sky.  The bottom elbow is on the outside of the opposite knee and the upper elbow reaches towards the sky.  Gaze is towards the sky or to the earth if the neck is sensitive."
+      ],
+      "benefits":"Stretches the lower back.  Increases the flexibility of the spine and back.  Stretches the shoulders.  Challenges the balance.  Powerful detoxification of toxic food, drink, thoughts, etc."
+   },
+   {
+      "file_reference":"chair_twist_bind.html",
+      "pose_name":"Bound Revolved Chair Pose",
+      "sanskrit_name":"Parivṛtta Baddha Utkaṭāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "baddha = bound",
+         "utkaṭa = fierce",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "chair_twist.html",
+         ", the lower arm weaves in between the legs as the upper arm wraps around the back and the fingers interlace.  The ribcage is lifted.  The gaze toward the sky, unless it hurts your neck, then the gaze towards the earth."
+      ],
+      "benefits":"Increases the flexibility of the spine and back and stretches the shoulders.  Stretches the lower back.  Challenges the balance.  Powerful detoxification of toxic food, drink, and thoughts."
+   },
+   {
+      "file_reference":"chair_twist_bind_up.html",
+      "pose_name":"Bird of Paradise Pose",
+      "sanskrit_name":"Svarga Dvijāsana",
+      "translation":[
+         "svarga = heaven",
+         "dvija = twice born",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "chair_twist_bind.html",
+         ", one foot stays rooted into the earth and straightens while the opposite leg comes up with a bent knee.  Once you are standing upright extend the leg towards the sky.  The ribcage is lifted and the heart is open in the full expression of the pose.  The gaze is forward."
+      ],
+      "benefits":"Increases the flexibility of the spine and back and stretches the shoulders.  Strengthens the legs.  Increases flexibility of the hip and knee joints.  Improves balance.  Opens the groin.  Stretches the hamstrings."
+   },
+   {
+      "file_reference":"chair_twist_extended.html",
+      "pose_name":"Revolved Chair with Extended Arms Pose",
+      "sanskrit_name":"Utthita Parivṛtta Utkaṭāsana",
+      "translation":[
+         "utthita = extended",
+         "parivṛtta = revolved",
+         "utkaṭa = fierce",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "chair_twist.html",
+         ", one arm reaches up to the sky and the other reaches down to the earth on the inside or the outside of the knee, depending upon your flexibility.  Keep the shoulder blades squeezed together and the fingers extended out.  The ribcage is lifted and the heart is open.  The gaze is towards the sky, unless it hurts your neck, then the gaze is towards the earth."
+      ],
+      "benefits":"Increases the flexibility of the spine and back and stretches the shoulders.  Strengthens the legs.  Increases flexibility of the hip and knee joints.  Improves balance.  Opens the groin and stretches the hamstrings."
+   },
+   {
+      "file_reference":"child.html",
+      "pose_name":"Extended Child\\'s Pose",
+      "sanskrit_name":"Utthita Balāsana",
+      "translation":[
+         "utthita = extended",
+         "bala = child",
+         "āsana = posture"
+      ],
+      "category":"Prone / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a kneeling position, the toes and knees are together with most of the weight of the body resting on the heels of the feet.  The arms are by the side body and the fingers are relaxed.  The forehead rest softly onto the earth.  The gaze is down and inward."
+      ],
+      "benefits":"Gently stretches the hips, thighs, and ankles.  Calms the brain and helps relieve stress and fatigue.  Relieves back and neck pain when done with head and torso supported."
+   },
+   {
+      "file_reference":"child_traditional.html",
+      "pose_name":"Child\\'s Pose",
+      "sanskrit_name":"Balāsana",
+      "translation":[
+         "bala = child",
+         "āsana = posture"
+      ],
+      "category":"Prone / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a kneeling position, the toes and knees are together with most of the weight of the body resting on the heels of the feet.  The arms are extended back resting alongside the legs.  The forehead rests softly onto the earth.  The gaze is down and inward."
+      ],
+      "benefits":"Gently stretches the hips, thighs, and ankles.  Calms the brain and helps relieve stress and fatigue.  Relieves back and neck pain when done with head and torso supported."
+   },
+   {
+      "file_reference":"child_wide.html",
+      "pose_name":"Wide Child\\'s Pose",
+      "sanskrit_name":"Balāsana",
+      "translation":[
+         "bala = child",
+         "āsana = posture"
+      ],
+      "category":"Prone / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From ",
+         "child.html",
+         ", the knees are open wide and the big toes are touching with most of the weight of the body on the heels of the feet.  The forehead rests softly onto the earth.  The arms extend to the front with the fingers spread wide.  The gaze is down and inward."
+      ],
+      "benefits":"Gently stretches the hips, thighs, and ankles.  Calms the brain and helps relieve stress and fatigue.  Relieves back and neck pain when done with head and torso supported."
+   },
+   {
+      "file_reference":"cobra.html",
+      "pose_name":"Cobra Pose",
+      "sanskrit_name":"Bhujaṅgāsana",
+      "translation":[
+         "bhujaṅga = serpent",
+         "āsana = posture"
+      ],
+      "category":"Prone / Backbend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a prone position lying on the earth the pelvic bowl is firmly contracted interiorly towards the center line of the body while the pubis is tucked under.  The legs are extended back and the tops of the feet are squared to the earth.  The palms are flat and the fingers are in line with the shoulder blades, or, if possible, the palms are tucked under the shoulders with the elbows bent and tucked into the sides of the body.  On an inhalation, the arms are straightened slightly, maintaining a soft bend in the elbows as the chest lifts off the earth.  Lift up only to the height that is comfortable and that also maintains the pubis and the legs pressed to the earth.  Work the opposing forces by pressing the tailbone towards the pubis as the pubis lifts towards the navel.  The hip points are narrowed.  The buttocks are firm but not hardened.  The shoulder blades are firm against the back.  The side ribs expand to facilitate the back bend.  Lift through the top of the sternum but avoid pushing the front ribs forward, which only hardens the lower back.  Distribute the backbend evenly throughout the entire spine.  The gaze is out in front or straight ahead depending on flexibility."
+      ],
+      "benefits":"Strengthens the spine.  Stretches the chest, the lungs, the shoulders and the abdomen.  Firms the buttocks.  Stimulates the abdominal organs.  Helps relieve stress and fatigue.  Opens the heart and the lungs.  Soothes the sciatica.  Therapeutic for asthma.  Traditional texts say that Bhujangasana increases body heat, destroys disease, and awakens Kundalini."
+   },
+   {
+      "file_reference":"corpse.html",
+      "pose_name":"Corpse Pose",
+      "sanskrit_name":"Śavāsana",
+      "translation":[
+         "śava = corpse",
+         "āsana = posture"
+      ],
+      "category":"Supine / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "The body rests on the earth in a supine position with the arms resting by the side body.  The palms are relaxed and open toward the sky.  The shoulder blades are pulled back, down and rolled under comfortably, resting evenly on the earth.  The legs are extended down and splayed open.  The heels are in and the toes flop out.  The eyes are closed.  Everything is relaxed.  The gaze is inward."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Relaxes the body.  Reduces headache, fatigue, and insomnia.  Helps to lower blood pressure."
+   },
+   {
+      "file_reference":"corpse_double_leg_raise.html",
+      "pose_name":"Rejuvenation Pose",
+      "sanskrit_name":"Supta Daṇḍāsana",
+      "translation":[
+         "supta = supine",
+         "daṇḍa = staff",
+         "āsana = posture"
+      ],
+      "alt_name":"Legs-Up / Supine Staff",
+      "category":"Supine / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "From a supine position, with the back relaxed onto the earth, the legs extend toward the sky without any tension behind the knees.  The arms rest by the side body and the palms open toward the sky in a receptive mode.  Hold this position or gently sway the legs from side to side.  The eyes are closed and the gaze is inward."
+      ],
+      "benefits":"Releases spine and lower back and heals the body."
+   },
+   {
+      "file_reference":"crescent_moon.html",
+      "pose_name":"Crescent Moon Pose",
+      "sanskrit_name":"Ashta Chandrāsana",
+      "translation":[
+         "ashta = side",
+         "chandra = moon",
+         "āsana = posture"
+      ],
+      "category":"Standing / Lateral Bend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "mountain.html",
+         " pose, on the inhalation bring the hands up and interlace the fingers together.  Exhale, bend to one side, lengthening the opposite of the rib cage and stretch."
+      ],
+      "benefits":"Stretches the rib cage, arms and torso.  Tones the oblique muscles."
+   },
+   {
+      "file_reference":"crow.html",
+      "pose_name":"Crow Pose",
+      "sanskrit_name":"Bakāsana",
+      "translation":[
+         "baka = crane",
+         "āsana = posture"
+      ],
+      "alt_name":"Crane",
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From an inverted position, with the hips up and the head down, the arms are bent in a 90-degree angle with the knees resting on the elbows.  The palms are firmly rooted into the earth with knuckles pressed firmly into the earth for support.  The belly is pulled up and in towards the spine with the ribcage and chin lifted.  The weight of the body shifts slightly forward as the toes lift up and off the earth into the full expression of the pose.  The gaze is down and slightly forward."
+      ],
+      "benefits":"Strengthens arms and wrists.  Stretches the upper back.  Strengthens the abdominal muscles.  Opens the groin.  Tones the abdominal organs."
+   },
+   {
+      "file_reference":"crow_flying.html",
+      "pose_name":"One Legged Crow Pose",
+      "sanskrit_name":"Eka Pāda Bakāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "baka = crane",
+         "āsana = posture"
+      ],
+      "alt_name":"One Legged Crane / Flying Crow",
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "crow.html",
+         ", one leg lifts up and extends back as the chin lifts and reaches forward.  The gaze is down and slightly forward."
+      ],
+      "benefits":"Strengthens arms and wrists.  Stretches the upper back.  Strengthens the abdominal muscles.  Opens the groin.  Tones the abdominal organs."
+   },
+   {
+      "file_reference":"crow_side.html",
+      "pose_name":"Side Crow Pose",
+      "sanskrit_name":"Pārśva Bakāsana",
+      "translation":[
+         "pārśva = side",
+         "baka = crane",
+         "āsana = posture"
+      ],
+      "alt_name":"Side Crane",
+      "category":"Arm Balance and Inversion / Twist",
+      "difficulty":"Expert",
+      "description":[
+         "Start from ",
+         "crow_side_preparation.html",
+         " and lean forward.  Bend the elbows, placing the hips and knees on top of the arms.  Lift the chin up and look forward.  Shift more weight onto the arms and tip over, take one foot and then the other off the floor."
+      ],
+      "benefits":"Strengthens arms and wrists.  Improves balance.  Tones the abdominal muscles."
+   },
+   {
+      "file_reference":"deaf_man.html",
+      "pose_name":"Deaf Man\\'s Pose",
+      "sanskrit_name":"Karṇapīḍāsana",
+      "translation":[
+         "karṇa = ear",
+         "pīḍa = pressure",
+         "āsana = posture"
+      ],
+      "alt_name":"Ear Pressure",
+      "category":"Arm Balance and Inversion / Forward Bend",
+      "difficulty":"Expert",
+      "description":[
+         "From a supine position, the feet come over the head and rest on the earth with the knees next to the ears and the arms extended behind the body with the fingers interlaced.  The neck is flat on the earth.  The eyes are closed.  The gaze is inward.  Take three big gulps to stimulate the thyroid."
+      ],
+      "benefits":"Creates a deep release and internal balance."
+   },
+   {
+      "file_reference":"dog.html",
+      "pose_name":"Cow Pose",
+      "sanskrit_name":"Bitilāsana",
+      "translation":[
+         "bitil = cow",
+         "āsana = posture"
+      ],
+      "alt_name":"Dog",
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Beginner",
+      "description":[
+         "From ",
+         "box_neutral.html",
+         ", the ribcage is lifted with a gentle sway in the low back.  The tailbone lifts up into dog tilt.  The eyes are soft and the gaze is to the sky."
+      ],
+      "benefits":"Removes fatigue.  Improves breathing and the circulation of blood to the brain.  Rejuvenates the entire body."
+   },
+   {
+      "file_reference":"downward_dog.html",
+      "pose_name":"Downward-Facing Dog Pose",
+      "sanskrit_name":"Adho Mukha Śvānāsana",
+      "translation":[
+         "adho = downward",
+         "mukha = facing",
+         "śvāna = dog",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "The body is positioned in an inverted \"V\" with the palms and feet rooted into the earth and sits bones lifted up towards the sky.  The arms and legs are straight.  The weight of the body is equally distributed between the hands and the feet.  The eye of the elbows face forward.  The ribcage is lifted and the heart is open.  Shoulders are squared to the earth and rotated back, down and inward.  The neck is relaxed and the crown of the head is toward the earth.  The gaze is down and slightly forward."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Energizes the body.  Stretches the shoulders, hamstrings, calves, arches, and hands.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done with the head supported.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis.  Warms up the ankles and the toes."
+   },
+   {
+      "file_reference":"downward_dog_hand_to_ankle.html",
+      "pose_name":"Revolved Downward-Facing Dog Pose",
+      "sanskrit_name":"Parivṛtta Adho Mukha Śvānāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "adho = downward",
+         "mukha = facing",
+         "śvāna = dog",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "downward_dog.html",
+         ", the legs are straight with the sits bones tilted up and reaching for the sky.  The feet are flat with the heels firmly rooted.  One palm is flat with the knuckles evenly pressed into the earth.  The other hand reaches under the body and grasps the opposite ankle.  The spine is long and the heart is open toward the sky.  The neck is loose and the crown of the head is relaxed toward the earth.  The gaze is toward the center."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Energizes the body.  Stretches the shoulders, neck, hamstrings, calves, arches, and hands.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done with the head supported.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis."
+   },
+   {
+      "file_reference":"downward_dog_leg_up.html",
+      "pose_name":"One Legged Downward-Facing Dog Pose",
+      "sanskrit_name":"Eka Pāda Adho Mukha Śvānāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "adho = downward",
+         "mukha = facing",
+         "śvāna = dog",
+         "āsana = posture"
+      ],
+      "alt_name":"Three Legged Downward-Facing Dog",
+      "category":"Arm and Leg Support / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "From ",
+         "downward_dog.html",
+         ", one foot extends up to the sky while the opposite foot is rooted into the earth.  The hips are squared and the toes are active.  The forehead reaches for the earth as the shoulder blades rotate inward.  The gaze is towards the back."
+      ],
+      "benefits":"Tones and strengthens the standing leg.  Improves flexibility.  Opens the hips."
+   },
+   {
+      "file_reference":"eagle.html",
+      "pose_name":"Eagle Pose",
+      "sanskrit_name":"Garuḍāsana",
+      "translation":[
+         "garuḍa = eagle",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a standing position the one thigh is crossed over the other with the toes and/or the ankle hooked behind the lower calf.  The weight of the body is balanced on the standing foot.  The arms are crossed in front of the torso so that one arm is crossed above the other arm.  The top arm is tucked into the elbow crook of the bottom arm.  The hands are hooked around each other as well.  Once hooked, the elbows lift up and the fingers stretch towards the ceiling.  The gaze is soft and forward."
+      ],
+      "benefits":"Strengthens and stretches the ankles and calves.  Stretches the thighs, hips, shoulders, and upper back.  Improves concentration.  Improves sense of balance."
+   },
+   {
+      "file_reference":"easy.html",
+      "pose_name":"Easy Pose",
+      "sanskrit_name":"Sukhāsana",
+      "translation":[
+         "sukha = pleasure",
+         "āsana = posture"
+      ],
+      "category":"Seated / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "From a seated position, bring your knees into a simple cross legged pose.  Both knees should be below the hips.  Place the hands on the thighs or knees and keep the spine straight."
+      ],
+      "benefits":"Opens the hips and stretches the knees and ankles.  Strengthens the back.  Calms the mind, reduces stress and anxiety.  Improves circulation and blood flow to the pelvis."
+   },
+   {
+      "file_reference":"eight_angle.html",
+      "pose_name":"Eight Angle Pose",
+      "sanskrit_name":"Aṣṭāvakrāsana",
+      "translation":[
+         "aṣṭā = eight",
+         "vakra = bent, curved",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "Begin in ",
+         "easy.html",
+         " pose, lift one knee up and make a shelf with the respective arm.  Slip the shoulder underneath this knee until the knee rests high up on the back of the shoulder.  Bend both elbows to a 90-degree angle and lean forward.  Bring the other foot over to meet the first and hook the feet.   Lean slightly towards the opposite side to place more weight on the corresponding side and begin to lift both feet off the ground.  Extend both legs simultaneously leaning your torso forward and lowering it until it is parallel to the mat.  Squeeze your upper arm between your thighs.  Use that pressure to help twist your torso to the opposite side.  Keep your elbows in close to the torso.  Gaze is towards the ground."
+      ],
+      "benefits":"Strengthens arms, legs, core and wrists.  Improves balance."
+   },
+   {
+      "file_reference":"feathered_peacock.html",
+      "pose_name":"Feathered Peacock Pose",
+      "sanskrit_name":"Pīñcha Mayūrāsana",
+      "translation":[
+         "pīñcha = feather",
+         "mayūra = peacock",
+         "āsana = posture"
+      ],
+      "alt_name":"Forearm Stand",
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From an inverted position, with the body perpendicular to the earth, the weight of the body is supported on the forearms that are parallel and pressed firmly into the earth.  The palms are flat.  The knuckles are evenly pressed into the earth.  The fingers are spread wide.  Both legs reach up toward the sky in a straight line with the pelvis tucked.  The ribcage is lifted.  The gaze is forward."
+      ],
+      "benefits":"Strengthens arms and shoulders.  Improves focus and balance.  Stretches the upper and lower back.  Strengthens the abdominal muscles.  Tones the abdominal area."
+   },
+   {
+      "file_reference":"fire_log.html",
+      "pose_name":"Fire Log Pose",
+      "sanskrit_name":"Agnistambhāsana",
+      "translation":[
+         "agni = fire",
+         "stambha = statue",
+         "āsana = posture"
+      ],
+      "alt_name":"Double Pigeon",
+      "category":"Seated / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "From a seated position, stack both shins on top of each other until they are parallel to the front edge of the mat."
+      ],
+      "benefits":"Opens the hips.  Strengthens the back muscles by elongating the spine.  Improves alignment of the spine; thereby improving posture.  Calming and centering pose that improves concentration and facilitates meditation.  Ameliorates stress and anxiety."
+   },
+   {
+      "file_reference":"firefly.html",
+      "pose_name":"Firefly Pose",
+      "sanskrit_name":"Tittibhāsana",
+      "translation":[
+         "tittibha = firefly",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "The arms are straight and the palms are pressed into the earth.  The body is supported on the straight arms with the eye of the elbows to the front.  The legs are extended straight and forward from on the outside of the arms.  The ribcage is lifted.  The gaze is forward."
+      ],
+      "benefits":"Strengthens arms and wrists.  Improves focus and concentration.  Opens flexibility of lower body."
+   },
+   {
+      "file_reference":"fish.html",
+      "pose_name":"Fish Pose",
+      "sanskrit_name":"Matsyāsana",
+      "translation":[
+         "matsya = fish",
+         "āsana = posture"
+      ],
+      "category":"Supine / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a supine position, lying on the back, the pelvis and upper torso are arched up and lift off the earth.  The head is released back and rests on the crown of the head (there should be a minimal amount of weight on the head to avoid crunching the neck).  The scapulae are pressed firm towards each other.  The arms are extended overhead with steepled fingers while simultaneously the legs are lifted up with the toes engaged sending prana to the extremities.  The gaze is either up towards the sky or to the back of room, depending on your flexibility."
+      ],
+      "benefits":"A traditional text states that Matsyasana is the \"destroyer of all diseases\".  Stretches the deep hip flexors (psoas) and the muscles (intercostals) between the ribs.  Stretches and stimulates the muscles of the belly and front of the neck.  Stretches and stimulates the organs of the belly and throat.  Strengthens the muscles of the upper back and back of the neck.  Improves posture."
+   },
+   {
+      "file_reference":"flying_man_revolved.html",
+      "pose_name":"Revolved Flying Man Pose",
+      "sanskrit_name":"Parivṛtta Eka Pāda Kouṇḍinyāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "eka = one",
+         "pāda = foot or leg",
+         "kouṇḍinya = name of a sage",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "Starting from ",
+         "downward_dog.html",
+         " pose, bend both elbows to a 90-degree angle then cross one leg over the opposite elbow and extend the leg.  The other leg is extended back either balanced on the toes or suspended in flight with active toes.  The body is parallel to the earth.  The gaze is to the front."
+      ],
+      "benefits":"Strengthens arms, legs, core and wrists.  Improves balance."
+   },
+   {
+      "file_reference":"forward_bend.html",
+      "pose_name":"Standing Forward Bend Pose",
+      "sanskrit_name":"Uttānāsana",
+      "translation":[
+         "uttāna = stretch out",
+         "āsana = posture"
+      ],
+      "category":"Standing / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a standing position, the body is folded over at the crease of the hip with the spine long.  The neck is relaxed and the crown of the head is towards the earth.  The feet are rooted into the earth with the toes actively lifted.  The spine is straight.  The ribcage is lifted.  The chest and the thighs are connected.  The sacrum lifts up toward the sky in dog tilt.  The fingertips are resting on the earth next to the toes.  The gaze is down or slightly forward."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and hips.  Strengthens the thighs and knees.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and anxiety.  Relieves headache and insomnia."
+   },
+   {
+      "file_reference":"forward_bend_deep.html",
+      "pose_name":"Standing Forward Bend with Shoulder Opener Pose",
+      "sanskrit_name":"Uttānāsana",
+      "translation":[
+         "uttāna = stretch out",
+         "āsana = posture"
+      ],
+      "category":"Standing / Forward Bend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a standing position, the body is folded over at the crease of the hip with the spine long.  The neck is relaxed and the crown of the head is towards the earth.  The feet are rooted into the earth.  The toes are actively lifted.  The spine is straight.  The ribcage is lifted.  The chest and the thighs are connected.  The sacrum lifts up toward the sky in dog tilt.  The fingers are interlaced behind the body and the palms are together.  The arms and elbows are straight.  The shoulder blades rotate towards each other as the hands move forward (away from the lower back).  The gaze is down and inward."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and hips.  Strengthens the thighs and knees.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and anxiety.  Relieves headache and insomnia.  Relieves headache and insomnia.  Opens the shoulders."
+   },
+   {
+      "file_reference":"forward_bend_half_way.html",
+      "pose_name":"Halfway Lift Pose",
+      "sanskrit_name":"Ardha Uttānāsana",
+      "translation":[
+         "ardha = half",
+         "uttāna = stretch out",
+         "āsana = posture"
+      ],
+      "category":"Standing / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a standing position, the upper body is lifted up halfway with the feet rooted into the earth and the toes actively lifted.  The spine is straight.  The ribcage is lifted and connected to the thighs.  The neck is a natural extension of the spine.  The fingertips are next to the toes.  The gaze is down and slightly forward."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and hips.  Strengthens the thighs and knees.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and anxiety.  Relieves headache and insomnia."
+   },
+   {
+      "file_reference":"four_limbed_staff.html",
+      "pose_name":"Four Limbed Staff Pose",
+      "sanskrit_name":"Chaturaṅga Daṇḍāsana",
+      "translation":[
+         "chatur = four",
+         "aṅga = limb",
+         "daṇḍa = staff",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a prone position, the weight of the body is supported on the hands and the toes.  The body is approximately 5 inches above and parallel to the earth.  The abdomen is pulled up towards the spine.  The pelvis is tucked.  The palms are flat.  The elbows are close to the side body and bent in a 90-degree angle and inline with the wrists.  The toes are rooted into the earth as the heels push back.  The gaze is down."
+      ],
+      "benefits":"Strengthens the arms and wrists.  Tones the abdomens."
+   },
+   {
+      "file_reference":"frog.html",
+      "pose_name":"Frog Pose",
+      "sanskrit_name":"Bhekāsana",
+      "translation":[
+         "bheka = frog",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Neutral",
+      "difficulty":"Intermediate",
+      "description":[
+         "Begin from ",
+         "child_wide.html",
+         " pose.  Bring the hips and slide both hands forward at the same time, chest and forehead on the ground.  Hips can start high and then start to bring the hip in line with the knees.  Separate the feet as wide as the knees."
+      ],
+      "benefits":"Deep opener for the groin.  Mildly compresses the lower back and stimulates the spine."
+   },
+   {
+      "file_reference":"garland.html",
+      "pose_name":"Garland Pose",
+      "sanskrit_name":"Mālāsana",
+      "translation":[
+         "mālā = garland or necklace",
+         "āsana = posture"
+      ],
+      "category":"Seated / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "From a squatting position the feet are as close together as possible (keep your heels on the floor if you can; otherwise, support them on a folded mat).  The thighs are slightly wider than the torso.  The torso is leaning gently forward and tucked snugly between the thighs.  The elbows are pressed against the inner knees and the palms are together in Anjali Mudra (Salutation Seal).  The knees resist the elbows to help lengthen the front torso.  The gaze is soft and forward."
+      ],
+      "benefits":"Stretches the ankles, groins and back torso.  Tones the belly."
+   },
+   {
+      "file_reference":"gorilla.html",
+      "pose_name":"Gorilla Pose",
+      "sanskrit_name":"Pādahastāsana",
+      "translation":[
+         "pāda = foot or leg",
+         "hasta = hand",
+         "āsana = posture"
+      ],
+      "alt_name":"Hand to Foot / Hand Under Foot",
+      "category":"Standing / Forward Bend",
+      "difficulty":"Intermediate",
+      "description":[
+         "Begin from an upright standing position with the feet parallel (about six inches apart) and the front of the thighs contracted to lift the kneecaps.  The body is bent forward from the crease of the hip joints with the legs completely straight and the torso parallel to the earth.  The index and middle fingers of each hand are wrapped between the big toes and the second toes.  Fingers and thumbs are curled around and under the big toes to firmly secure the wrap.  The toes press down against the fingers.  To fold deeper into the pose the sitting bones are lifted up towards the sky, the torso is pressed towards the thighs and the crown of the head is lowered towards the earth.  Depending on flexibility, the lower back hollows to a greater or lesser degree.  At the same time, without compressing the back of the neck, the sternum is lifted.  The forehead stays relaxed.  For the full extension of the pose the elbows bend out to the sides as the toes are pulled up.  This lengthens the front and sides of the torso.  For very long hamstrings, draw the forehead toward the shins.  For hamstrings that are short, it is better to focus on keeping the front torso long.  The gaze is down or towards the body."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and anxiety.  Stimulates the liver and the kidneys.  Stretches the hamstrings and the calves.  Strengthens the thighs.  Improves digestion.  Helps relieve the symptoms of menopause.  Helps relieve headaches and insomnia."
+   },
+   {
+      "file_reference":"half_moon.html",
+      "pose_name":"Half Moon Pose",
+      "sanskrit_name":"Ardha Chandrāsana",
+      "translation":[
+         "ardha = half",
+         "chandra = moon",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a standing position one leg is straight while the other is extended back parallel to the earth (or a little above parallel) and one hand is on the earth (beyond the little-toe side of the foot, about 12 inches) while the other hand is extended up towards the sky.  The shoulder blades are squeezed together and the fingers move outward in opposing directions.  The weight of the body is supported mostly by the standing leg while the bottom hand has very little weight on it but is used intelligently to regulate balance.  The upper torso is rotated open to the sky.  Both hips are externally rotated.  Energy is extended actively through the flexed toes to keep the raised leg strong.  The inner ankle of the standing foot is lifted strongly upward, as if drawing energy from the earth.  The sacrum and scapulae are firmly pressed against the back torso and lengthen the coccyx toward the raised foot.  The gaze is either up or down, depending on the condition of the neck.  If injured the gaze is down."
+      ],
+      "benefits":"Strengthens the abdomen, ankles, thighs, buttocks and spine.  Stretches the groins, hamstrings, calves, shoulders, chest and spine.  Improves coordination and sense of balance.  Helps relieve stress.  Improves digestion."
+   },
+   {
+      "file_reference":"half_moon_bound.html",
+      "pose_name":"Bound Half Moon Pose",
+      "sanskrit_name":"Baddha Ardha Chandrāsana",
+      "translation":[
+         "baddha = bound",
+         "ardha = half",
+         "chandra = moon",
+         "āsana = posture"
+      ],
+      "alt_name":"Sugarcane",
+      "category":"Standing / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From a standing position one leg is straight while the other is extended back parallel to the earth (or a little above parallel) and one hand is on the earth (beyond the little-toe side of the foot, about 12 inches) while the other hand reaches back to grasp the outside of the foot or ankle of the raised leg.  The shoulder blades are squeezed together.  The weight of the body is supported mostly by the standing leg while the bottom hand has very little weight on it but is used perceptively to maintain balance.  The upper torso is rotated open to the sky.  Both hips are externally rotated.  Energy is extended actively through the flexed toes to keep the raised leg strong.  The inner ankle of the standing foot is lifted strongly upward, as if drawing energy from the earth.  The sacrum and scapulae are firmly pressed against the back torso and lengthen the coccyx toward the raised leg.  The gaze is either up or down, depending on the condition of the neck.  If the neck is injured, the gaze is down."
+      ],
+      "benefits":"Strengthens the abdomen, ankles, thighs, buttocks and spine.  Stretches the groins, hamstrings, calves, shoulders, chest and spine.  Improves coordination and sense of balance.  Helps relieve stress.  Improves digestion.  Increases circulation."
+   },
+   {
+      "file_reference":"half_moon_revolved.html",
+      "pose_name":"Revolved Half Moon Pose",
+      "sanskrit_name":"Parivṛtta Ardha Chandrāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "ardha = half",
+         "candra = moon",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "half_moon.html",
+         ", slowly bring the top hand down to replace the bottom hand.  On the next inhalation, bring the opposite hand to the sky, twist the pelvis to the opposite side and stack the shoulders on top of each other.  Gaze is towards the sky and if not possible, gaze is downwards."
+      ],
+      "benefits":"Strengthens the abdomen, ankles, thighs, buttocks and spine.  Stretches the groins, hamstrings, calves, shoulders, chest and spine.  Improves coordination and sense of balance."
+   },
+   {
+      "file_reference":"handstand.html",
+      "pose_name":"Handstand Pose",
+      "sanskrit_name":"Adho Mukha Vṛkṣāsana",
+      "translation":[
+         "adho = downward",
+         "mukha = facing",
+         "vṛkṣa = tree",
+         "āsana = posture"
+      ],
+      "alt_name":"Downward-Facing Tree",
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "In this inverted posture the weight of the body is on the hands - shoulder-width apart with fingers forward and parallel to each other (if the shoulders are tight, the index fingers are turned out slightly).  The shoulder blades are firm against the back torso and pulled up toward the tailbone.  The upper arms are rotated outward with the eye of the elbow to the front of the room to keep the shoulder blades broad while the outer arms hug inward in opposing forces for balance and stability.  The palms are spread and the bases of the index fingers are pressed firmly against the earth.  Balance is maintained by keeping the Bandhas engaged while pressing the earth away with straight arms and flexed feet.  The gaze is down and forward."
+      ],
+      "benefits":"Strengthens the shoulders, arms and wrists.  Stretches the belly.  Improves sense of balance.  Calms the brain and helps relieve stress and mild depression."
+   },
+   {
+      "file_reference":"handstand_scorpion.html",
+      "pose_name":"Scorpion Handstand Pose",
+      "sanskrit_name":"Vṛśchikāsana II",
+      "translation":[
+         "vṛśchika = scorpion",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "handstand.html",
+         " the ribs move back, the shoulders shift down and away from the ears, the pelvis tucks under for balance as the knees bend and the feet drop towards the head.  The heart center goes forward while the crown of the head lifts up.  The gaze is down or forward depending on balance and flexibility."
+      ],
+      "benefits":"The entire front of the body is stretched, especially the chest, neck, spine and abs.  Strengthens the arms, shoulders and back.  Stimulates the abdominal organs and lungs.  Increases blood flow to the brain and circulation in the limbs.  Can increase fertility through stimulation of the reproductive organs."
+   },
+   {
+      "file_reference":"headstand_supported.html",
+      "pose_name":"Supported Headstand Pose",
+      "sanskrit_name":"Sālamba Śīrṣāsana I",
+      "translation":[
+         "sā = with",
+         "alamba = support",
+         "śīrṣa = head",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "In this inverted posture, the weight of the body is evenly balanced on the forearms that are narrow.  The fingers are interlaced (pinky fingers spooning).  The crown of the head is resting softly on the earth (only to regulate balance) between the interlaced fingers hugging the head in order to stabilize and protect the neck.  The shoulder blades are pressed against the back to widen the back as the tailbone continues to lift upward toward the heels.  The gaze is straight."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the pituitary and pineal glands.  Strengthens the arms, legs, and spine.  Strengthens the lungs.  Tones the abdominal organs.  Improves digestion.  Helps relieve the symptoms of menopause.  Therapeutic for asthma, infertility, insomnia, and sinusi."
+   },
+   {
+      "file_reference":"headstand_tripod.html",
+      "pose_name":"Tripod Headstand Pose",
+      "sanskrit_name":"Sālamba Śīrṣāsana II",
+      "translation":[
+         "sā = with",
+         "alamba = support",
+         "śīrṣa = head",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "The body is inverted and perpendicular to the earth with the legs extended up.  The weight of the body is balanced between the crown of the head and the palms of the hands with the elbows bent in a 90- degree angle and the fingers forward.  The head and hands are spaced equally forming an equilateral triangle.  The neck is a natural extension of the spine.  The chin is tucked slightly in towards the sternum.  The toes are active and feet reach straight up toward the sky.  The gaze is straight."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the pituitary and pineal glands.  Strengthens the arms, legs, and spine.  Strengthens the lungs.  Tones the abdominal organs.  Improves digestion.  Helps relieve the symptoms of menopause.  Therapeutic for asthma, infertility, insomnia, and sinusitis."
+   },
+   {
+      "file_reference":"headstand_tripod_spiral_legs.html",
+      "pose_name":"Tripod Headstand - Spiral the Legs Pose",
+      "sanskrit_name":"Parivṛttaikapāda Śīrṣāsana II",
+      "translation":[
+         "parivṛtta = revolved",
+         "eka = one",
+         "pāda = foot or leg",
+         "śīrṣa = head",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "headstand_tripod.html",
+         ", the legs open and extend to the sides into Side Splits and then spiral, first in one direction and then the other.  The gaze is straight."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the pituitary and pineal glands.  Strengthens the arms, legs, and spine.  Strengthens the lungs.  Tones the abdominal organs.  Improves digestion.  Helps relieve the symptoms of menopause.  Therapeutic for asthma, infertility, insomnia and sinusitis."
+   },
+   {
+      "file_reference":"hero.html",
+      "pose_name":"Hero Pose",
+      "sanskrit_name":"Vīrāsana",
+      "translation":[
+         "vīra = hero",
+         "āsana = posture"
+      ],
+      "category":"Seated / Backbend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a kneeling position on the floor (with a folded blanket to pad your knees, shins, and feet if necessary) the weight of the body is centered between your feet in a seated position.  If the buttocks don\\'t comfortably rest on the floor, raise them on a block placed between the feet.  Make sure both sitting bones are evenly supported.  There is a thumb\\'s-width space between the inner heels and the outer hips.  The thighs are rotated inward and the heads of the thigh-bones are pressed into the earth with the bases of your palms.  The hands rest on the lap, thighs or soles of the feet.  The shoulder blades are firmed against the back ribs and the top of your sternum is lifted like a proud warrior.  The collarbones are widened as the shoulder blades release away from the ears.  The tailbone lengthens into the floor to anchor the back torso."
+      ],
+      "benefits":"Stretches the thighs, knees, and ankles.  Strengthens the arches.  Improves digestion and relieves gas.  Helps relieve the symptoms of menopause.  Reduces swelling of the legs during pregnancy (through second trimester).  Therapeutic for high blood pressure and asthma."
+   },
+   {
+      "file_reference":"hero_reclining.html",
+      "pose_name":"Supine Hero Pose",
+      "sanskrit_name":"Supta Vīrāsana",
+      "translation":[
+         "supta = supine",
+         "vīra = hero",
+         "āsana = posture"
+      ],
+      "category":"Supine / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a reclined supine position with the lower back pressed to the earth, the knees are bent and the feet are pulled into the side body with arm straight and palms up.  The heads of the thighbones sink deep into the back of the hip sockets.  The knees may lift a little away from the floor to help soften your groins; in fact, you can raise your knees a few inches on a thickly folded blanket.  You can also allow a little bit of space between your knees as long as your thighs remain parallel to each other.  Do not allow the knees to splay wider than your hips as this will cause strain on the hips and lower back.  The gaze is soft and up."
+      ],
+      "benefits":"Stretches the abdomen, thighs and deep hip flexors (psoas), knees, and ankles.  Strengthens the arches.  Relieves tired legs.  Improves digestion.  Helps relieves the symptoms of menstrual pain."
+   },
+   {
+      "file_reference":"hero_reclining_extended.html",
+      "pose_name":"Extended Supine Hero Pose",
+      "sanskrit_name":"Utthita Supta Vīrāsana",
+      "translation":[
+         "utthita = extended",
+         "supta = supine",
+         "vīra = hero",
+         "āsana = posture"
+      ],
+      "category":"Supine / Neutral",
+      "difficulty":"Intermediate",
+      "description":[
+         "Start from ",
+         "hero.html",
+         " pose and slowly transition to ",
+         "hero_reclining.html",
+         " pose.  Bring the hands back and straighten the arms with palms facing up.  Roll a blanket underneath the back if needed."
+      ],
+      "benefits":"Stretches the abdomen, shoulders, arms and thighs including hip flexors.  Strengthens the back muscles, ankles and knees.  Stimulates the abdominal organs, kidneys, lungs and rib cage."
+   },
+   {
+      "file_reference":"knee_pile_bind.html",
+      "pose_name":"Cow Face Pose",
+      "sanskrit_name":"Gomukhāsana",
+      "translation":[
+         "go = cow",
+         "mukha = face",
+         "āsana = posture"
+      ],
+      "category":"Seated / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "knee_pile.html",
+         ", one arm reaches up and back from above the shoulder while the opposite arm reaches down and back from under the shoulder and around the torso into a bind at the center of the upper back.  The gaze is forward."
+      ],
+      "benefits":"Stretches the ankles, hips and thighs.  Stretches the shoulders, armpits, triceps, and chest."
+   },
+   {
+      "file_reference":"locust.html",
+      "pose_name":"Locust Pose",
+      "sanskrit_name":"Śalabhāsana",
+      "translation":[
+         "śalabha = locust",
+         "āsana = posture"
+      ],
+      "category":"Prone / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a supine position lying on the belly (pad the floor below your pelvis and ribs with a folded blanket if needed) with the arms along the side body, palms facing up, lift the legs away from the floor until resting on the lower ribs, belly, and front pelvis with firm buttocks, energy extended thru strong legs and active toes.  The arms are raised parallel to the floor with active fingertips.  Imagine there is a weight pressing down on the backs of the upper arms, and push up toward the ceiling against this resistance.  Press the scapulae firm into the back.  The gaze is forward or slightly upward, being careful not to jut the chin forward and crunch the back of the neck.  Keep the base of the skull lifted and the back of the neck long."
+      ],
+      "benefits":"Strengthens muscles of spine, buttocks, and backs of the arms and legs.  Stretches the shoulders, chest, belly, and thighs.  Improves posture.  Stimulates abdominal organs.  Helps relieve stress."
+   },
+   {
+      "file_reference":"locust_half.html",
+      "pose_name":"Half Locust Pose",
+      "sanskrit_name":"Ardha Śalabhāsana",
+      "translation":[
+         "ardha = half",
+         "śalabha = locust",
+         "āsana = posture"
+      ],
+      "category":"Prone / Backbend",
+      "difficulty":"Beginner",
+      "description":[
+         "Begin in a prone position, lying on the stomach with the arms along the sides of torso, the palms are up, the forehead is resting on the earth.  Turn the big toes towards each other to rotate the thighs inward and to firm the buttocks so that the coccyx (tailbone) presses towards the pubis.  Then lift the head, upper torso, arms, and legs away from the earth while resting the weight of the body on the lower ribs, belly, and front pelvis.  Firm the buttocks and reach strongly through the legs, first through the heels to lengthen the back legs, then through the bases of the big toes.  Keep the big toes turned toward each other.  The arms are raised parallel to the floor.  The fingers actively stretch and extend forward as the shoulders pull away from the ears.  The scapulae are pressed back and down firmly into the back.  The gaze is forward or slightly upward.  Be careful not to extend the chin forward and crunch the back of the neck.  Keep the base of the skull lifted and the back of the neck long."
+      ],
+      "benefits":"Strengthens the muscles of the spine, the buttocks, and the backs of the arms and the legs.  Stretches the shoulders, the chest, the belly and the thighs.  Improves posture.  Stimulates abdominal organs.  Helps relieve stress."
+   },
+   {
+      "file_reference":"lord_of_the_dance.html",
+      "pose_name":"Lord of the Dance Pose",
+      "sanskrit_name":"Naṭarājāsana",
+      "translation":[
+         "naṭarājā = lord of the dance",
+         "āsana = posture"
+      ],
+      "alt_name":"Dancer\\'s",
+      "category":"Standing / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "Begin from a standing position with the weight of the body on one foot as the opposite heel lifts up towards the buttocks with a bent knee.  The hand on the same side of the body as the bent knee reaches back to grasp the outside of the foot or ankle.  With the added resistance of the hand gripping the foot, the bent leg and foot is then lifted up away from the earth and the torso towards the back of the room until the thigh is parallel to the earth.  Then the arm on the same side of body as the standing leg extends up and forward to the front.  The gaze is forward.  Avoid compression in the lower back by actively lifting the pubis towards the navel while at the same time, pressing the tailbone towards the floor."
+      ],
+      "benefits":"Stretches the shoulders, the chest, the thighs, the groins and abdomen.  Strengthens the legs and the ankles.  Improves balance."
+   },
+   {
+      "file_reference":"lord_of_the_dance_full.html",
+      "pose_name":"Full Lord of the Dance Pose",
+      "sanskrit_name":"Naṭarājāsana",
+      "translation":[
+         "naṭarājā = lord of the dance",
+         "āsana = posture"
+      ],
+      "alt_name":"Full Dancer\\'s",
+      "category":"Standing / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "mountain.html",
+         " flex one knee and draw the foot up toward the hip.  Then clasp the foot with the hand on the same side of the body by rotating the elbow in and up while extending the leg back and up from the hip.  Lift the opposite arm overhead, bend the elbow and grasp the foot.  Gaze is up.  Maintain bandhas throughout the pose for stabilization.  Remember to keep the standing leg straight and strong while remaining aware of the tendency to lock the standing leg knee.  Keep the pelvis level to create symmetrical foundation for the full extension of the spine.  Press the tailbone back and down, expand the chest, press the lower tips of the shoulder blades forward and up to facilitate opening of the heart center.  If stable and at ease, release the crown of the head toward the arch of the foot and draw the elbows together.  Breathe!"
+      ],
+      "benefits":"Stretches the shoulders, the chest, the thighs, the groins, and the abdomen.  Strengthens the legs and the ankles.  Improves balance."
+   },
+   {
+      "file_reference":"lotus_full.html",
+      "pose_name":"Lotus Pose",
+      "sanskrit_name":"Padmāsana",
+      "translation":[
+         "padma = lotus",
+         "āsana = posture"
+      ],
+      "category":"Seated / Neutral",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "lotus_half.html",
+         ", bring the bottom ankle and place it on top of the opposite knee, both ankles will be resting on top of the thighs."
+      ],
+      "benefits":"Opens the hips, groin and stretches the knees, ankles and thighs.  Strengthens the back and calms the mind, reduces stress and anxiety.  Improves circulation and blood flow in the pelvis."
+   },
+   {
+      "file_reference":"lotus_half.html",
+      "pose_name":"Half Lotus Pose",
+      "sanskrit_name":"Ardha Padmāsana",
+      "translation":[
+         "ardha = half",
+         "padma = lotus",
+         "āsana = posture"
+      ],
+      "category":"Seated / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "From a seated position, bend one knee and bring the ankle to the crease of the opposite hip so the sole of the foot faces the sky.  Bend the other knee, and cross the ankle beneath the opposite knee.  Place the hands on the thighs or knees and keep the spine straight."
+      ],
+      "benefits":"Opens the hips and stretches the knees and ankles.  Strengthens the back and calms the mind, reduces stress and anxiety.  Improves circulation and blood flow in the pelvis."
+   },
+   {
+      "file_reference":"lunge_bind.html",
+      "pose_name":"Bound Side Angle Pose",
+      "sanskrit_name":"Baddha Pārśvakoṇāsana",
+      "translation":[
+         "baddha = bound",
+         "pārśva = side",
+         "koṇa = angle",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "warrior_II_forward_arm_forward.html",
+         ", one arm is wrapped underneath the front thigh while the other hand wraps around the torso behind the back in a bind.  The ribcage is lifted and the pelvis tucked.  The heart is open.  The gaze is towards the sky."
+      ],
+      "benefits":"Creates flexible strength.  Promotes stability in the front and back of the torso.  Tones the lower body.  Opens the shoulders."
+   },
+   {
+      "file_reference":"lunge_hands_on_mat_flying.html",
+      "pose_name":"Flying Man Pose",
+      "sanskrit_name":"Eka Pāda Kouṇḍinyāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "kouṇḍinya = name of a sage",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From a lunge position, the palms are rooted into the earth on the inside of the thigh.  Both elbows are bent in a 90-degree angle with one leg forward, extended and resting softly on the elbow.  The other leg is extended back either balanced on the toes or suspended in flight with active toes.  The Body is parallel to the earth.  The gaze is to the front."
+      ],
+      "benefits":"Strengthens arms, legs, core and wrists.  Improves balance."
+   },
+   {
+      "file_reference":"lunge_kneeling_twist.html",
+      "pose_name":"Revolved Crescent Lunge on the Knee Pose",
+      "sanskrit_name":"Parivṛtta Aṅjaneyāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "aṅjaneya = praise",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "lunge_kneeling_prayer.html",
+         ", slowly twist the spine to one side, hooking the elbow outside of the knee.  Stack the shoulders on top of each other, keep the heart open and gaze up towards the sky."
+      ],
+      "benefits":"Lengthens and stretches the spine.  Creates flexibility in the rib cage.  Stimulates the internal abdominal organs and kidneys."
+   },
+   {
+      "file_reference":"lunge_kneeling_twist_extended.html",
+      "pose_name":"Revolved Crescent Lunge on the Knee with Extended Arms Pose",
+      "sanskrit_name":"Utthita Parivṛtta Aṅjaneyāsana",
+      "translation":[
+         "utthita = extended",
+         "parivṛtta = revolved",
+         "aṅjaneya = praise",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "lunge_kneeling_twist.html",
+         ", slowly release the hands.  Bottom hand can touch the floor or float, if needed, use a block to support.  Top hand reaches up towards the sky.  Keep both hands straight and heart remains open.  Gaze is upwards towards the top hand."
+      ],
+      "benefits":"In addition to the benefits from "
+   },
+   {
+      "file_reference":"lunge_kneeling_twist_extended_bound.html",
+      "pose_name":"Bound Revolved Crescent Lunge on the Knee Pose",
+      "sanskrit_name":"Parivṛtta Baddha Aṅjaneyāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "baddha = bound",
+         "aṅjaneya = praise",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "lunge_kneeling_twist_extended.html",
+         ", lower the top hand around the back with palm facing out.  Bottom hand wraps underneath the thigh.  Bend the elbow and extend the hand to reach the other hand.  Bind the hands together.  If the hands cannot reach, use a strap.  Heart is open.  The gaze is over the top shoulder."
+      ],
+      "benefits":"Deeply stretches the spine, chest, lungs, shoulders and groin.  Stimulates the internal abdominal organs and kidneys."
+   },
+   {
+      "file_reference":"lunge_twist.html",
+      "pose_name":"Revolved Crescent Lunge Pose",
+      "sanskrit_name":"Parivṛtta Aṅjaneyāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "aṅjaneya = praise",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "lunge_prayer.html",
+         ", slowly twist the spine to one side, hooking the elbow outside of the knee.  Stack the shoulders on top of each other, keep the heart open and gaze up towards the sky.  On the inhale, elongate the spine and on the exhale take the twist slightly deeper."
+      ],
+      "benefits":"Lengthens and stretches the spine.  Creates flexibility in the rib cage.  Stimulates the internal abdominal organs and kidneys."
+   },
+   {
+      "file_reference":"lunge_twist_extended.html",
+      "pose_name":"Revolved Crescent Lunge with Extended Arms Pose",
+      "sanskrit_name":"Utthita Parivṛtta Aṅjaneyāsana",
+      "translation":[
+         "utthita = extended",
+         "parivṛtta = revolved",
+         "aṅjaneya = praise",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "lunge_twist.html",
+         ", slowly release the hands and extend both arms.  Bottom hand can touch the floor or float.  A block may be used for support when needed.  Top hand reaches up towards the sky.  Keep both hands straight and the heart remains open.  Gaze is upward towards the top hand."
+      ],
+      "benefits":"Lengthens and stretches the spine.  Creates flexibility in the rib cage.  Stimulates the internal abdominal organs and kidneys.  Opens the shoulders and strengthens the back muscles."
+   },
+   {
+      "file_reference":"lunge_twist_extended_bound.html",
+      "pose_name":"Bound Revolved Crescent Lunge Pose",
+      "sanskrit_name":"Parivṛtta Baddha Aṅjaneyāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "baddha = bound",
+         "aṅjaneya = praise",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "lunge_twist_extended.html",
+         ", lower the top hand around the back with palm facing out.  Bottom hand wraps underneath the thigh.  Bend the elbow and extend the hand to reach the other hand.  Bind the hands together.  If the hands cannot reach, use a strap.  Heart is open.  The gaze is over the top shoulder."
+      ],
+      "benefits":"Deeply stretches the spine, chest, lungs, shoulders and groin.  Stimulates the internal abdominal organs and kidneys."
+   },
+   {
+      "file_reference":"marichi_I.html",
+      "pose_name":"Marichi\\'s I Pose",
+      "sanskrit_name":"Marīchyāsana I",
+      "translation":[
+         "marīchi = name of a sage",
+         "āsana = posture"
+      ],
+      "category":"Seated / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a seated position, one leg is extended to the front as the opposite leg bends with the heel next to the sits bone.  The torso is rotated towards the bent knee with one arm wrapped around the outside of that thigh.  The opposite arm reaches around and behind the body and the palm is rooted into the earth .  The ribcage is lifted and the heart is open.  The gaze follows the movement of the twist."
+      ],
+      "benefits":"Stimulates the liver and kidneys.  Stretches the shoulders, hips, and neck.  Energizes the spine.  Stimulates the digestive fire in the belly.  Relieves menstrual discomfort, fatigue, sciatica, and backache.  Therapeutic for asthma and infertility."
+   },
+   {
+      "file_reference":"marichi_III.html",
+      "pose_name":"Marichi\\'s III Pose",
+      "sanskrit_name":"Marīchyāsana III",
+      "translation":[
+         "marīchi = name of a sage",
+         "āsana = posture"
+      ],
+      "category":"Seated / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a seated position, one leg is extended to the front.  The opposite knee is bent and perpendicular to the earth at a 90-degree angle with the heel close to the groin.  The inside arm is extended towards the front with the palm turned outward in the opposite direction to facilitate the hinge of the elbow which is then wrapped around the bent knee from inside of the thigh.  The other arm is wrapped around the opposite side of the body.  Retaining a long lifted spine, the upper torso twists towards the back.  The hands meet and bind at the lower back.  The fingers are interlaced.  The ribcage is lifted and the heart is open.  The gaze follows the spine as it twists open."
+      ],
+      "benefits":"Massages abdominal organs, including the liver and kidneys.  Stretches the shoulders.  Stimulates the brain.  Relieves mild backache and hip pain.  Strengthens and stretches the spine."
+   },
+   {
+      "file_reference":"mountain.html",
+      "pose_name":"Mountain Pose",
+      "sanskrit_name":"Tāḍāsana",
+      "translation":[
+         "tāḍa = mountain",
+         "āsana = posture"
+      ],
+      "category":"Standing / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "The body is in the standing position, with the feet together and rooted into the earth.  The toes are actively lifted.  The weight of the body is evenly distributed on the four corners of the feet.  The pelvis is tucked.  The ribcage is lifted.  The neck is a natural extension of the spine and the chin is slightly tucked towards the sternum.  The shoulders are relaxed as they rotate back and down.  The hands come together at the heart in prayer position.  The gaze is forward."
+      ],
+      "benefits":"Improves posture.  Strengthens thighs, knees, and ankles.  Firms abdomen and buttocks.  Relieves sciatica.  Reduces flat feet."
+   },
+   {
+      "file_reference":"mountain_arms_up.html",
+      "pose_name":"Mountain with Arms Up Pose",
+      "sanskrit_name":"Tāḍāsana",
+      "translation":[
+         "tāḍa = mountain",
+         "āsana = posture"
+      ],
+      "category":"Standing / Backbend",
+      "difficulty":"Beginner",
+      "description":[
+         "From ",
+         "mountain.html",
+         ", the arms are lifted up toward the sky with the elbows straight and the biceps by the ears.  The palms are open and face each other with the fingers spread wide.  The pelvis is tucked.  The ribcage is lifted.  The gaze is toward the sky."
+      ],
+      "benefits":"Improves posture.  Strengthens thighs, knees, and ankles.  Firms abdomen and buttocks.  Relieves sciatica.  Reduces flat feet."
+   },
+   {
+      "file_reference":"pigeon.html",
+      "pose_name":"Pigeon Pose",
+      "sanskrit_name":"Kapotāsana",
+      "translation":[
+         "kapota = pigeon",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Expert",
+      "description":[
+         "The body is in an arched supine position with the hips and the ribcage lifted, the knees and the elbows are bent, the forearms and the shins are supporting the weight of the body and the crown of the head is softly resting on the earth.  The palms are either resting on the feet or are hooked around the heels (depending on flexibility).  The weight of the body is distributed equally between the forearms and the shins as the pelvis presses up and the ribcage lifts.  The tailbone lengthens towards the knees and the sternum lifts up in the opposite direction creating a gentle arch in the back of the body.  The gaze is out in front or down to the earth, depending on flexibility."
+      ],
+      "benefits":"Stretches the entire front of the body, the ankles, thighs and groins, abdomen and chest, and throat.  Stretches the deep hip flexors (psoas).  Strengthens the back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck."
+   },
+   {
+      "file_reference":"pigeon_flying.html",
+      "pose_name":"Flying Pigeon Pose",
+      "sanskrit_name":"Eka Pāda Gālavāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "gālava = name of a sage",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Neutral",
+      "difficulty":"Expert",
+      "description":[
+         "Begin in ",
+         "tree.html",
+         " pose, standing on one leg.  Release the foot from the inner thigh and place the ankle above the opposite knee.  Bend the standing knee and fold forward, bringing the palms to the floor.  Bend the elbows to about 90 degrees and hook the toes of the foot on the opposite upper arm.  Bring the weight of the body forward as the standing foot comes off.  Start to straighten the leg behind."
+      ],
+      "benefits":"Strengthens the abdominal muscles and arms.  Stretches the hamstrings."
+   },
+   {
+      "file_reference":"pigeon_full.html",
+      "pose_name":"One Legged King Pigeon - Mermaid Pose",
+      "sanskrit_name":"Eka Pāda Rājakapotāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "rāja = king",
+         "kapota = pigeon",
+         "āsana = posture"
+      ],
+      "alt_name":"Mermaid",
+      "category":"Seated / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a seated position with the hips squared, one leg is extended forward with the knee bent and parallel to the earth.  The front heel is rooted close to the groin (or extended out in a 90 degree angle if flexibility allows).  The other leg is extended back with the knee bent and perpendicular to the earth.  The back foot is hooked on the inside of the elbow of the back arm.  The front elbow is bent upward perpendicular to the earth with the bicep by the ear.  The fingers are interlaced to connect the bind behind the body and assist in opening the chest.  The gaze is natural and forward."
+      ],
+      "benefits":"Stretches the thighs, groins (psoas), abdomen, chest, shoulders and neck.  Stimulates the abdominal organs.  Opens the shoulders and chest."
+   },
+   {
+      "file_reference":"pigeon_king.html",
+      "pose_name":"One Legged King Pigeon Pose",
+      "sanskrit_name":"Eka Pāda Rājakapotāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "rāja = king",
+         "kapota = pigeon",
+         "āsana = posture"
+      ],
+      "category":"Seated / Backbend",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "pigeon_half.html",
+         ", bend the back knee and bring the heel towards the back.  Bring the hands over the shoulders towards the back to catch the foot or toes.  Arch the back and drop the head slightly.  Use a strap if the hands cannot reach the foot.  Stabilize the body and keep the weight in the center line for balance."
+      ],
+      "benefits":"Stretches the thighs, groins, shoulders, hip flexors, spine and opens the hips and chest."
+   },
+   {
+      "file_reference":"plank.html",
+      "pose_name":"Plank Pose",
+      "sanskrit_name":"Phalakāsana",
+      "translation":[
+         "phalaka = plank",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "The body is parallel to the earth.  The weight of the body is supported by straight arms and active toes.  The abdomen is pulled up towards the spine and the pelvis is tucked in.  The neck is a natural extension of the spine and the chin is slightly tucked.  The palms are flat and the elbows are close to the side body.  The joints are stacked with the wrists, elbows and shoulders in a straight line perpendicular to the earth.  The gaze follows the spine and the eyes are focused down."
+      ],
+      "benefits":"Strengthens the arms, wrists, and spine.  Tones the abdomen."
+   },
+   {
+      "file_reference":"plank_leg_up.html",
+      "pose_name":"One Legged Plank Pose",
+      "sanskrit_name":"Eka Pāda Phalakāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "phalaka = plank",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "The body is parallel to the earth.  Straight arms and the active toes of one leg support the weight of the body.  The other leg is extended off the earth and reaches to the back with active toes.  The abdomen is pulled up towards the spine and the pelvis is tucked.  The neck is a natural extension of the spine and the chin is slightly tucked.  The palms are flat and the elbows are close to the side body.  The joints are stacked with the wrists, elbows and shoulders in a straight line.  The gaze is down following the straight line of the spine."
+      ],
+      "benefits":"Strengthens the arms, wrists and spine.  Tones the abdomen."
+   },
+   {
+      "file_reference":"plank_side.html",
+      "pose_name":"Side Plank Pose",
+      "sanskrit_name":"Vasiṣṭhāsana",
+      "translation":[
+         "vasiṣṭha = name of a sage",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From an arm balance position the weight of the body is supported on one side and distributed equally between the bottom arm and foot while the other (top) arm lifts with fingers spread wide and the other (top) foot stacks on top.  The grounded (bottom) foot is flat and gripping the earth from the outside edge of the foot.  If flexibility of the foot is limited then instead of gripping the earth with a flat foot, the weight of the body is balanced on the side edge of the foot that is flexed instead of flat.  The arm supporting the weight of the body and the grounded foot actively press into the floor as the shoulder blades firm against the back and then widen away from the spine drawing toward the tailbone.  Bandhas are engaged to maintain balance and stability.  The crown of the head reaches away from the neck and the gaze is up towards the hand."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stretches the shoulders, hamstrings, calves, and arches.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica."
+   },
+   {
+      "file_reference":"plank_side_extended.html",
+      "pose_name":"Extended Side Plank Pose",
+      "sanskrit_name":"Utthita Vasiṣṭhāsana",
+      "translation":[
+         "utthita = extended",
+         "vasiṣṭha = name of a sage",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From an arm balance position the weight of the body is supported on one side and distributed equally between the bottom arm and foot while the other (top) arm lifts with fingers spread wide and the other (top) foot stacks on top.  The top foot is raised up toward the sky and the top hand reaches over to grasp the toes.  The grounded (bottom) foot is flat and gripping the earth from the outside edge of the foot.  If flexibility of the foot is limited then instead of gripping the earth with a flat foot, the weight of the body is balanced on the side edge of the foot that is flexed instead of flat.  The arm supporting the weight of the body and the grounded foot actively press into the floor as the shoulder blades firm against the back and then widen away from the spine drawing toward the tailbone.  Bandhas are engaged to maintain balance and stability.  The crown of the head reaches away from the neck and the gaze is up towards the hand."
+      ],
+      "benefits":"Strengthens the arms, belly and legs.  Stretches and strengthens the wrists.  Stretches the backs of the legs.  Improves sense of balance and focus."
+   },
+   {
+      "file_reference":"plank_upward.html",
+      "pose_name":"Upward Plank Pose",
+      "sanskrit_name":"Pūrvottānāsana",
+      "translation":[
+         "pūrva = front",
+         "uttānā = stretch",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "staff.html",
+         " place the hands on the floor about one foot behind the hips with the fingertips pointed forward towards the hips.  On an inhale press through the hands and feet to lift the hips as high as possible.  Keep the inner line of the feet together and seal them into the mat as much as possible.  Relax the head back and gaze at the tip of your nose."
+      ],
+      "benefits":"Strengthens the arms, the wrists, and the legs.  Stretches the shoulders, the chest, and the front ankles."
+   },
+   {
+      "file_reference":"plow.html",
+      "pose_name":"Plow Pose",
+      "sanskrit_name":"Halāsana",
+      "translation":[
+         "hala = plow",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Forward Bend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a supine position, the upper back rests on the earth with the hips and legs revolved back over the torso above and beyond the head towards the earth.  The torso is perpendicular to the earth.  The legs are fully extended with no bend at the knees as the toes reach for the earth.  The hands are either supporting the lower back or extended behind the back on the earth with extended elbows and fingers interlaced (as flexibility allows), opening the shoulders.  The neck is straight.  The chin tucked.  Do not look to the side as this may injure the neck.  The is gaze inward."
+      ],
+      "benefits":"Calms the brain.  Stimulates the abdominal organs and the thyroid glands.  Stretches the shoulders and spine.  Helps relieve the symptoms of menopause.  Reduces stress and fatigue.  Therapeutic for backache, headache, infertility, insomnia,  and sinusitis."
+   },
+   {
+      "file_reference":"puppy_extended.html",
+      "pose_name":"Extended Puppy Pose",
+      "sanskrit_name":"Uttāna Shishosana",
+      "translation":[
+         "uttāna = stretch out",
+         "shisho = puppy",
+         "āsana = posture"
+      ],
+      "alt_name":"Melting Heart",
+      "category":"Prone / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "The body is prone to the earth and the forehead, chest and/or chin rest on the earth with the arms extended out in front pressing downward for a deeper stretch.  The hips are at a 90 degree angle to the knees and pulling back towards the heels.  The shins and the top of the feet are extended and firm on the earth.  (A blanket can be used under the chin to relax the neck if needed).  There is a slight curve in the lower back and the gaze is forward."
+      ],
+      "benefits":"Stretches the spine and shoulders."
+   },
+   {
+      "file_reference":"pyramid.html",
+      "pose_name":"Pyramid Pose",
+      "sanskrit_name":"Pārśvottānāsana",
+      "translation":[
+         "pārśva = side",
+         "uttāna = stretch out",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Forward Bend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a standing position with one leg forward and one back lean the torso forward at the crease of the hip joint.  Stop when the torso is parallel to the floor.  Press the fingertips or flat palms to the floor on either side of the front foot, maintaining a straight elongated spine.  If it isn’t possible to touch the floor, or to maintain a straight spine, support the hands on a pair of blocks.  Press the thighs back and lengthen the torso forward, lifting up through the top of the sternum.  Then, as flexibility allows, bring the front torso closer to the top of the thigh without rounding the spine.  Eventually the long front torso will rest down on the thigh.  The gaze is down."
+      ],
+      "benefits":"Calms the brain.  Stretches the spine, the shoulders, the hips and the hamstrings.  Strengthens the legs.  Stimulates the abdominal organs.  Improves posture and sense of balance.  Improves digestion."
+   },
+   {
+      "file_reference":"rabbit.html",
+      "pose_name":"Rabbit Pose",
+      "sanskrit_name":"Sasangāsana",
+      "translation":[
+         "sasanga = rabbit",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From ",
+         "child_traditional.html",
+         " pose, rest the torso onto the thighs and the forehead onto the earth.  Walk the knees up to meet the forehead, shifting some weight to the crown of the head.  Find the maximum comfortable neck stretch and then reach back and grip the base of the feet (use a strap if necessary).  To increase the stretch and come into the full expression of the pose, gradually lift or elevate your hips.  Be sure to keep your forehead as close as possible to your knees and the topmost part of your skull (crown of the head) on the earth.  Contract your abdominal muscles and gaze at your ankles."
+      ],
+      "benefits":"Maintains the mobility and elasticity of spine.  Nurtures the nervous system and helps with depression.  Improves digestion.  Helps cure sinus problems, colds and chronic tonsillitis.  Strengthens and firms the abdomen.  Stretches the back muscles.  Removes the tension from the upper back and the neck.  Improves posture.  Stimulates the thymus gland, improving the function of the immune system."
+   },
+   {
+      "file_reference":"scale.html",
+      "pose_name":"Scale Pose",
+      "sanskrit_name":"Tolāsana",
+      "translation":[
+         "tola = scale",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "The palms press into the earth, supporting the weight of the body with the elbows straight.  The legs are wrapped around the elbows, extended forward and hooked at the ankles with the feet lifted into the full expression of the pose.  The ribcage is lifted.  The gaze is forward."
+      ],
+      "benefits":"Strengthens arms and wrists.  Improves focus and concentration.  Opens flexibility of lower body."
+   },
+   {
+      "file_reference":"scorpion.html",
+      "pose_name":"Scorpion Pose",
+      "sanskrit_name":"Vṛśchikāsana I",
+      "translation":[
+         "vṛśchika = scorpion",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "feathered_peacock.html",
+         " the knees are bent and the feet are lowered towards the head as the crown of the head lifts and the upper thoracic reaches through to the front.  To maintain balance the ribs move back and shoulders lower back and away from the ears as the forearms and palms push into the earth.  The knees may separate, but keep the toes together.  The gaze is forward or up depending on your flexibility."
+      ],
+      "benefits":"Strengthens the shoulders, arms, abdominals and back.  Stretches the spine, hips and neck.  Improves balance and focus."
+   },
+   {
+      "file_reference":"seated_forward_bend.html",
+      "pose_name":"Seated Forward Bend Pose",
+      "sanskrit_name":"Paśchimottānāsana",
+      "translation":[
+         "paśchima = back",
+         "uttāna = stretch out",
+         "āsana = posture"
+      ],
+      "category":"Seated / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a seated position with the sits bones rooted into the earth the legs extend forward to the degree that the chest and thighs can stay connected.  The fingers wrap around the toes.  The upper torso folds forward at the crease of the hips with the spine long.  The gaze is forward."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stretches the spine, shoulders and hamstrings.  Stimulates the liver, kidneys, ovaries and uterus.  Improves digestion.  Helps relieve the symptoms of menopause and menstrual discomfort.  Soothes headache and anxiety.  Reduces fatigue.  Therapeutic for high blood pressure, infertility, insomnia and sinusitis.  Traditional texts say that Paschimottanasana increases appetite, reduces obesity and cures diseases."
+   },
+   {
+      "file_reference":"seated_on_heels_twist_bound.html",
+      "pose_name":"Bound Revolved Squatting Toe Balance Pose",
+      "sanskrit_name":"Pāśasana",
+      "translation":[
+         "pāśa = noose",
+         "asana = posture"
+      ],
+      "category":"Seated / Twist",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "seated_on_heels_prayer_twist.html",
+         ", bring the top arm up and around the back to meet the bottom arm that will reach under and wrap around its respective knee to be met at the wrist by the top hand.  On the inhale, elongate the spine and on the exhale take the twist slightly deeper.  Keep the heart open and the gaze should be slightly over the top shoulder. "
+      ],
+      "benefits":"Strengthens arms, wrists and ankles.  Stretches the upper back.  Strengthens the abdominal muscles."
+   },
+   {
+      "file_reference":"shoulderstand_supported.html",
+      "pose_name":"Supported Shoulder Stand Pose",
+      "sanskrit_name":"Sālamba Sarvāṅgāsana",
+      "translation":[
+         "sa = with",
+         "ālamba = support",
+         "sarvāṅga = all limb",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a supine position, the upper back is resting on the earth with the hips straight up towards the sky.  The torso is perpendicular to the earth.  The legs are fully extended and the toes are active.  The hands are either supporting the lower back or extended up by the side body in matchstick.  The neck is flat on the earth and the chin is tucked in.  The gaze is inward."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the thyroid and prostate glands and abdominal organs.  Stretches the shoulders and neck.  Tones the legs and buttocks.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and alleviates insomnia.  Therapeutic for asthma, infertility, and sinusitis."
+   },
+   {
+      "file_reference":"shoulderstand_unsupported.html",
+      "pose_name":"Unsupported Shoulder Stand Pose",
+      "sanskrit_name":"Nirālamba Sarvāṅgāsana",
+      "translation":[
+         "nir = without",
+         "ālamba = support",
+         "sarvāṅga = all limb",
+         "āsana = posture"
+      ],
+      "category":"Arm Balance and Inversion / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "shoulderstand_supported.html",
+         " the arms lift straight up along the side body towards the sky with the fingers spread wide.  The gaze is up."
+      ],
+      "benefits":"Calms the brain and helps relieve stress and mild depression.  Stimulates the thyroid and prostate glands and abdominal organs.  Stretches the shoulders and neck.  Tones the legs and buttocks.  Improves digestion.  Helps relieve the symptoms of menopause.  Reduces fatigue and alleviates insomnia.  Therapeutic for asthma."
+   },
+   {
+      "file_reference":"sphinx.html",
+      "pose_name":"Sphinx Pose",
+      "sanskrit_name":"Sālamba Bhujaṅgāsana",
+      "translation":[
+         "sālamba = supported",
+         "bhujaṅga = serpent",
+         "āsana = posture"
+      ],
+      "category":"Prone / Backbend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a prone position with the pelvic bowl is firmly contracted interiorly towards the center line of the body while the pubis is tucked under.  The legs are extended back and the tops of the feet are flat.  The palms are flat and the elbows are on the mat, stacked right below the shoulders.  On an inhalation, lift the sternum and extend the neck away from shoulders with the elbows, palms and pelvic bone firmly attached to the mat."
+      ],
+      "benefits":"Strengthens the spine.  Stretches the chest, the lungs, the shoulders and the abdomen.  Stimulates the abdominal organs.  Opens the heart and the lungs."
+   },
+   {
+      "file_reference":"splits_front.html",
+      "pose_name":"Front Splits Pose",
+      "sanskrit_name":"Hanumānāsana",
+      "translation":[
+         "hanumān = monkey deity",
+         "āsana = posture"
+      ],
+      "alt_name":"Monkey",
+      "category":"Seated / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "The hips are parallel and squared to the earth with one leg extended forward.  The opposite leg extended back with the knee and foot squared to the earth.  The inner thighs scissor towards each other.  The hands are by the side body or at the heart center in Anjali Mudra (Salutation Seal) or stretched straight up toward the sky.  The ribcage is lifted.  The heart is open.  The gaze is forward."
+      ],
+      "benefits":"Stretches the thighs, hamstrings, and groin.  Stimulates the abdominal organs."
+   },
+   {
+      "file_reference":"splits_standing.html",
+      "pose_name":"Standing Splits Pose",
+      "sanskrit_name":"Ūrdhva Prasārita Eka Pādāsana",
+      "translation":[
+         "ūrdhva = upward",
+         "prasārita = spread",
+         "eka = one",
+         "pāda = foot or leg",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a standing posture the weight of the body is balanced on one foot, the front torso is resting on the thigh and the other leg is extended up.  The proper balance of external and internal rotation in each leg is important, especially for the standing leg.  Specifically, pay attention to the angle of the knee.  Keep the kneecap facing straight ahead.  Feel how the downward energy of the standing leg creates an upward movement in the raised leg.  Don\\'t focus on how high the raised leg goes; instead, work toward directing equal energy into both legs.  Hold the raised leg more or less parallel to the floor, or raise it slightly higher; ideally the torso should descend as the lifted leg ascends.  The gaze is out in front of you."
+      ],
+      "benefits":"Calms the brain.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and thighs.  Strengthens the thighs, knees, and ankles.  Stretches the back of the leg, the front thigh and groin."
+   },
+   {
+      "file_reference":"splits_wide.html",
+      "pose_name":"Side Splits Pose",
+      "sanskrit_name":"Upaviṣṭha Koṇāsana",
+      "translation":[
+         "upaviṣṭha = seated",
+         "koṇa = angle",
+         "āsana = posture"
+      ],
+      "alt_name":"Straddle Splits / Middle Splits",
+      "category":"Seated / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From a wide stance the legs are open and extended sideways to your degree of flexibility.  The outer edges of the feet are rotated and gripping toward the earth.  The weight of the body is supported by the arms.  The palms are rooted into the earth with the fingers pointing towards the body.  There should be no excess weight on the knee or ankle joints as you lower down to your degree of flexibility.  The gaze is down and slightly forward."
+      ],
+      "benefits":"Stretches the insides and backs of the legs.  Stimulates the abdominal organs.  Strengthens the spine.  Calms the brain.  Releases groin."
+   },
+   {
+      "file_reference":"staff.html",
+      "pose_name":"Staff Pose",
+      "sanskrit_name":"Daṇḍāsana",
+      "translation":[
+         "daṇḍa = staff",
+         "āsana = posture"
+      ],
+      "category":"Seated / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "From a seated position both legs are extended to the front.  The torso does not lean backward.  The weight of the body is positioned towards the front of the sitting bones and the pubis and tailbone are equidistant from the earth.  Both thighs are pressed down against the floor and are rotated slightly towards each other.  The inner groins are drawn up toward the sacrum.  Feet are flexed and the toes are separated.  The heels may come up off the earth.  The ankles are pressed out through the heels.  The shoulders are stacked in line with the hips.  The arms are resting by the side body.  The front torso is lengthened perpendicular to the earth, extending up through the crown of the head towards the sky while the sits bones are rooted down."
+      ],
+      "benefits":"Strengthens the back muscles.  Stretches the shoulders and chest.  Improves posture."
+   },
+   {
+      "file_reference":"staff_inverted.html",
+      "pose_name":"Inverted Staff Pose",
+      "sanskrit_name":"Dvi Pāda Viparīta Daṇḍāsana",
+      "translation":[
+         "dvi = two",
+         "pāda = foot of leg",
+         "viparīta = inverted",
+         "danda = staff",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Expert",
+      "description":[
+         "Start with the preparatory steps of ",
+         "wheel.html",
+         ".  Then with the crown of the head on the floor draw the elbows to the floor shoulder-distance apart and interlace the fingers around the head as in ",
+         "headstand_supported.html",
+         ".  Press firmly into the forearms and lift the head off the floor, extend the legs straight, draw the feet together and energize down through the legs and feet."
+      ],
+      "benefits":"Stretches the entire front body and opens the chest.  Tones the internal organs.  Revitalizes the central nervous system."
+   },
+   {
+      "file_reference":"standing_hand_to_toe.html",
+      "pose_name":"Standing Hand to Toe Pose",
+      "sanskrit_name":"Hasta Pādāṅguṣṭhāsana",
+      "translation":[
+         "hasta = hand",
+         "pādāṅguṣṭha = big toe",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "mountain.html",
+         " pose, lift one foot, bend forward and catch the toes with the fingers.  Place the other hand on the hip to square the hip towards the front.  Slowly straighten the knee and lift the torso straight up.  Use a strap if necessary.  Gaze towards the front."
+      ],
+      "benefits":"Stretches the hamstrings and strengthens the legs.  Improves balance."
+   },
+   {
+      "file_reference":"standing_hand_to_toe_extended.html",
+      "pose_name":"Extended Standing Hand to Toe Pose",
+      "sanskrit_name":"Utthita Hasta Pādāṅguṣṭhāsana",
+      "translation":[
+         "utthita = extended",
+         "hasta = hand",
+         "pādāṅguṣṭha = big toe",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "mountain.html",
+         " pose, lift one foot.  Bend forward and catch the toes with the fingers.  Place the other hand on the hip to square the hip towards the front.  Slowly straighten the knee and the torso and open the leg to one side.  Use a strap if necessary.  Gaze towards the front or opposite of the extended leg for balance."
+      ],
+      "benefits":"Opens the hips and groins.  Stretches the hamstrings, IT bands and legs.  Improves balance."
+   },
+   {
+      "file_reference":"standing_head_to_knee.html",
+      "pose_name":"Standing Head to Knee Pose",
+      "sanskrit_name":"Daṇḍayamana Jānushīrāsana",
+      "translation":[
+         "daṇḍayamana = standing",
+         "jānu = knee",
+         "sīrsa = head",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From a standing position with the feet together, the weight of the body is shifted to balance on one leg.  The opposite foot is then clasped with both hands and lifted up by pulling the knee in towards the chest.  Fingers are interlaced under the sole of the foot, specifically at the arch.  Avoid placing the thumbs on the tops of the feet.  The standing leg is straight, but the knee joint is not locked.  The standing foot is rooted firmly into the earth while the weight is shifted slightly forward, closer to the ball of the foot, not the heel.  The bent knee then extends straight until it is parallel with the earth.  Maintain balance in the pose with good pranayama (breath work) and bandhas.  Keep a leveled pelvis.  It is helpful to think about extending the foot up rather than out.  Continue to lengthen the spine from the neck down to the tailbone.  Allow the shoulders to fall into their natural position away from the ears and extend the arms, maintaining the grip on the foot and straightening the leg.  Engage the muscles of the thigh for more stability.  To achieve the full extension of the pose, round the spine and drop the elbows while lowering the head to your knee.  Avoid dropping the abdominals onto your thigh.  Pull the navel up and into the spine while folding forward.  Lower the head to the knee and tuck the chin into the chest into Jalandhara bandha.  This will extend the stretch of the spine up through the neck.  The gaze is towards the knee or out in front."
+      ],
+      "benefits":"Improves balance.  Enhances agility.  Helps digestion.  Massages the internal organs.  Improves circulation.  Enhances memory."
+   },
+   {
+      "file_reference":"supine_bound_angle.html",
+      "pose_name":"Supine Bound Angle Pose",
+      "sanskrit_name":"Supta Baddha Koṇāsana",
+      "translation":[
+         "supta = supine",
+         "baddha = bound",
+         "koṇa = angle",
+         "āsana = posture"
+      ],
+      "category":"Supine / Neutral",
+      "difficulty":"Beginner",
+      "description":[
+         "In supine position, bend both knees and drop the knees to each side, opening the hips.  Bring the soles of the feet together and bring the heels as close to the groin as possible, keeping the knees close to the ground.  Bring the hands overhead and interlace the fingers.  Keep the back flat on the floor."
+      ],
+      "benefits":"Opens the hips and groins.  Stretches the shoulders, rib cage and back.  Stimulates the abdominal organs, lungs and heart."
+   },
+   {
+      "file_reference":"supine_hand_to_toe.html",
+      "pose_name":"Supine Hand to Toe Pose",
+      "sanskrit_name":"Supta Hasta Pādāṅguṣṭhāsana",
+      "translation":[
+         "supta = supine",
+         "hasta = hand",
+         "pādāṅguṣṭha = big toe",
+         "āsana = posture"
+      ],
+      "category":"Supine / Neutral",
+      "difficulty":"Intermediate",
+      "description":[
+         "In supine position, raise one leg to the sky.  Using the hand from the same side, catch the toes to bring the knee closer to the chest, straightening the knee.  Make sure the gluts and the other legs are rested on the floor.  If the hand cannot reach the toes, use a strap."
+      ],
+      "benefits":"Stretches the hamstrings and strengthens the leg."
+   },
+   {
+      "file_reference":"supine_hand_to_toe_extended.html",
+      "pose_name":"Extended Supine Hand to Toe Pose",
+      "sanskrit_name":"Utthita Supta Hasta Pādāṅguṣṭhāsana",
+      "translation":[
+         "utthita = extended",
+         "supta = supine",
+         "hasta = hand",
+         "pādāṅguṣṭha = big toe",
+         "āsana = posture"
+      ],
+      "category":"Supine / Neutral",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "supine_hand_to_toe.html",
+         " pose, drop the extended leg to one side, opening the hip.  Keep the knee straight and if necessary use a strap.  Place the opposite hand on the pelvic bone to prevent the glut from lifting off the floor.  Keep the gluts grounded."
+      ],
+      "benefits":"Opens the hips and groins.  Stretches the hamstrings, IT bands and legs"
+   },
+   {
+      "file_reference":"supine_pigeon.html",
+      "pose_name":"Supine Pigeon Pose",
+      "sanskrit_name":"Supta Kapotāsana",
+      "translation":[
+         "supta = supine",
+         "kapota = pigeon",
+         "āsana = posture"
+      ],
+      "alt_name":"Eye of the Needle / Dead Pigeon",
+      "category":"Supine / Neutral",
+      "difficulty":"Intermediate",
+      "description":[
+         "Lie on the back in supine position.  Bend the knees, heels close to SI bones and cross one ankle over the opposite knee.  Thread the hands or reach through between the thighs.  Lift the foot off the floor and hold the bent knee behind the thigh or shin to bring it closer to the chest, make sure that the acrum is rooted to the floor."
+      ],
+      "benefits":"Stretches the hamstrings and quads.  If the elbow is used to push the thigh, it opens the hips as well."
+   },
+   {
+      "file_reference":"supine_spinal_twist.html",
+      "pose_name":"Supine Spinal Twist Pose",
+      "sanskrit_name":"Supta Jaṭhara Parivartānāsana",
+      "translation":[
+         "supta = supine",
+         "jaṭhara = stomach",
+         "parivartāna = revolving",
+         "āsana = posture"
+      ],
+      "category":"Supine / Twist",
+      "difficulty":"Beginner",
+      "description":[
+         "From supine position, bent one knee and cross it outside of the opposite foot.  Use the hand to put slight pressure on the bent knee to push down towards the floor.  Keep both shoulders squared and rooted to the floor.  Extend the opposite hand and gaze towards the hand.  For a deeper stretch, start to straighten the bent knee."
+      ],
+      "benefits":"Stretches the back muscles and spine.  Stimulates the kidneys, abdominal organs, urinary bladders and intestines.  Releases stress.  If the knee is straightened, it stretches the hamstrings and strengthens the legs."
+   },
+   {
+      "file_reference":"table.html",
+      "pose_name":"Table Pose",
+      "sanskrit_name":"Pūrvottānāsana",
+      "translation":[
+         "pūrva = front",
+         "uttānā = stretch",
+         "āsana = posture"
+      ],
+      "alt_name":"Table Top",
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Beginner",
+      "description":[
+         "From ",
+         "staff.html",
+         " place the hands on the floor about one foot behind the hips with the fingertips pointed forward towards hips.  Keep knees bent and feet close to hips while pressing through the hands and feet to lift the hips creating an inverted U with the body into Table.  Relax the head back and gaze at the tip of your nose."
+      ],
+      "benefits":"Strengthens the arms, the wrists, and the legs.  Stretches the shoulders, the chest, and the front ankles."
+   },
+   {
+      "file_reference":"tortoise_bind.html",
+      "pose_name":"Tortoise Pose",
+      "sanskrit_name":"Kūrmāsana",
+      "translation":[
+         "kūrma = tortoise",
+         "āsana = posture"
+      ],
+      "category":"Standing / Forward Bend",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "tortoise.html",
+         ", the hands and the elbows press thru the legs, then wrap back  around  to the opposite side of the torso into a bind at the small of the back.  The gaze is down."
+      ],
+      "benefits":"Stretches the insides and backs of the legs.  Stimulates the abdominal organs.  Strengthens the spine.  Calms the brain.  Releases groin.  Releases the elbows."
+   },
+   {
+      "file_reference":"tree.html",
+      "pose_name":"Tree Pose",
+      "sanskrit_name":"Vṛkṣāsana",
+      "translation":[
+         "vṛkṣa = tree",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a standing position, one foot is rooted into the earth with the opposite heel rooted into the inner thigh with the toes pointing towards the earth.  The pelvis and the chin are tucked in.  The arms are lifted above the head with the palms together in prayer position.  The gaze is forward."
+      ],
+      "benefits":"Strengthens the legs, ankles, and feet.  Improves flexibility in the hips and knees.  Improves balance."
+   },
+   {
+      "file_reference":"triangle_forward.html",
+      "pose_name":"Triangle Pose",
+      "sanskrit_name":"Trikoṇāsana",
+      "translation":[
+         "trikoṇa = triangle",
+         "āsana = posture"
+      ],
+      "category":"Standing / Lateral Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a standing position, the legs are straight and separated into a wide stance.  The feet are aligned and flat on the earth with the back foot in a 60-degree angle towards the front.  The inner thighs are rotated externally away from each other.  The pelvis is tucked and the ribcage is lifted.  One arm extends up towards the sky as the other reaches down to the earth.  Both arms are aligned with the shoulders in a straight line.  The fingers reach out as the shoulder blades squeeze together.  The gaze is toward the front."
+      ],
+      "benefits":"Stretches and strengthens the thighs, knees, and ankles.  Stretches the hips, groin, hamstrings, calves, shoulders, chest, and spine.  Stimulates the abdominal organs.  Helps relieve stress.  Improves digestion.  Helps relieve the symptoms of menopause.  Relieves backache, especially through second trimester of pregnancy.  Therapeutic for anxiety, flat feet, infertility, neck pain, osteoporosis, and sciatica."
+   },
+   {
+      "file_reference":"triangle_revolved.html",
+      "pose_name":"Revolved Triangle Pose",
+      "sanskrit_name":"Parivṛtta Trikoṇāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "trikoṇa = triangle",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a standing position the weight of the body is distributed equally between the front and back leg.  The legs are in a wide stance, parallel and scissor towards each other.  The back foot is at a 45 to 60 degree angle and the front and back heels are aligned.  The forward thigh is turned outward so that the center of the kneecap is in line with the center of the ankle.  The torso opens towards the sky while the hips are squared as much as possible.  The top hand extends up while the bottom hand is either on the earth (inside or outside the foot) or, if flexibility is limited, on a block positioned against the inner sole of the foot.  From the center of the back, between the shoulder blades, the arms press away from the torso.  Beginning students should keep their head in a neutral position and look forward or turn the gaze towards the earth.  More experienced students can turn the head and gaze up at the top thumb as a Dristhi point."
+      ],
+      "benefits":"Calms the brain.  Stimulates the liver and kidneys.  Stretches the hamstrings, calves, and thighs.  Strengthens the thighs, knees, and ankles.  Stretches the back of the leg, the front thigh and groin."
+   },
+   {
+      "file_reference":"turtle.html",
+      "pose_name":"Wind Removing Pose",
+      "sanskrit_name":"Pavanamuktāsana",
+      "translation":[
+         "pavana = wind",
+         "mukta = releasing",
+         "āsana = posture"
+      ],
+      "alt_name":"Supine Knees to Chest",
+      "category":"Supine / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a supine position, lying on your back, the knees are bent and pulled into the chest.  The arms are wrapped around the knees with the chin tucked in towards the sternum like a turtle going into its shell.  The gaze is inward."
+      ],
+      "benefits":"Releases the back and the spine.  A nice release from backbends."
+   },
+   {
+      "file_reference":"upward_dog.html",
+      "pose_name":"Upward-Facing Dog Pose",
+      "sanskrit_name":"Ūrdhva Mukha Śvānāsana",
+      "translation":[
+         "ūrdhva = upward",
+         "mukha = facing",
+         "śvāna = dog",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "The body is in a prone position parallel to the earth.  The weight of the body is supported equally by the straight arms and the tops of the feet which press firmly into the earth.  The shoulders are rotated back and down.  The ribcage is lifted and pulled thru to the front in a slight upper thoracic backbend.  The joints are stacked with the wrists, elbows and shoulders in a straight-line.  The neck is a natural extension of the spine and the chin is slightly tucked.  The abdomen is pulled up towards the spine.  The palms are flat and the elbows are close to the side body.  The gaze is forward."
+      ],
+      "benefits":"Improves posture.  Strengthens the spine, arms, and wrists.  Stretches the chest, lungs, shoulders, and abdomen.  Firms the buttocks.  Stimulates abdominal organs.  Helps relieve mild depression, fatigue, and sciatica.  Therapeutic for asthma."
+   },
+   {
+      "file_reference":"warrior_I.html",
+      "pose_name":"Warrior I Pose",
+      "sanskrit_name":"Vīrabhadrāsana I",
+      "translation":[
+         "vīrabhadra = warrior",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "From a standing position, the legs are in a wide stance with the feet aligned and flat on the earth.  The back foot is in a 60-degree angle towards the front.  The hips are squared.  The inner thighs are rotated towards each other.  The front knee is bent in a 90-degree angle directly above the ankle.  The arms extend up to the sky with the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The ribcage is lifted and the pelvis tucked.  The gaze is forward."
+      ],
+      "benefits":"Stretches the chest, lungs, shoulders, neck, belly and groin (psoas).  Strengthens the shoulders, arms and back muscles.  Strengthens and stretches the thighs, calves and ankles."
+   },
+   {
+      "file_reference":"warrior_II.html",
+      "pose_name":"Warrior II Pose",
+      "sanskrit_name":"Vīrabhadrāsana II",
+      "translation":[
+         "vīrabhadra = warrior",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "From a standing position, the legs are separated into a wide stance.  The front knee is bent in a 90-degree angle directly above the ankle.  The back leg is extended and straight with the outside edge of the back foot gripping the earth in a 60-degree angle towards the front.  The inner thighs are externally rotated away from each other.  The pelvis is tucked.  The ribcage is lifted.  The arms are extended out to the sides and are aligned with the shoulders in a straight line with the fingers reaching out as the shoulder blades squeeze together.  The gaze is toward the front fingers."
+      ],
+      "benefits":"Strengthens and stretches the legs and ankles.  Stretches the groin, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina.  Relieves backaches, especially through second trimester of pregnancy.  Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica."
+   },
+   {
+      "file_reference":"warrior_III.html",
+      "pose_name":"Warrior III Pose",
+      "sanskrit_name":"Vīrabhadrāsana III",
+      "translation":[
+         "vīrabhadra = warrior",
+         "āsana = posture"
+      ],
+      "alt_name":"Balancing Stick",
+      "category":"Standing / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From a standing position, one leg is rooted and perpendicular to the earth while the other leg is raised, extended back and parallel to the earth.  The head of the thighbone of the standing leg presses back towards the heel and is actively rooted into the earth.  The arms and the extended leg lengthen in opposing directions with Bandhas engaged.  The hips are squared and the tailbone presses firmly into the pelvis.  The arms, torso, and extended raised leg should be positioned relatively parallel to the floor.  The gaze is forward or down."
+      ],
+      "benefits":"Strengthens the ankles and legs.  Strengthens the shoulders and muscles of the back.  Tones the abdomen.  Improves balance and posture."
+   },
+   {
+      "file_reference":"warrior_II_forward.html",
+      "pose_name":"Warrior II Forward Bend Pose",
+      "sanskrit_name":"Pārśvakoṇāsana",
+      "translation":[
+         "pārśva = side",
+         "koṇa = angle",
+         "āsana = posture"
+      ],
+      "category":"Standing / Lateral Bend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "warrior_II.html",
+         ", the lower body stays static while the upper body folds forward at the crease of the hip.  One arm is extended toward the sky while the other reaches down to the earth.  The fingers reach out as the shoulder blades squeeze together.  The gaze is towards the sky."
+      ],
+      "benefits":"Strengthens and stretches the legs, knees and ankles.  Stretches the groin, spine, waist, chest, lungs and shoulders.  Stimulates abdominal organs.  Increases stamina."
+   },
+   {
+      "file_reference":"warrior_II_forward_arm_forward.html",
+      "pose_name":"Extended Side Angle Pose",
+      "sanskrit_name":"Utthita Pārśvakoṇāsana",
+      "translation":[
+         "utthita = extended",
+         "pārśva = side",
+         "koṇa = angle",
+         "āsana = posture"
+      ],
+      "category":"Standing / Lateral Bend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "warrior_II.html",
+         ", the lower body stays static while the upper body is folded forward at the crease of the hip.  One arm is extended toward the front with the bicep by the ear and the fingers spread wide while the other reaches down to the earth on the inside of the thigh.  The upper torso and the gaze twist up towards the sky."
+      ],
+      "benefits":"Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina."
+   },
+   {
+      "file_reference":"warrior_II_reverse.html",
+      "pose_name":"Reverse Warrior Pose",
+      "sanskrit_name":"Pārśva Vīrabhadrāsana",
+      "translation":[
+         "pārśva = side",
+         "vīrabhadra = warrior",
+         "āsana = posture"
+      ],
+      "category":"Standing / Lateral Bend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "warrior_II.html",
+         ", the lower body stays static while the upper body arches back in a gentle back bend.  The top arm is extended back with the bicep by the ear and the fingers spread wide.  The other arm slides down the back leg resting on the thigh or shin, but not the knee joint.  The gaze is up towards the sky."
+      ],
+      "benefits":"Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders.  Stimulates abdominal organs.  Increases stamina.  Relieves backaches, especially through second trimester of pregnancy.  Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica."
+   },
+   {
+      "file_reference":"warrior_I_kneeling.html",
+      "pose_name":"Crescent Lunge on the Knee Pose",
+      "sanskrit_name":"Aṅjaneyāsana",
+      "translation":[
+         "aṅjaneya = praise",
+         "āsana = posture"
+      ],
+      "category":"Standing / Balancing",
+      "difficulty":"Beginner",
+      "description":[
+         "The front knee is bent in a 90-degree angle directly above the ankle and the back knee is resting on the earth with the top of the back foot pressed firmly into the earth.  The hips are squared and pressed forward.  The inner thighs scissor towards each other.  The pelvis is tucked under to protect the low back.  The ribcage is lifted.  The arms are lifted.  The hands can be together or separated and facing each other with the fingers spread wide.  The gaze is forward."
+      ],
+      "benefits":"Stretches the chest, lungs, neck, belly and groin (psoas).  Strengthens the shoulders, arms and back muscles.  Strengthens and stretches the thighs, calves and ankles."
+   },
+   {
+      "file_reference":"warrior_twist_extended.html",
+      "pose_name":"Revolved Side Angle Pose",
+      "sanskrit_name":"Parivṛtta Pārśvakoṇāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "pārśva = side",
+         "koṇa = angle",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Intermediate",
+      "description":[
+         "From a standing position, the legs are in a wide stance with the feet aligned and flat on the earth.  The inner thighs scissor towards each other with Mula Bandha engaged.  The front knee is bent in a 90-degree angle and tracks the front ankle.  The back leg is straight with most of the body’s weight pressed into the outside edge of the back foot gripping the earth.  From the center of the back, between the shoulder blades, the arms move away from the torso that is rotated up towards the sky.  One arm is actively reaching up and the other actively reaching down utilizing the fingers tips or flat palm only as a un-weighted balancing tool.  The elbow of the bottom hand is either on the inside or the outside of the bent front knee, depending on the degree of flexibility available.  Beginning students should keep their head in a neutral position, looking straight forward, or turn it to look down and protect the neck.  More experienced students can turn the head and gaze up at the top thumb."
+      ],
+      "benefits":"Wrings out the lower back and the digestive and vital organs of the mid-body.  Opens the chest.  Stretches the pectoralis minor muscles."
+   },
+   {
+      "file_reference":"warrior_twist_extended_bound.html",
+      "pose_name":"Bound Revolved Side Angle Pose",
+      "sanskrit_name":"Parivṛtta Baddha Pārśvakoṇāsana",
+      "translation":[
+         "parivṛtta = revolved",
+         "baddha = bound",
+         "pārśva = side",
+         "koṇa = angle",
+         "āsana = posture"
+      ],
+      "category":"Standing / Twist",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "warrior_II.html",
+         ", bend the front knee and spin to the ball of the back foot as the torso lowers down onto the thigh, opening the heart center to the sky and lowering the bottom hand to the inside of the thigh with the palm planted firmly.  At the same time, reach the top arm and hand up and overhead extending in a straight line towards the front.  To take the bind then wrap the top arm around and under the backside of the torso and grasp the bottom hand at the wrist if possible.  Minimize lateral flexion of the spine while rotating the torso open.  Press the elbow and the shoulder against the bent knee in an isometric contraction to keep the knee aligned and leverage the rotation of the torso.  The gaze is to upper fingertips and the neck is relaxed.  As all twists lengthen and soften the belly, extend the spine with each inhalation, and increase the twist as you exhale."
+      ],
+      "benefits":"Strengthens and stretches the legs, the knees, and the ankles.  Stretches the groins, the spine, the chest, the lungs, and the shoulders.  Stimulates abdominal organs.  Increases stamina.  Improves digestion and aids elimination.  Improves balance."
+   },
+   {
+      "file_reference":"wheel.html",
+      "pose_name":"Wheel Pose",
+      "sanskrit_name":"Ūrdhva Dhanurāsana",
+      "translation":[
+         "ūrdhva = upward",
+         "dhanu = bow",
+         "āsana = posture"
+      ],
+      "alt_name":"Upward Bow",
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Expert",
+      "description":[
+         "Pressed up from a supine position, lying on your back, the palms are rooted into the earth with the fingers pointed towards the heels.  The feet are grounded.  The hips are pressed up.  The thighs are rotated inward.  The thoracic spine is arched creating a strong crescent arch along the spinal column.  The gaze is forward."
+      ],
+      "benefits":"Strengthens the arms, wrists, legs, buttocks, abs, and spine.  Stimulates the thyroid and pituitary.  Increases energy and counteracts depression.  Therapeutic for asthma, back pain, infertility, and osteoporosis."
+   },
+   {
+      "file_reference":"wheel_leg_up.html",
+      "pose_name":"One Legged Wheel Pose",
+      "sanskrit_name":"Eka Pāda Ūrdhva Dhanurāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "ūrdhva = upward",
+         "dhanu = bow",
+         "āsana = posture"
+      ],
+      "alt_name":"One Legged Upward Bow",
+      "category":"Arm and Leg Support / Balancing",
+      "difficulty":"Expert",
+      "description":[
+         "From ",
+         "wheel.html",
+         ", extend one leg straight up to the sky with active toes.  The gaze is forward."
+      ],
+      "benefits":"Strengthens the arms, wrists, legs, buttocks, abs, and spine.  Stimulates the thyroid and pituitary.  Increases energy and counteracts depression.  Therapeutic for asthma, back pain, infertility, and osteoporosis."
+   },
+   {
+      "file_reference":"wild_thing.html",
+      "pose_name":"Wild Thing Pose",
+      "sanskrit_name":"Camatkārāsana",
+      "translation":[
+         "camatkāra = struck with wonder",
+         "āsana = posture"
+      ],
+      "category":"Arm and Leg Support / Backbend",
+      "difficulty":"Intermediate",
+      "description":[
+         "From ",
+         "downward_dog.html",
+         " pose, elevate one leg toward the sky and stack the corresponding hip over the other hip.  Bring the upper heel as close to the buttocks as possible.  The hips remain stacked; then bring the shoulders forward slowly over the hands.  Replace the corresponding hand to the upraised leg with the other hand and flip yourself over and extend the top hand forward.  The bottom foot is now facing toward the front of the mat and you remain on the ball of the top foot and the corresponding knee is bent.  Continue to lift hips up towards the sky and continue reaching the free hand towards the front of the room and slightly downwards.  Allow the head to curl back."
+      ],
+      "benefits":"Stretches the chest, shoulders, back, and throat.  Strengthens and opens the hips, hip flexors, and thighs."
+   },
+   {
+      "file_reference":"wind_removing.html",
+      "pose_name":"One Legged Wind Removing Pose",
+      "sanskrit_name":"Eka Pāda Pavanamuktāsana",
+      "translation":[
+         "eka = one",
+         "pāda = foot or leg",
+         "pavana = wind",
+         "mukta = releasing",
+         "āsana = posture"
+      ],
+      "category":"Supine / Forward Bend",
+      "difficulty":"Beginner",
+      "description":[
+         "From a supine position lying on your back, pull one knee into the chest with the hands clasped around the bent knee to the level of pressure desired (gas trapped in the large intestine may be released in this asana).  The other leg is extended straight and the gaze is natural and forward."
+      ],
+      "benefits":"Releases gas trapped in large intestine.  Stretches the cervical spine (neck).  Improves the digestion system.  Aides in elimination."
+   }
+]"module.exports = poses;"
