@@ -11,7 +11,11 @@ This API is hosted on [Render](https://render.com/).Information for each pose as
 - Added difficulty, description and benefits for each pose
 - Included url for .jpg and .svg resources
 - Migrated SVG assets to [Cloudinary](https://cloudinary.com/)
-- Initiate migration from MongoDB to SQLite database
+
+## Next releases
+
+- Migration from MongoDB to SQLite and database normalisation
+- New endpoints for difficulty sorting
 
 ## Endpoints usage
 
