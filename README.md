@@ -1,10 +1,17 @@
 # Yoga API 🧘‍♀️
 
-🚧🚨🧘‍♀️ **_UPDATE: Migrating from MongoDB to a local SQLite database. Expect service interruptions._** 🧘‍♀️🚨🚧🧘
+🚧🚨🧘‍♀️ **_Service interruptions. Migrating from MongoDB to a local SQLite database._** 🧘‍♀️🚨🚧🧘
 
 API Rest returning yoga categories and postures in a JSON format. If your response looks different, it is normal, modifications can happen.
 
 This API is hosted on [Render](https://render.com/).Information for each pose as well as images can be found. Includes data from existing projects and new endpoints. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder)
+
+## Latest updates
+
+- Added difficulty, description and benefits for each pose
+- Included url for .jpg and .svg resources
+- Migrated SVG assets to [Cloudinary](https://cloudinary.com/)
+- Initiate migration from MongoDB to SQLite database
 
 ## Endpoints usage
 
@@ -55,9 +62,15 @@ https://yoga-api-nzy4.onrender.com/v1/categories
       "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
       "yoga_poses": [
         {
-          "id": 1,
+          "pose_id": 1,
           "sanskrit_name": "Navasana",
-          "english_name": "Boat"
+          "english_name": "Boat",
+          "difficulty": "Intermediate",
+          "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
+          "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
+          "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
+          "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+          "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
         }
       ]
     },
@@ -88,9 +101,15 @@ https://yoga-api-nzy4.onrender.com/v1/categories/core yoga poses
   "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose.",
   "yoga_poses": [
     {
-      "id": 1,
+      "pose_id": 1,
       "sanskrit_name": "Navasana",
-      "english_name": "Boat"
+      "english_name": "Boat",
+      "difficulty": "Intermediate",
+      "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
+      "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
+      "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
+      "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+      "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
     }
   ]
 }
