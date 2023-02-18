@@ -1,8 +1,21 @@
 # Yoga API 🧘‍♀️
 
-API Rest returning yoga categories and postures in a JSON format. If your response looks different, it is normal, modifications can happen.
+**🚧 MAINTENANCE: Migrating from MongoDB to SQLite🚧**
 
-This API is hosted on [Render](https://render.com/). Includes data from existing projects and new endpoints. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [cc-smith](https://github.com/cc-smith/yoga-poses)
+API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen.
+
+This API is hosted on [Render](https://render.com/), and includes custom and already existing data from projects. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder).
+
+## Latest updates
+
+- Added difficulty, description and benefits for each posture
+- Included URLs for .jpg and .svg resources
+- Migrated SVG assets to [Cloudinary](https://cloudinary.com/)
+
+## Next releases
+
+- Migration from MongoDB to SQLite and database normalisation
+- New endpoints for difficulty sorting
 
 ## Endpoints usage
 
@@ -53,9 +66,15 @@ https://yoga-api-nzy4.onrender.com/v1/categories
       "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
       "yoga_poses": [
         {
-          "id": 1,
+          "pose_id": 1,
           "sanskrit_name": "Navasana",
-          "english_name": "Boat"
+          "english_name": "Boat",
+          "difficulty": "Intermediate",
+          "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
+          "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
+          "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
+          "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+          "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
         }
       ]
     },
@@ -86,9 +105,15 @@ https://yoga-api-nzy4.onrender.com/v1/categories/core yoga poses
   "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose.",
   "yoga_poses": [
     {
-      "id": 1,
+      "pose_id": 1,
       "sanskrit_name": "Navasana",
-      "english_name": "Boat"
+      "english_name": "Boat",
+      "difficulty": "Intermediate",
+      "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
+      "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
+      "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
+      "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+      "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
     }
   ]
 }
@@ -126,18 +151,17 @@ https://yoga-api-nzy4.onrender.com/v1/yoga/poses
 
 ```json
 {
-  "items": [
+  "poses": [
     {
-      "id": 1,
+      "pose_id": 1,
       "sanskrit_name": "Navasana",
       "english_name": "Boat",
-      "yoga_categories": []
-    },
-    {
-      "id": 2,
-      "sanskrit_name": "Ardha Navasana",
-      "english_name": "Half-Boat",
-      "yoga_categories": []
+      "difficulty": "Intermediate",
+      "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
+      "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
+      "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
+      "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+      "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
     }
   ]
 }
@@ -153,27 +177,37 @@ https://yoga-api-nzy4.onrender.com/v1/poses/poseName/boat
 
 ```json
 {
-  "id": 1,
+  "pose_id": 1,
   "sanskrit_name": "Navasana",
   "english_name": "Boat",
-  "yoga_categories": []
+  "difficulty": "Intermediate",
+  "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
+  "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
+  "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
+  "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+  "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
 }
 ```
 
 **Example request pose by id:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/poses/poseId/4
+https://yoga-api-nzy4.onrender.com/v1/poses/poseId/1
 ```
 
 **Example response:**
 
 ```json
 {
-  "id": 4,
-  "sanskrit_name": "Setu Bandha Sarvangasana",
-  "english_name": "Bridge",
-  "yoga_categories": []
+  "pose_id": 1,
+  "sanskrit_name": "Navasana",
+  "english_name": "Boat",
+  "difficulty": "Intermediate",
+  "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
+  "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
+  "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
+  "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
+  "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
 }
 ```
 
