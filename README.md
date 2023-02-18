@@ -1,15 +1,15 @@
 # Yoga API 🧘‍♀️
 
-🚧🚨🧘‍♀️ **_Service interruptions. Migrating from MongoDB to a local SQLite database._** 🧘‍♀️🚨🚧🧘
+🚧 **_Migrating from MongoDB to a local SQLite database._**🚧
 
-API Rest returning yoga categories and postures in a JSON format. If your response looks different, it is normal, modifications can happen.
+API Rest returning yoga categories and poses including basic data and images. If your response looks different, it is normal, modifications can happen.
 
-This API is hosted on [Render](https://render.com/).Information for each pose as well as images can be found. Includes data from existing projects and new endpoints. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder)
+This API is hosted on [Render](https://render.com/). Includes custom and already existing data from projects. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder)
 
 ## Latest updates
 
-- Added difficulty, description and benefits for each pose
-- Included url for .jpg and .svg resources
+- Added difficulty, description and benefits for each posture
+- Included URLs for .jpg and .svg resources
 - Migrated SVG assets to [Cloudinary](https://cloudinary.com/)
 
 ## Next releases
