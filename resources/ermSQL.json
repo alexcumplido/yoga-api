@@ -1,0 +1,65 @@
+[
+// POSE
+    {
+        "pose_id": "INTEGER PK",
+        "sanskrit_name": "VARCHAR(40) NN UNIQUE",
+        "english_name": "VARCHAR(40) NN UNIQUE",
+        "difficulty": "VARCHAR(40) NN",
+        "description": "TEXT NN",
+        "benefits": "TEXT NN",
+        "img_url_svg": "TEXT NN",
+        "img_url_jpg":  "TEXT NN",
+        "img_url_svg_alt": "TEXT NN" 
+    },
+// CATEGORY
+    {
+        "category_id": "INTEGER PK",
+        "category_name": "VARCHAR(40) NN UNIQUE",
+        "short_name": "VARCHAR(40) NN UNIQUE",
+        "description": "TEXT NN"
+    },
+
+// Transitive positions
+    {
+        "id": "INTEGER PK",
+        "category_id": "INTEGER (PK, FK)",
+        "pose_id": "INTEGER (PK, FK)",
+        "difficulty_id": "INTEGER (PK, FK)"
+    },
+// USER
+    {
+        "user_id": "INTEGER PK",
+        "login": "VARCHAR(30) NN",
+        "nickname": "VARCHAR(30) NN",
+        "password": "VARCHAR(30) NN",
+        "email": "VARCHAR(40) NN UNIQUE"
+    },
+// SERIE
+    {
+        "serie_id": "INTEGER PK",
+        "serie_name":  "VARCHAR(40) NN UNIQUE",
+        "description": "VARCHAR(30) NN",
+        "date_creation": "TIMESTAMP",
+        "user_id": "INTEGER (PK, FK)"
+    },
+
+
+    // POSE CREATED
+    {   
+        "user_id": "INTEGER FK",
+        "pose_id": "INTEGER PK",
+        "sanskrit_name": "VARCHAR(40) NN UNIQUE",
+        "english_name": "VARCHAR(40) NN UNIQUE",
+        "difficulty": "VARCHAR(40) NN",
+        "description": "TEXT NN",
+        "benefits": "TEXT NN",
+        "img_url": "TEXT NN",
+        "date_creation": "TIMESTAMP",
+    }
+// SERIES FOR EACH USER
+    {
+        "id": "INTEGER PK",
+        "serie_id": "INTEGER (PK, FK)",
+        "user_id": "INTEGER (PK, FK)"
+    }
+]
