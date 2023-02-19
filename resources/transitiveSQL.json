@@ -2,597 +2,597 @@
     "poses_category": [ 
         {
             "id": 1,
-            "posture_id": 1,
-            "cagegory_id": 1,
-            "dificulty_id": 2
+            "pose_id": 1,
+            "category_id": 1,
+            "difficulty_id": 2
         },
         {
             "id": 2,
-            "posture_id": 1,
-            "cagegory_id": 2,
-            "dificulty_id": 2
+            "pose_id": 1,
+            "category_id": 2,
+            "difficulty_id": 2
         },
         {
             "id": 3,
-            "posture_id":  1,
-            "cagegory_id": 3,
-            "dificulty_id": 2
+            "pose_id":  1,
+            "category_id": 3,
+            "difficulty_id": 2
         },
         {
             "id": 4,
-            "posture_id": 2,
-            "cagegory_id": 1,
-            "dificulty_id": 1
+            "pose_id": 2,
+            "category_id": 1,
+            "difficulty_id": 1
         },
         {
             "id": 5,
-            "posture_id": 2,
-            "cagegory_id": 2,
-            "dificulty_id": 1
+            "pose_id": 2,
+            "category_id": 2,
+            "difficulty_id": 1
         },
         {
             "id": 6,
-            "posture_id": 2,
-            "cagegory_id": 3,
-            "dificulty_id": 1
+            "pose_id": 2,
+            "category_id": 3,
+            "difficulty_id": 1
         },
         {
             "id": 7,
-            "posture_id": 3,
-            "cagegory_id": 4,
-            "dificulty_id": 2
+            "pose_id": 3,
+            "category_id": 4,
+            "difficulty_id": 2
         },
         {
             "id": 8,
-            "posture_id": 3,
-            "cagegory_id": 5,
-            "dificulty_id": 2
+            "pose_id": 3,
+            "category_id": 5,
+            "difficulty_id": 2
         },
         {
             "id": 9,
-            "posture_id": 3,
-            "cagegory_id": 5,
-            "dificulty_id": 2
+            "pose_id": 3,
+            "category_id": 5,
+            "difficulty_id": 2
         },
         {
             "id": 10,
-            "posture_id": 5,
-            "cagegory_id": 2,
-            "dificulty_id": 1
+            "pose_id": 5,
+            "category_id": 2,
+            "difficulty_id": 1
         },
         {
             "id": 11,
-            "posture_id": 5,
-            "cagegory_id": 6,
-            "dificulty_id": 1
+            "pose_id": 5,
+            "category_id": 6,
+            "difficulty_id": 1
         },
         {
             "id": 12,
-            "posture_id": 5,
-            "cagegory_id": 7,
-            "dificulty_id": 1
+            "pose_id": 5,
+            "category_id": 7,
+            "difficulty_id": 1
         },
         {
             "id": 13,
-            "posture_id": 6,
-            "cagegory_id": 4,
-            "dificulty_id": 2
+            "pose_id": 6,
+            "category_id": 4,
+            "difficulty_id": 2
         },
         {
             "id": 14,
-            "posture_id": 6,
-            "cagegory_id": 5,
-            "dificulty_id": 2
+            "pose_id": 6,
+            "category_id": 5,
+            "difficulty_id": 2
         },
         {
             "id": 15,
-            "posture_id": 7,
-            "cagegory_id": 1,
-            "dificulty_id": 1
+            "pose_id": 7,
+            "category_id": 1,
+            "difficulty_id": 1
         },
         {
             "id": 16,
-            "posture_id": 8,
-            "cagegory_id": 4,
-            "dificulty_id": 1
+            "pose_id": 8,
+            "category_id": 4,
+            "difficulty_id": 1
         },
         {
             "id": 17,
-            "posture_id": 8,
-            "cagegory_id": 5,
-            "dificulty_id": 1
+            "pose_id": 8,
+            "category_id": 5,
+            "difficulty_id": 1
         },  
         {
             "id": 18,
-            "posture_id": 9,
-            "cagegory_id": 1,
-            "dificulty_id": 1
+            "pose_id": 9,
+            "category_id": 1,
+            "difficulty_id": 1
         },
         {
             "id": 19,
-            "posture_id": 9,
-            "cagegory_id": 3,
-            "dificulty_id": 1
+            "pose_id": 9,
+            "category_id": 3,
+            "difficulty_id": 1
         },
         {
             "id": 20,
-            "posture_id": 9,
-            "cagegory_id": 8,
-            "dificulty_id": 1
+            "pose_id": 9,
+            "category_id": 8,
+            "difficulty_id": 1
         },
         {
             "id": 21,
-            "posture_id": 10,
-            "cagegory_id": 6,
-            "dificulty_id": 1
+            "pose_id": 10,
+            "category_id": 6,
+            "difficulty_id": 1
         },
         {
             "id": 22,
-            "posture_id": 10,
-            "cagegory_id": 7,
-            "dificulty_id": 1
+            "pose_id": 10,
+            "category_id": 7,
+            "difficulty_id": 1
         },
         {
             "id": 23,
-            "posture_id": 10,
-            "cagegory_id": 9,
-            "dificulty_id": 1
+            "pose_id": 10,
+            "category_id": 9,
+            "difficulty_id": 1
         },  
         {
             "id": 24,
-            "posture_id": 11,
-            "cagegory_id": 9,
-            "dificulty_id": 1
+            "pose_id": 11,
+            "category_id": 9,
+            "difficulty_id": 1
         },  
         {
             "id": 25,
-            "posture_id": 12,
-            "cagegory_id": 8,
-            "dificulty_id": 2
+            "pose_id": 12,
+            "category_id": 8,
+            "difficulty_id": 2
         },
         {
             "id": 26,
-            "posture_id": 13,
-            "cagegory_id": 1,
-            "dificulty_id": 2
+            "pose_id": 13,
+            "category_id": 1,
+            "difficulty_id": 2
         },
         {
             "id": 27,
-            "posture_id": 13,
-            "cagegory_id": 10,
-            "dificulty_id": 2
+            "pose_id": 13,
+            "category_id": 10,
+            "difficulty_id": 2
         },
         {
             "id": 28,
-            "posture_id": 14,
-            "cagegory_id": 1,
-            "dificulty_id": 3
+            "pose_id": 14,
+            "category_id": 1,
+            "difficulty_id": 3
         },
         {
             "id": 29,
-            "posture_id": 14,
-            "cagegory_id": 3,
-            "dificulty_id": 3
+            "pose_id": 14,
+            "category_id": 3,
+            "difficulty_id": 3
         },
         {
             "id": 30,
-            "posture_id": 14,
-            "cagegory_id": 8,
-            "dificulty_id": 3
+            "pose_id": 14,
+            "category_id": 8,
+            "difficulty_id": 3
         },
         {
             "id": 31,
-            "posture_id": 15,
-            "cagegory_id": 3,
-            "dificulty_id": 2
+            "pose_id": 15,
+            "category_id": 3,
+            "difficulty_id": 2
         },
         {
             "id": 32,
-            "posture_id": 15,
-            "cagegory_id": 6,
-            "dificulty_id": 2
+            "pose_id": 15,
+            "category_id": 6,
+            "difficulty_id": 2
         },
         {
             "id": 33,
-            "posture_id": 15,
-            "cagegory_id": 8,
-            "dificulty_id": 2
+            "pose_id": 15,
+            "category_id": 8,
+            "difficulty_id": 2
         },
         {
             "id": 34,
-            "posture_id": 16,
-            "cagegory_id": 8,
-            "dificulty_id": 2
+            "pose_id": 16,
+            "category_id": 8,
+            "difficulty_id": 2
         },
         {
             "id": 35,
-            "posture_id": 16,
-            "cagegory_id": 7,
-            "dificulty_id": 2
+            "pose_id": 16,
+            "category_id": 7,
+            "difficulty_id": 2
         },
         {
             "id": 36,
-            "posture_id": 16,
-            "cagegory_id": 11,
-            "dificulty_id": 2
+            "pose_id": 16,
+            "category_id": 11,
+            "difficulty_id": 2
         },
         {
             "id": 37,
-            "posture_id": 17,
-            "cagegory_id": 8,
-            "dificulty_id": 3
+            "pose_id": 17,
+            "category_id": 8,
+            "difficulty_id": 3
         },
         {
             "id": 38,
-            "posture_id": 17,
-            "cagegory_id": 7,
-            "dificulty_id": 3
+            "pose_id": 17,
+            "category_id": 7,
+            "difficulty_id": 3
         },
         {
             "id": 39,
-            "posture_id": 17,
-            "cagegory_id": 11,
-            "dificulty_id": 3
+            "pose_id": 17,
+            "category_id": 11,
+            "difficulty_id": 3
         },
         {
             "id": 40,
-            "posture_id": 18,
-            "cagegory_id": 3,
-            "dificulty_id": 2
+            "pose_id": 18,
+            "category_id": 3,
+            "difficulty_id": 2
         },
         {
             "id": 41,
-            "posture_id": 18,
-            "cagegory_id": 8,
-            "dificulty_id": 2
+            "pose_id": 18,
+            "category_id": 8,
+            "difficulty_id": 2
         },
         {
             "id": 42,
-            "posture_id": 19,
-            "cagegory_id": 3,
-            "dificulty_id": 3
+            "pose_id": 19,
+            "category_id": 3,
+            "difficulty_id": 3
         },
         {
             "id": 43,
-            "posture_id": 19,
-            "cagegory_id": 12,
-            "dificulty_id": 3
+            "pose_id": 19,
+            "category_id": 12,
+            "difficulty_id": 3
         },
         {
             "id": 44,
-            "posture_id": 20,
-            "cagegory_id": 6,
-            "dificulty_id": 2
+            "pose_id": 20,
+            "category_id": 6,
+            "difficulty_id": 2
         },
         {
             "id": 45,
-            "posture_id": 21,
-            "cagegory_id": 8,
-            "dificulty_id": 3
+            "pose_id": 21,
+            "category_id": 8,
+            "difficulty_id": 3
         },
         {
             "id": 46,
-            "posture_id": 21,
-            "cagegory_id": 11,
-            "dificulty_id": 2
+            "pose_id": 21,
+            "category_id": 11,
+            "difficulty_id": 2
         },
         {
             "id": 47,
-            "posture_id": 22,
-            "cagegory_id": 3,
-            "dificulty_id": 3
+            "pose_id": 22,
+            "category_id": 3,
+            "difficulty_id": 3
         },
         {
             "id": 48,
-            "posture_id": 22,
-            "cagegory_id": 11,
-            "dificulty_id": 3
+            "pose_id": 22,
+            "category_id": 11,
+            "difficulty_id": 3
         },
         {
             "id": 49,
-            "posture_id": 22,
-            "cagegory_id": 8,
-            "dificulty_id": 3
+            "pose_id": 22,
+            "category_id": 8,
+            "difficulty_id": 3
         },
         {
             "id": 50,
-            "posture_id": 23,
-            "cagegory_id": 8,
-            "dificulty_id": 1
+            "pose_id": 23,
+            "category_id": 8,
+            "difficulty_id": 1
         },
         {
             "id": 51,
-            "posture_id": 24,
-            "cagegory_id": 5,
-            "dificulty_id": 2
+            "pose_id": 24,
+            "category_id": 5,
+            "difficulty_id": 2
         },
         {
             "id": 52,
-            "posture_id": 25,
-            "cagegory_id": 5,
-            "dificulty_id": 2
+            "pose_id": 25,
+            "category_id": 5,
+            "difficulty_id": 2
         },
         {
             "id": 53,
-            "posture_id": 25,
-            "cagegory_id": 7,
-            "dificulty_id": 2
+            "pose_id": 25,
+            "category_id": 7,
+            "difficulty_id": 2
         },
         {
             "id": 54,
-            "posture_id": 26,
-            "cagegory_id": 1,
-            "dificulty_id": 2
+            "pose_id": 26,
+            "category_id": 1,
+            "difficulty_id": 2
         },
         {
             "id": 55,
-            "posture_id": 26,
-            "cagegory_id": 3,
-            "dificulty_id": 2
+            "pose_id": 26,
+            "category_id": 3,
+            "difficulty_id": 2
         },
         {
             "id": 56,
-            "posture_id": 26,
-            "cagegory_id": 10,
-            "dificulty_id": 2
+            "pose_id": 26,
+            "category_id": 10,
+            "difficulty_id": 2
         },
         {
             "id": 57,
-            "posture_id": 27,
-            "cagegory_id": 12,
-            "dificulty_id": 2
+            "pose_id": 27,
+            "category_id": 12,
+            "difficulty_id": 2
         },
         {
             "id": 58,
-            "posture_id": 28,
-            "cagegory_id": 6,
-            "dificulty_id": 2
+            "pose_id": 28,
+            "category_id": 6,
+            "difficulty_id": 2
         },
         {
             "id": 59,
-            "posture_id": 28,
-            "cagegory_id": 8,
-            "dificulty_id": 2
+            "pose_id": 28,
+            "category_id": 8,
+            "difficulty_id": 2
         },
         {
             "id": 29,
-            "posture_id": 28,
-            "cagegory_id": 3,
-            "dificulty_id": 2
+            "pose_id": 28,
+            "category_id": 3,
+            "difficulty_id": 2
         },
         {
             "id": 61,
-            "posture_id": 29,
-            "cagegory_id": 8,
-            "dificulty_id": 2
+            "pose_id": 29,
+            "category_id": 8,
+            "difficulty_id": 2
         },
         {
             "id": 62,
-            "posture_id": 30,
-            "cagegory_id": 2,
-            "dificulty_id": 1
+            "pose_id": 30,
+            "category_id": 2,
+            "difficulty_id": 1
         },
         {
             "id": 63,
-            "posture_id": 30,
-            "cagegory_id": 6,
-            "dificulty_id": 1
+            "pose_id": 30,
+            "category_id": 6,
+            "difficulty_id": 1
         },
         {
             "id": 64,
-            "posture_id": 31,
-            "cagegory_id": 2,
-            "dificulty_id": 2
+            "pose_id": 31,
+            "category_id": 2,
+            "difficulty_id": 2
         },
         {
             "id": 65,
-            "posture_id": 32,
-            "cagegory_id": 2,
-            "dificulty_id": 3
+            "pose_id": 32,
+            "category_id": 2,
+            "difficulty_id": 3
         },
         {
             "id": 66,
-            "posture_id": 32,
-            "cagegory_id": 7,
-            "dificulty_id": 3
+            "pose_id": 32,
+            "category_id": 7,
+            "difficulty_id": 3
         },
         {
             "id": 67,
-            "posture_id": 33,
-            "cagegory_id": 11,
-            "dificulty_id": 2
+            "pose_id": 33,
+            "category_id": 11,
+            "difficulty_id": 2
         },
         {
             "id": 68,
-            "posture_id": 33,
-            "cagegory_id": 12,
-            "dificulty_id": 2
+            "pose_id": 33,
+            "category_id": 12,
+            "difficulty_id": 2
         },
         {
             "id": 69,
-            "posture_id": 34,
-            "cagegory_id": 1,
-            "dificulty_id": 2
+            "pose_id": 34,
+            "category_id": 1,
+            "difficulty_id": 2
         },
         {
             "id": 70,
-            "posture_id": 34,
-            "cagegory_id": 10,
-            "dificulty_id": 2
+            "pose_id": 34,
+            "category_id": 10,
+            "difficulty_id": 2
         },
         {
             "id": 71,
-            "posture_id": 34,
-            "cagegory_id": 11,
-            "dificulty_id": 2
+            "pose_id": 34,
+            "category_id": 11,
+            "difficulty_id": 2
         },
         {
             "id": 72,
-            "posture_id": 35,
-            "cagegory_id": 4,
-            "dificulty_id": 1
+            "pose_id": 35,
+            "category_id": 4,
+            "difficulty_id": 1
         },
         {
             "id": 73,
-            "posture_id": 35,
-            "cagegory_id": 5,
-            "dificulty_id": 1
+            "pose_id": 35,
+            "category_id": 5,
+            "difficulty_id": 1
         },
         {
             "id": 74,
-            "posture_id": 36,
-            "cagegory_id": 2,
-            "dificulty_id": 3
+            "pose_id": 36,
+            "category_id": 2,
+            "difficulty_id": 3
         },
         {
             "id": 75,
-            "posture_id": 37,
-            "cagegory_id": 8,
-            "dificulty_id": 1
+            "pose_id": 37,
+            "category_id": 8,
+            "difficulty_id": 1
         },
         {
             "id": 76,
-            "posture_id": 38,
-            "cagegory_id": 6,
-            "dificulty_id": 1
+            "pose_id": 38,
+            "category_id": 6,
+            "difficulty_id": 1
         },
         {
             "id": 77,
-            "posture_id": 39,
-            "cagegory_id": 8,
-            "dificulty_id": 2
+            "pose_id": 39,
+            "category_id": 8,
+            "difficulty_id": 2
         },
         {
             "id": 78,
-            "posture_id": 39,
-            "cagegory_id": 11,
-            "dificulty_id": 2
+            "pose_id": 39,
+            "category_id": 11,
+            "difficulty_id": 2
         },
         {
             "id": 79,
-            "posture_id": 40,
-            "cagegory_id": 2,
-            "dificulty_id": 3
+            "pose_id": 40,
+            "category_id": 2,
+            "difficulty_id": 3
         },
         {
             "id": 80,
-            "posture_id": 40,
-            "cagegory_id": 6,
-            "dificulty_id": 3
+            "pose_id": 40,
+            "category_id": 6,
+            "difficulty_id": 3
         },
         {
             "id": 81,
-            "posture_id": 40,
-            "cagegory_id": 7,
-            "dificulty_id": 3
+            "pose_id": 40,
+            "category_id": 7,
+            "difficulty_id": 3
         },
         {
             "id": 82,
-            "posture_id": 41,
-            "cagegory_id": 8,
-            "dificulty_id": 2
+            "pose_id": 41,
+            "category_id": 8,
+            "difficulty_id": 2
         },
         {
             "id": 83,
-            "posture_id": 41,
-            "cagegory_id": 11,
-            "dificulty_id": 2
+            "pose_id": 41,
+            "category_id": 11,
+            "difficulty_id": 2
         },
         {
             "id": 84,
-            "posture_id": 42,
-            "cagegory_id": 3,
-            "dificulty_id": 1
+            "pose_id": 42,
+            "category_id": 3,
+            "difficulty_id": 1
         },
         {
             "id": 85,
-            "posture_id": 42,
-            "cagegory_id": 8,
-            "dificulty_id": 1
+            "pose_id": 42,
+            "category_id": 8,
+            "difficulty_id": 1
         },
         {
             "id": 86,
-            "posture_id": 43,
-            "cagegory_id": 4,
-            "dificulty_id": 2
+            "pose_id": 43,
+            "category_id": 4,
+            "difficulty_id": 2
         },
         {
             "id": 87,
-            "posture_id": 43,
-            "cagegory_id": 5,
-            "dificulty_id": 2
+            "pose_id": 43,
+            "category_id": 5,
+            "difficulty_id": 2
         },
         {
             "id": 88,
-            "posture_id": 44,
-            "cagegory_id": 3,
-            "dificulty_id": 1
+            "pose_id": 44,
+            "category_id": 3,
+            "difficulty_id": 1
         },
         {
             "id": 89,
-            "posture_id": 44,
-            "cagegory_id": 8,
-            "dificulty_id": 1
+            "pose_id": 44,
+            "category_id": 8,
+            "difficulty_id": 1
         },
         {
             "id": 90,
-            "posture_id": 45,
-            "cagegory_id": 3,
-            "dificulty_id": 1
+            "pose_id": 45,
+            "category_id": 3,
+            "difficulty_id": 1
         },
         {
             "id": 91,
-            "posture_id": 45,
-            "cagegory_id": 8,
-            "dificulty_id": 1
+            "pose_id": 45,
+            "category_id": 8,
+            "difficulty_id": 1
         },
         {
             "id": 92,
-            "posture_id": 46,
-            "cagegory_id": 3,
-            "dificulty_id": 3
+            "pose_id": 46,
+            "category_id": 3,
+            "difficulty_id": 3
         },
         {
             "id": 93,
-            "posture_id": 46,
-            "cagegory_id": 8,
-            "dificulty_id": 3
+            "pose_id": 46,
+            "category_id": 8,
+            "difficulty_id": 3
         },
         {
             "id": 94,
-            "posture_id": 46,
-            "cagegory_id": 11,
-            "dificulty_id": 3
+            "pose_id": 46,
+            "category_id": 11,
+            "difficulty_id": 3
         },
         {
             "id": 95,
-            "posture_id": 47,
-            "cagegory_id": 3,
-            "dificulty_id": 3
+            "pose_id": 47,
+            "category_id": 3,
+            "difficulty_id": 3
         },
         {
             "id": 96,
-            "posture_id": 47,
-            "cagegory_id": 4,
-            "dificulty_id": 3
+            "pose_id": 47,
+            "category_id": 4,
+            "difficulty_id": 3
         },
         {
             "id": 97,
-            "posture_id": 47,
-            "cagegory_id": 5,
-            "dificulty_id": 3
+            "pose_id": 47,
+            "category_id": 5,
+            "difficulty_id": 3
         },
         {
             "id": 98,
-            "posture_id": 48,
-            "cagegory_id": 4,
-            "dificulty_id": 3
+            "pose_id": 48,
+            "category_id": 4,
+            "difficulty_id": 3
         },
         {
             "id": 99,
-            "posture_id": 48,
-            "cagegory_id": 10,
-            "dificulty_id": 2
+            "pose_id": 48,
+            "category_id": 10,
+            "difficulty_id": 2
         }
     ] 
 }
