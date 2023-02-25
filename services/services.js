@@ -12,12 +12,18 @@ async function getBaseURL() {
 }
 
 async function getCategories() {
-  const query = dbLite.prepare(
-    `SELECT * 
-    FROM categories`
-  );
-  const rows = query.all();
-  return rows;
+  const queryCount = dbLite.prepare(`SELECT id FROM categories`);
+  const data = queryCount.all();
+  const categories = [];
+  data.forEach(async function (element) {
+    try {
+      const response = await getCategoryById(element.id);
+      categories.push(response);
+    } catch (error) {
+      console.log(error);
+    }
+  });
+  return categories;
 }
 async function getCategoryById(id) {
   const queryCategory = dbLite.prepare(
