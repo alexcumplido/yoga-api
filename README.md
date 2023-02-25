@@ -4,18 +4,19 @@ API Rest returning yoga categories and poses including basic info and images. If
 
 This API is hosted on [Render](https://render.com/), and includes custom and already existing data from projects. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder).
 
-## Endpoints usage
+## Get endpoints usage
 
-- Render url: `https://yoga-api-nzy4.onrender.com/v1/`
-- GET `/categories` -- get all categories
-- GET `/categories/:id` -- get poses from category by Id
-- GET `/categories/catName/:name` -- get poses from category by Name
-- GET `/poses` -- get all poses
-- GET `/poses/poseId/:id` -- get pose by id
-- GET `/poses/poseName/:name` -- get pose by name (name must be in english not in sanskrit)
-- GET `/poses?sort=true` -- get poses sorted alphabetically by english name
-- GET `/poses?level=difficulty` -- get poses by level replacing "difficulty" by: beginner, intermediate or expert
-- GET `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
+- `https://yoga-api-nzy4.onrender.com/v1/` -- deployment url (nothing there)
+- `/api` -- get the base url
+- `/categories` -- get all categories
+- `/categories/:id` -- get poses from a category by Id
+- `/categories/catName/:name` -- get poses from a category by name
+- `/poses` -- get all poses
+- `/poses/poseId/:id` -- get a pose by id
+- `/poses/poseName/:name` -- get a pose by name (name must be in english not in sanskrit)
+- `/poses?sort=true` -- get poses sorted alphabetically by english name
+- `/poses?level=difficulty` -- get poses by level replacing "difficulty" by: beginner, intermediate or expert
+- `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
 
 **Request base URL:**
 
@@ -46,9 +47,9 @@ The base URL is the root of the URL. If you ever make a request and you get back
 
 ### **Endpoints**
 
-- `/categories` -- get all categories
-- `/categories/:id` -- get poses from category by Id
-- `/categories/catName/:name` -- get poses from category by Name
+- `/categories`
+- `/categories/:id`
+- `/categories/catName/:name`
 
 **Example request categories:**
 
@@ -109,12 +110,12 @@ Content-Type: application/json
 
 ### **Endpoints**
 
-- `/poses` -- get all poses
-- `/poses/poseId/:id` -- get pose by id
-- `/poses/poseName/:name` -- get pose by name (name must be in english not in sanskrit)
-- `/poses?sort=true` -- get poses sorted alphabetically by english name
-- `/poses?level=difficulty` -- get poses by level replacing "difficulty" by: beginner, intermediate or expert
-- `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
+- `/poses`
+- `/poses/poseId/:id`
+- `/poses/poseName/:name`
+- `/poses?sort=true`
+- `/poses?level=difficulty`
+- `/poses?category=name&level=beginner`
 
 **Example request poses:**
 
