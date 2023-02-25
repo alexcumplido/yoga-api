@@ -28,7 +28,7 @@ async function getCategoryById(id) {
   const rowsCategory = queryCategory.get(id);
   const queryPoses = dbLite.prepare(
     `SELECT 
-    poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description pose_benefits, 
+    poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description, pose_benefits, 
     url_svg, url_png, url_svg_alt 
     FROM poses 
       INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id 
@@ -48,7 +48,7 @@ async function getCategoryByName(name) {
   const rowsCategory = queryCategory.get(name);
   const queryPoses = dbLite.prepare(
     `SELECT
-    poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description pose_benefits,
+    poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description, pose_benefits,
     url_svg, url_png, url_svg_alt
     FROM poses
       INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id
