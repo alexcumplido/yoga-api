@@ -36,7 +36,8 @@ The base URL is the root of the URL. If you ever make a request and you get back
 ### **Endpoints**
 
 - `/categories` -- get all categories
-- `/categories/:name` -- get category
+- `/categories/:id` -- get poses from category by Id
+- `/categories/catName/:name` -- get poses from category by Name
 
 **Example request categories:**
 
@@ -101,13 +102,13 @@ Content-Type: application/json
 - `/poses/poseId/:id` -- get pose by id
 - `/poses/poseName/:name` -- get pose by name (name must be in english not in sanskrit)
 - `/poses?sort=true` -- get poses sorted alphabetically by english name
-- `/poses?level=difficulty` -- get poses replacing "difficulty" by: beginner, intermediate or expert
-- `/poses?category=name&level=beginner` -- get a combination of poses by difficulty in a named category
+- `/poses?level=difficulty` -- get poses by level replacing "difficulty" by: beginner, intermediate or expert
+- `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
 
 **Example request poses:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/yoga/poses
+https://yoga-api-nzy4.onrender.com/v1/poses
 ```
 
 **Example response:**
@@ -119,7 +120,7 @@ https://yoga-api-nzy4.onrender.com/v1/yoga/poses
 **Example request pose by Id or by name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/poses/poseId/5
+https://yoga-api-nzy4.onrender.com/v1/poses/5
 https://yoga-api-nzy4.onrender.com/v1/poses/poseName/butterfly
 ```
 
