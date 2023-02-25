@@ -47,65 +47,36 @@ https://yoga-api-nzy4.onrender.com/v1/categories
 **Example response:**
 
 ```json
-{
-  "items": [
-    {
-      "id": 1,
-      "name": "Core Yoga Poses",
-      "short_name": "core_yoga_poses",
-      "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose",
-      "yoga_poses": [
-        {
-          "pose_id": 1,
-          "sanskrit_name": "Navasana",
-          "english_name": "Boat",
-          "difficulty": "Intermediate",
-          "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
-          "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
-          "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
-          "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
-          "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Seated Yoga Poses",
-      "short_name": "seated_yoga_poses",
-      "description": "Stay supple in your yoga practice with twisting asanas",
-      "yoga_poses": []
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "category_name": "Core Yoga",
+    "category_description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose."
+  },
+  {
+    "id": 2,
+    "category_name": "Seated Yoga",
+    "category_description": " Yoga practice with seated poses that help you find better alignment, increase your flexibility, and relieve lower back pain and discomfort. Tone the belly, massage your internal organs, and relieve lower back pain in these seated yoga poses. "
+  }
+]
 ```
 
-**Example request category by name:**
+**Example request category by id or name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/categories/core yoga poses
+https://yoga-api-nzy4.onrender.com/v1/categories/1
+https://yoga-api-nzy4.onrender.com/v1/categories/catName/core yoga poses
 ```
 
 **Example response:**
 
 ```json
 {
-  "id": 1,
-  "name": "Core Yoga Poses",
-  "short_name": "core_yoga_poses",
-  "description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose.",
-  "yoga_poses": [
-    {
-      "pose_id": 1,
-      "sanskrit_name": "Navasana",
-      "english_name": "Boat",
-      "difficulty": "Intermediate",
-      "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
-      "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
-      "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
-      "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
-      "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
-    }
-  ]
+  "id": 4,
+  "category_name": "Chest Opening Yoga",
+  "category_description": "Open your heart and shoulders in chest opening yoga poses like Camel Pose, Fish Pose and Wild Thing.",
+  "poses": [ {...}, {...}, {...}, {...}, {...}]
+
 }
 ```
 
@@ -127,9 +98,11 @@ Content-Type: application/json
 ### **Endpoints**
 
 - `/poses` -- get all poses
-- `/poses?sort=true` -- set optional query param and get poses sorted alphabetically by english name
-- `/poses/poseName/:name` -- get pose by name (name must be in english not in sanskrit)
 - `/poses/poseId/:id` -- get pose by id
+- `/poses/poseName/:name` -- get pose by name (name must be in english not in sanskrit)
+- `/poses?sort=true` -- set optional query param and get poses sorted alphabetically by english name
+- `/poses?level=difficulty` -- get poses by difficulty level beginner, intermediate or expert
+- `/poses?category=name&level=beginner` -- get a combination of poses by difficulty in each category
 
 **Example request poses:**
 
@@ -140,64 +113,30 @@ https://yoga-api-nzy4.onrender.com/v1/yoga/poses
 **Example response:**
 
 ```json
-{
-  "poses": [
-    {
-      "pose_id": 1,
-      "sanskrit_name": "Navasana",
-      "english_name": "Boat",
-      "difficulty": "Intermediate",
-      "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
-      "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
-      "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
-      "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
-      "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
-    }
-  ]
-}
+[ {...}, {...}, {...}, {...}, {...}]
 ```
 
-**Example request pose by name:**
+**Example request pose by Id or by name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/poses/poseName/boat
+https://yoga-api-nzy4.onrender.com/v1/poses/poseId/5
+https://yoga-api-nzy4.onrender.com/v1/poses/poseName/butterfly
 ```
 
 **Example response:**
 
 ```json
 {
-  "pose_id": 1,
-  "sanskrit_name": "Navasana",
-  "english_name": "Boat",
-  "difficulty": "Intermediate",
-  "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
-  "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
-  "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
-  "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
-  "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
-}
-```
-
-**Example request pose by id:**
-
-```
-https://yoga-api-nzy4.onrender.com/v1/poses/poseId/1
-```
-
-**Example response:**
-
-```json
-{
-  "pose_id": 1,
-  "sanskrit_name": "Navasana",
-  "english_name": "Boat",
-  "difficulty": "Intermediate",
-  "description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.",
-  "benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.",
-  "img_url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
-  "img_url_jpg": "https://res.cloudinary.com/dko1be2jy/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676483071/yoga-api/1_txmirf.jpg",
-  "img_url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
+  "id": 5,
+  "english_name": "Butterfly",
+  "sanskrit_name_adapted": "Baddha Konasana",
+  "sanskrit_name": "Baddha Koṇāsana",
+  "translation_name": "baddha = bound, koṇa = angle, āsana = posture",
+  "pose_description": "In sitting position, bend both knees and drop the knees to each side, opening the hips.  Bring the soles of the feet together and bring the heels as close to the groin as possible, keeping the knees close to the ground.  The hands may reach down and grasp and maneuver the feet so that the soles are facing upwards and the heels and little toes are connected.  The shoulders should be pulled back and no rounding of the spine.",
+  "pose_benefits": "Opens the hips and groins.  Stretches the shoulders, rib cage and back.  Stimulates the abdominal organs, lungs and heart.",
+  "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483074/yoga-api/5_i64gif.svg",
+  "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483074/yoga-api/5_i64gif.png",
+  "url_svg_alt": "https://www.dropbox.com/s/3h2pts6xbn28dh7/butterfly%3F.svg?raw=1"
 }
 ```
 
