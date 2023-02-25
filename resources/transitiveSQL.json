@@ -1,0 +1,598 @@
+{
+    "poses_category": [ 
+        {
+            "id": 1,
+            "pose_id": 1,
+            "category_id": 1,
+            "difficulty_id": 2
+        },
+        {
+            "id": 2,
+            "pose_id": 1,
+            "category_id": 2,
+            "difficulty_id": 2
+        },
+        {
+            "id": 3,
+            "pose_id":  1,
+            "category_id": 3,
+            "difficulty_id": 2
+        },
+        {
+            "id": 4,
+            "pose_id": 2,
+            "category_id": 1,
+            "difficulty_id": 1
+        },
+        {
+            "id": 5,
+            "pose_id": 2,
+            "category_id": 2,
+            "difficulty_id": 1
+        },
+        {
+            "id": 6,
+            "pose_id": 2,
+            "category_id": 3,
+            "difficulty_id": 1
+        },
+        {
+            "id": 7,
+            "pose_id": 3,
+            "category_id": 4,
+            "difficulty_id": 2
+        },
+        {
+            "id": 8,
+            "pose_id": 3,
+            "category_id": 5,
+            "difficulty_id": 2
+        },
+        {
+            "id": 9,
+            "pose_id": 3,
+            "category_id": 5,
+            "difficulty_id": 2
+        },
+        {
+            "id": 10,
+            "pose_id": 5,
+            "category_id": 2,
+            "difficulty_id": 1
+        },
+        {
+            "id": 11,
+            "pose_id": 5,
+            "category_id": 6,
+            "difficulty_id": 1
+        },
+        {
+            "id": 12,
+            "pose_id": 5,
+            "category_id": 7,
+            "difficulty_id": 1
+        },
+        {
+            "id": 13,
+            "pose_id": 6,
+            "category_id": 4,
+            "difficulty_id": 2
+        },
+        {
+            "id": 14,
+            "pose_id": 6,
+            "category_id": 5,
+            "difficulty_id": 2
+        },
+        {
+            "id": 15,
+            "pose_id": 7,
+            "category_id": 1,
+            "difficulty_id": 1
+        },
+        {
+            "id": 16,
+            "pose_id": 8,
+            "category_id": 4,
+            "difficulty_id": 1
+        },
+        {
+            "id": 17,
+            "pose_id": 8,
+            "category_id": 5,
+            "difficulty_id": 1
+        },  
+        {
+            "id": 18,
+            "pose_id": 9,
+            "category_id": 1,
+            "difficulty_id": 1
+        },
+        {
+            "id": 19,
+            "pose_id": 9,
+            "category_id": 3,
+            "difficulty_id": 1
+        },
+        {
+            "id": 20,
+            "pose_id": 9,
+            "category_id": 8,
+            "difficulty_id": 1
+        },
+        {
+            "id": 21,
+            "pose_id": 10,
+            "category_id": 6,
+            "difficulty_id": 1
+        },
+        {
+            "id": 22,
+            "pose_id": 10,
+            "category_id": 7,
+            "difficulty_id": 1
+        },
+        {
+            "id": 23,
+            "pose_id": 10,
+            "category_id": 9,
+            "difficulty_id": 1
+        },  
+        {
+            "id": 24,
+            "pose_id": 11,
+            "category_id": 9,
+            "difficulty_id": 1
+        },  
+        {
+            "id": 25,
+            "pose_id": 12,
+            "category_id": 8,
+            "difficulty_id": 2
+        },
+        {
+            "id": 26,
+            "pose_id": 13,
+            "category_id": 1,
+            "difficulty_id": 2
+        },
+        {
+            "id": 27,
+            "pose_id": 13,
+            "category_id": 10,
+            "difficulty_id": 2
+        },
+        {
+            "id": 28,
+            "pose_id": 14,
+            "category_id": 1,
+            "difficulty_id": 3
+        },
+        {
+            "id": 29,
+            "pose_id": 14,
+            "category_id": 3,
+            "difficulty_id": 3
+        },
+        {
+            "id": 30,
+            "pose_id": 14,
+            "category_id": 8,
+            "difficulty_id": 3
+        },
+        {
+            "id": 31,
+            "pose_id": 15,
+            "category_id": 3,
+            "difficulty_id": 2
+        },
+        {
+            "id": 32,
+            "pose_id": 15,
+            "category_id": 6,
+            "difficulty_id": 2
+        },
+        {
+            "id": 33,
+            "pose_id": 15,
+            "category_id": 8,
+            "difficulty_id": 2
+        },
+        {
+            "id": 34,
+            "pose_id": 16,
+            "category_id": 8,
+            "difficulty_id": 2
+        },
+        {
+            "id": 35,
+            "pose_id": 16,
+            "category_id": 7,
+            "difficulty_id": 2
+        },
+        {
+            "id": 36,
+            "pose_id": 16,
+            "category_id": 11,
+            "difficulty_id": 2
+        },
+        {
+            "id": 37,
+            "pose_id": 17,
+            "category_id": 8,
+            "difficulty_id": 3
+        },
+        {
+            "id": 38,
+            "pose_id": 17,
+            "category_id": 7,
+            "difficulty_id": 3
+        },
+        {
+            "id": 39,
+            "pose_id": 17,
+            "category_id": 11,
+            "difficulty_id": 3
+        },
+        {
+            "id": 40,
+            "pose_id": 18,
+            "category_id": 3,
+            "difficulty_id": 2
+        },
+        {
+            "id": 41,
+            "pose_id": 18,
+            "category_id": 8,
+            "difficulty_id": 2
+        },
+        {
+            "id": 42,
+            "pose_id": 19,
+            "category_id": 3,
+            "difficulty_id": 3
+        },
+        {
+            "id": 43,
+            "pose_id": 19,
+            "category_id": 12,
+            "difficulty_id": 3
+        },
+        {
+            "id": 44,
+            "pose_id": 20,
+            "category_id": 6,
+            "difficulty_id": 2
+        },
+        {
+            "id": 45,
+            "pose_id": 21,
+            "category_id": 8,
+            "difficulty_id": 3
+        },
+        {
+            "id": 46,
+            "pose_id": 21,
+            "category_id": 11,
+            "difficulty_id": 2
+        },
+        {
+            "id": 47,
+            "pose_id": 22,
+            "category_id": 3,
+            "difficulty_id": 3
+        },
+        {
+            "id": 48,
+            "pose_id": 22,
+            "category_id": 11,
+            "difficulty_id": 3
+        },
+        {
+            "id": 49,
+            "pose_id": 22,
+            "category_id": 8,
+            "difficulty_id": 3
+        },
+        {
+            "id": 50,
+            "pose_id": 23,
+            "category_id": 8,
+            "difficulty_id": 1
+        },
+        {
+            "id": 51,
+            "pose_id": 24,
+            "category_id": 5,
+            "difficulty_id": 2
+        },
+        {
+            "id": 52,
+            "pose_id": 25,
+            "category_id": 5,
+            "difficulty_id": 2
+        },
+        {
+            "id": 53,
+            "pose_id": 25,
+            "category_id": 7,
+            "difficulty_id": 2
+        },
+        {
+            "id": 54,
+            "pose_id": 26,
+            "category_id": 1,
+            "difficulty_id": 2
+        },
+        {
+            "id": 55,
+            "pose_id": 26,
+            "category_id": 3,
+            "difficulty_id": 2
+        },
+        {
+            "id": 56,
+            "pose_id": 26,
+            "category_id": 10,
+            "difficulty_id": 2
+        },
+        {
+            "id": 57,
+            "pose_id": 27,
+            "category_id": 12,
+            "difficulty_id": 2
+        },
+        {
+            "id": 58,
+            "pose_id": 28,
+            "category_id": 6,
+            "difficulty_id": 2
+        },
+        {
+            "id": 59,
+            "pose_id": 28,
+            "category_id": 8,
+            "difficulty_id": 2
+        },
+        {
+            "id": 29,
+            "pose_id": 28,
+            "category_id": 3,
+            "difficulty_id": 2
+        },
+        {
+            "id": 61,
+            "pose_id": 29,
+            "category_id": 8,
+            "difficulty_id": 2
+        },
+        {
+            "id": 62,
+            "pose_id": 30,
+            "category_id": 2,
+            "difficulty_id": 1
+        },
+        {
+            "id": 63,
+            "pose_id": 30,
+            "category_id": 6,
+            "difficulty_id": 1
+        },
+        {
+            "id": 64,
+            "pose_id": 31,
+            "category_id": 2,
+            "difficulty_id": 2
+        },
+        {
+            "id": 65,
+            "pose_id": 32,
+            "category_id": 2,
+            "difficulty_id": 3
+        },
+        {
+            "id": 66,
+            "pose_id": 32,
+            "category_id": 7,
+            "difficulty_id": 3
+        },
+        {
+            "id": 67,
+            "pose_id": 33,
+            "category_id": 11,
+            "difficulty_id": 2
+        },
+        {
+            "id": 68,
+            "pose_id": 33,
+            "category_id": 12,
+            "difficulty_id": 2
+        },
+        {
+            "id": 69,
+            "pose_id": 34,
+            "category_id": 1,
+            "difficulty_id": 2
+        },
+        {
+            "id": 70,
+            "pose_id": 34,
+            "category_id": 10,
+            "difficulty_id": 2
+        },
+        {
+            "id": 71,
+            "pose_id": 34,
+            "category_id": 11,
+            "difficulty_id": 2
+        },
+        {
+            "id": 72,
+            "pose_id": 35,
+            "category_id": 4,
+            "difficulty_id": 1
+        },
+        {
+            "id": 73,
+            "pose_id": 35,
+            "category_id": 5,
+            "difficulty_id": 1
+        },
+        {
+            "id": 74,
+            "pose_id": 36,
+            "category_id": 2,
+            "difficulty_id": 3
+        },
+        {
+            "id": 75,
+            "pose_id": 37,
+            "category_id": 8,
+            "difficulty_id": 1
+        },
+        {
+            "id": 76,
+            "pose_id": 38,
+            "category_id": 6,
+            "difficulty_id": 1
+        },
+        {
+            "id": 77,
+            "pose_id": 39,
+            "category_id": 8,
+            "difficulty_id": 2
+        },
+        {
+            "id": 78,
+            "pose_id": 39,
+            "category_id": 11,
+            "difficulty_id": 2
+        },
+        {
+            "id": 79,
+            "pose_id": 40,
+            "category_id": 2,
+            "difficulty_id": 3
+        },
+        {
+            "id": 80,
+            "pose_id": 40,
+            "category_id": 6,
+            "difficulty_id": 3
+        },
+        {
+            "id": 81,
+            "pose_id": 40,
+            "category_id": 7,
+            "difficulty_id": 3
+        },
+        {
+            "id": 82,
+            "pose_id": 41,
+            "category_id": 8,
+            "difficulty_id": 2
+        },
+        {
+            "id": 83,
+            "pose_id": 41,
+            "category_id": 11,
+            "difficulty_id": 2
+        },
+        {
+            "id": 84,
+            "pose_id": 42,
+            "category_id": 3,
+            "difficulty_id": 1
+        },
+        {
+            "id": 85,
+            "pose_id": 42,
+            "category_id": 8,
+            "difficulty_id": 1
+        },
+        {
+            "id": 86,
+            "pose_id": 43,
+            "category_id": 4,
+            "difficulty_id": 2
+        },
+        {
+            "id": 87,
+            "pose_id": 43,
+            "category_id": 5,
+            "difficulty_id": 2
+        },
+        {
+            "id": 88,
+            "pose_id": 44,
+            "category_id": 3,
+            "difficulty_id": 1
+        },
+        {
+            "id": 89,
+            "pose_id": 44,
+            "category_id": 8,
+            "difficulty_id": 1
+        },
+        {
+            "id": 90,
+            "pose_id": 45,
+            "category_id": 3,
+            "difficulty_id": 1
+        },
+        {
+            "id": 91,
+            "pose_id": 45,
+            "category_id": 8,
+            "difficulty_id": 1
+        },
+        {
+            "id": 92,
+            "pose_id": 46,
+            "category_id": 3,
+            "difficulty_id": 3
+        },
+        {
+            "id": 93,
+            "pose_id": 46,
+            "category_id": 8,
+            "difficulty_id": 3
+        },
+        {
+            "id": 94,
+            "pose_id": 46,
+            "category_id": 11,
+            "difficulty_id": 3
+        },
+        {
+            "id": 95,
+            "pose_id": 47,
+            "category_id": 3,
+            "difficulty_id": 3
+        },
+        {
+            "id": 96,
+            "pose_id": 47,
+            "category_id": 4,
+            "difficulty_id": 3
+        },
+        {
+            "id": 97,
+            "pose_id": 47,
+            "category_id": 5,
+            "difficulty_id": 3
+        },
+        {
+            "id": 98,
+            "pose_id": 48,
+            "category_id": 4,
+            "difficulty_id": 3
+        },
+        {
+            "id": 99,
+            "pose_id": 48,
+            "category_id": 10,
+            "difficulty_id": 2
+        }
+    ] 
+}
