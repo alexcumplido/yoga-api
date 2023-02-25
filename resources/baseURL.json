@@ -1,9 +1,13 @@
 {
   "baseURL": "https://yoga-api-nzy4.onrender.com/v1/api",
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
-  "categoryName": "https://yoga-api-nzy4.onrender.com/v1/categories/:name",
+  "categoryById": "https://yoga-api-nzy4.onrender.com/v1/categories/:id",
+  "categoryByName": "https://yoga-api-nzy4.onrender.com/v1/categories/catName/:name",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
+  "poseById": "https://yoga-api-nzy4.onrender.com/v1/poses/:id",
+  "poseByName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
   "posesAlphabetically": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true",
-  "poseName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
-  "poseId": "https://yoga-api-nzy4.onrender.com/v1/poses/poseId/:id"
+  "posesByLevel": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner",
+  "posesByCategoryAndLevel": "https://yoga-api-nzy4.onrender.com/v1/poses?category=name&level=difficulty"
 }
+
