@@ -9,12 +9,12 @@ This API is hosted on [Render](https://render.com/), and includes custom and alr
 - `https://yoga-api-nzy4.onrender.com/v1/` -- deployment url (nothing there)
 - `/api` -- get the base url
 - `/categories` -- get all categories
-- `/categories/:id` -- get poses from a category by Id
-- `/categories/catName/:name` -- get poses from a category by name
-- `/poses` -- get all poses
+- `/categories/:id` -- get a single category byId
+- `/categories/catName/:name` -- get a single category by Name
+- `/poses` -- get all poses without categories
 - `/poses/poseId/:id` -- get a pose by id
 - `/poses/poseName/:name` -- get a pose by name (name must be in english not in sanskrit)
-- `/poses?sort=true` -- get poses sorted alphabetically by english name
+- `/poses?sort=true` -- get all poses sorted alphabetically by english name
 - `/poses?level=difficulty` -- get poses by level replacing "difficulty" by: beginner, intermediate or expert
 - `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
 
@@ -64,12 +64,14 @@ https://yoga-api-nzy4.onrender.com/v1/categories
   {
     "id": 1,
     "category_name": "Core Yoga",
-    "category_description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose."
+    "category_description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like Boat Pose, Dolphin Pose and Side Plank Pose.",
+    "poses": [ {...}, {...}, {...}, {...}, {...}]
   },
   {
     "id": 2,
     "category_name": "Seated Yoga",
-    "category_description": " Yoga practice with seated poses that help you find better alignment, increase your flexibility, and relieve lower back pain and discomfort. Tone the belly, massage your internal organs, and relieve lower back pain in these seated yoga poses. "
+    "category_description": " Yoga practice with seated poses that help you find better alignment, increase your flexibility, and relieve lower back pain and discomfort. Tone the belly, massage your internal organs, and relieve lower back pain in these seated yoga poses. ",
+    "poses": [ {...}, {...}, {...}, {...}, {...}]
   }
 ]
 ```
