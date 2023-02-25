@@ -1,21 +1,8 @@
 # Yoga API 🧘‍♀️
 
-**🚧 MAINTENANCE: Migrating from MongoDB to SQLite🚧**
-
 API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen.
 
 This API is hosted on [Render](https://render.com/), and includes custom and already existing data from projects. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder).
-
-## Latest updates
-
-- Added difficulty, description and benefits for each posture
-- Included URLs for .jpg and .svg resources
-- Migrated SVG assets to [Cloudinary](https://cloudinary.com/)
-
-## Next releases
-
-- Migration from MongoDB to SQLite and database normalisation
-- New endpoints for difficulty sorting
 
 ## Endpoints usage
 
@@ -31,11 +18,14 @@ https://yoga-api-nzy4.onrender.com/v1/api
 {
   "baseURL": "https://yoga-api-nzy4.onrender.com/v1/api",
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
-  "categoryName": "https://yoga-api-nzy4.onrender.com/v1/categories/:name",
+  "categoryById": "https://yoga-api-nzy4.onrender.com/v1/categories/:id",
+  "categoryByName": "https://yoga-api-nzy4.onrender.com/v1/categories/catName/:name",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
+  "poseById": "https://yoga-api-nzy4.onrender.com/v1/poses/:id",
+  "poseByName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
   "posesAlphabetically": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true",
-  "poseName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
-  "poseId": "https://yoga-api-nzy4.onrender.com/v1/poses/poseId/:id"
+  "posesByLevel": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner",
+  "posesByCategoryAndLevel": "https://yoga-api-nzy4.onrender.com/v1/poses?category=name&level=difficulty"
 }
 ```
 
