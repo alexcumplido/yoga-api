@@ -9,8 +9,8 @@ This API is hosted on [Render](https://render.com/), and includes custom and alr
 - `https://yoga-api-nzy4.onrender.com/v1/` -- deployment url (nothing there)
 - `/api` -- get the base url
 - `/categories` -- get all categories
-- `/categories/:id` -- get a single category byId
-- `/categories/catName/:name` -- get a single category by Name
+- `/categories/:id` -- get a single category by Id
+- `/categories/catName/:name` -- get a single category by name
 - `/poses` -- get all poses without categories
 - `/poses/poseId/:id` -- get a pose by id
 - `/poses/poseName/:name` -- get a pose by name (name must be in english not in sanskrit)
