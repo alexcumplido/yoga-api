@@ -6,6 +6,17 @@ This API is hosted on [Render](https://render.com/), and includes custom and alr
 
 ## Endpoints usage
 
+- Render url: `https://yoga-api-nzy4.onrender.com/v1/`
+- GET `/categories` -- get all categories
+- GET `/categories/:id` -- get poses from category by Id
+- GET `/categories/catName/:name` -- get poses from category by Name
+- GET `/poses` -- get all poses
+- GET `/poses/poseId/:id` -- get pose by id
+- GET `/poses/poseName/:name` -- get pose by name (name must be in english not in sanskrit)
+- GET `/poses?sort=true` -- get poses sorted alphabetically by english name
+- GET `/poses?level=difficulty` -- get poses by level replacing "difficulty" by: beginner, intermediate or expert
+- GET `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
+
 **Request base URL:**
 
 ```
