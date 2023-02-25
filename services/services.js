@@ -1,76 +1,128 @@
 require("dotenv").config();
-let db;
-let dbConnectionStr = process.env.DB_STRING;
-let dbName = "yogaapi";
 
-const MongoClient = require("mongodb").MongoClient;
+const Database = require("better-sqlite3");
+const dbLite = new Database("db/database.db", {
+  verbose: console.log,
+});
+
 const baseURL = require("../resources/baseURL.json");
-const yogacategories = require("../resources/categories.json");
-
-MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true }).then(
-  (client) => {
-    console.log(`Connected to ${dbName} Database`);
-    db = client.db(dbName);
-  }
-);
 
 async function getBaseURL() {
   return baseURL;
 }
 
 async function getCategories() {
-  return yogacategories;
+  const query = dbLite.prepare(
+    `SELECT * 
+    FROM categories`
+  );
+  const rows = query.all();
+  return rows;
+}
+async function getCategoryById(id) {
+  const queryCategory = dbLite.prepare(
+    `SELECT * 
+    FROM categories
+    WHERE categories.id = ?`
+  );
+  const rowsCategory = queryCategory.get(id);
+  const queryPoses = dbLite.prepare(
+    `SELECT 
+    poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description pose_benefits, 
+    url_svg, url_png, url_svg_alt 
+    FROM poses 
+      INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id 
+      INNER JOIN categories ON categories.id = transitive_poses.category_id 
+      WHERE categories.id = ?`
+  );
+  const rowsPoses = queryPoses.all(rowsCategory.id);
+  return { ...rowsCategory, poses: [...rowsPoses] };
 }
 
 async function getCategoryByName(name) {
-  const data = yogacategories.items.find(function (element) {
-    return element.name.toLowerCase() === name.toLowerCase();
-  });
-  return data;
+  const queryCategory = dbLite.prepare(
+    `SELECT *
+    FROM categories
+    WHERE categories.category_name = ? COLLATE NOCASE`
+  );
+  const rowsCategory = queryCategory.get(name);
+  const queryPoses = dbLite.prepare(
+    `SELECT
+    poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description pose_benefits,
+    url_svg, url_png, url_svg_alt
+    FROM poses
+      INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id
+      INNER JOIN categories ON categories.id = transitive_poses.category_id
+      WHERE categories.category_name = ?`
+  );
+  const rowsPoses = queryPoses.all(rowsCategory.category_name);
+  return { ...rowsCategory, poses: [...rowsPoses] };
 }
 
 async function getPoses() {
-  const poses = [];
-  const data = await db.collection("poses").find().toArray();
-  data.forEach((item) => poses.push(item.element));
-  return poses;
+  const query = dbLite.prepare("SELECT * FROM poses");
+  const rows = query.all();
+  return rows;
 }
 
 async function getPosesSorted() {
-  const poses = [];
-  const data = await db.collection("poses").find().toArray();
-  data.forEach((item) => poses.push(item.element));
-  poses.sort(function (a, b) {
-    if (a.english_name.toLowerCase() < b.english_name.toLowerCase()) {
-      return -1;
-    }
-    if (a.english_name.toLowerCase() > b.english_name.toLowerCase()) {
-      return 1;
-    }
-    return 0;
-  });
-
-  return poses;
+  const query = dbLite.prepare(
+    "SELECT * FROM poses ORDER BY poses.english_name ASC"
+  );
+  const rows = query.all();
+  return rows;
 }
 
 async function getPoseByName(name) {
-  const poses = [];
-  const data = await db.collection("poses").find().toArray();
-  data.forEach((item) => poses.push(item.element));
-  const singlePose = poses.find(function (element) {
-    return element.english_name.toLowerCase() === name.toLowerCase();
-  });
-  return singlePose;
+  const query = dbLite.prepare(
+    "SELECT * FROM poses WHERE poses.english_name = ? COLLATE NOCASE"
+  );
+  const row = query.get(name);
+  return row;
 }
 
 async function getPoseById(id) {
-  const poses = [];
-  const data = await db.collection("poses").find().toArray();
-  data.forEach((item) => poses.push(item.element));
-  const singlePose = poses.find(function (element) {
-    return Number(element.id) === Number(id);
-  });
-  return singlePose;
+  const query = dbLite.prepare("SELECT * FROM poses WHERE id = ?");
+  const row = query.get(id);
+  return row;
+}
+
+async function getPosesByDifficulty(level) {
+  const queryDifficulty = dbLite.prepare(
+    `SELECT * 
+    FROM difficulty
+    WHERE difficulty.difficulty_level = ? COLLATE NOCASE`
+  );
+  const rowsDifficulty = queryDifficulty.get(level);
+  const queryPoses = dbLite.prepare(
+    `SELECT DISTINCT
+    poses.id, difficulty_level, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description, pose_benefits, 
+    url_svg, url_png, url_svg_alt
+    FROM poses
+	    INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id
+	    INNER JOIN difficulty ON difficulty.id = transitive_poses.difficulty_id
+	    WHERE difficulty.difficulty_level = ? COLLATE NOCASE 
+  `
+  );
+  const rowsPoses = queryPoses.all(rowsDifficulty.difficulty_level);
+  return { ...rowsDifficulty, poses: [...rowsPoses] };
+}
+
+async function getPosesByCategoryAndDifficulty(category, difficulty) {
+  const query = dbLite.prepare(
+    `SELECT DISTINCT
+    poses.id, category_name, difficulty_level, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description pose_benefits,
+    url_svg, url_png, url_svg_alt
+    FROM poses
+      INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id
+      INNER JOIN categories ON categories.id = transitive_poses.category_id
+	    INNER JOIN difficulty ON difficulty.id = transitive_poses.difficulty_id
+      WHERE categories.category_name = ? COLLATE NOCASE 
+	    AND difficulty.difficulty_level = ? COLLATE NOCASE
+  `
+  );
+  const rows = query.all(category, difficulty);
+  return rows;
 }
 
 module.exports = {
@@ -79,6 +131,9 @@ module.exports = {
   getCategoryByName,
   getPoses,
   getPosesSorted,
+  getCategoryById,
   getPoseByName,
   getPoseById,
+  getPosesByDifficulty,
+  getPosesByCategoryAndDifficulty,
 };
