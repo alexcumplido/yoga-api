@@ -1,0 +1,34 @@
+[
+// POSE
+    {
+        "pose_id": "INTEGER PK",
+        "sanskrit_name": "VARCHAR(40) NN UNIQUE",
+        "english_name": "VARCHAR(40) NN UNIQUE",
+        "difficulty": "VARCHAR(40) NN",
+        "description": "TEXT NN",
+        "benefits": "TEXT NN",
+        "img_url_svg": "TEXT NN",
+        "img_url_jpg":  "TEXT NN",
+        "img_url_svg_alt": "TEXT NN" 
+    },
+// CATEGORY
+    {
+        "category_id": "INTEGER PK",
+        "category_name": "VARCHAR(40) NN UNIQUE",
+        "short_name": "VARCHAR(40) NN UNIQUE",
+        "description": "TEXT NN"
+    },
+
+// TRANSITIVE 
+    {
+        "id": "INTEGER PK",
+        "category_id": "INTEGER (PK, FK)",
+        "pose_id": "INTEGER (PK, FK)",
+        "difficulty_id": "INTEGER (PK, FK)"
+    },
+// DIFFICULTY
+    {
+        "id": "INTEGER PK",
+        "difficulty_level": "TEXT NN"
+    }
+]
