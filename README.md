@@ -12,7 +12,7 @@ This API is hosted on [Render](https://render.com/), and includes custom and alr
 - `/categories/:id` -- get a single category by Id
 - `/categories/catName/:name` -- get a single category by name
 - `/poses` -- get all poses without categories
-- `/poses/poseId/:id` -- get a pose by id
+- `/poses/:id` -- get a pose by id
 - `/poses/poseName/:name` -- get a pose by name (name must be in english not in sanskrit)
 - `/poses?sort=true` -- get all poses sorted alphabetically by english name
 - `/poses?level=difficulty` -- get poses by level replacing "difficulty" by: beginner, intermediate or expert
@@ -113,7 +113,7 @@ Content-Type: application/json
 ### **Endpoints**
 
 - `/poses`
-- `/poses/poseId/:id`
+- `/poses/:id`
 - `/poses/poseName/:name`
 - `/poses?sort=true`
 - `/poses?level=difficulty`
