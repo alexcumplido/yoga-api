@@ -64,8 +64,8 @@ https://yoga-api-nzy4.onrender.com/v1/categories
 **Example request category by id or name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/categories/1
-https://yoga-api-nzy4.onrender.com/v1/categories/catName/core yoga poses
+https://yoga-api-nzy4.onrender.com/v1/categories/4
+https://yoga-api-nzy4.onrender.com/v1/categories/catName/Chest Opening Yoga
 ```
 
 **Example response:**
@@ -100,9 +100,9 @@ Content-Type: application/json
 - `/poses` -- get all poses
 - `/poses/poseId/:id` -- get pose by id
 - `/poses/poseName/:name` -- get pose by name (name must be in english not in sanskrit)
-- `/poses?sort=true` -- set optional query param and get poses sorted alphabetically by english name
-- `/poses?level=difficulty` -- get poses by difficulty level beginner, intermediate or expert
-- `/poses?category=name&level=beginner` -- get a combination of poses by difficulty in each category
+- `/poses?sort=true` -- get poses sorted alphabetically by english name
+- `/poses?level=difficulty` -- get poses replacing "difficulty" by: beginner, intermediate or expert
+- `/poses?category=name&level=beginner` -- get a combination of poses by difficulty in a named category
 
 **Example request poses:**
 
