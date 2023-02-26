@@ -1,12 +1,10 @@
 # Yoga API 🧘‍♀️
 
-API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen.
-
-This API is hosted on [Render](https://render.com/), and includes custom and already existing data from projects. Credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) - [chrisman](https://github.com/Stuwert/yoga-builder).
+API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen. This API includes custom and already existing data from projects, credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) and [chrisman](https://github.com/Stuwert/yoga-builder).
 
 ## Get endpoints usage
 
-- `https://yoga-api-nzy4.onrender.com/v1/` -- deployment url (nothing there)
+- `https://yoga-api-nzy4.onrender.com/v1/` -- Render deployment url (nothing there)
 - `/api` -- get the base url
 - `/categories` -- get all categories
 - `/categories/:id` -- get a single category by Id
