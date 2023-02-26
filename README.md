@@ -194,10 +194,10 @@ Content-Type: application/json
 
 ## Credits
 
-This API includes custom and already existing data from projects, credits for the data to
+This API includes custom data and info from already existing projects. Credits to:
 
-- [rebeccaestes](https://github.com/rebeccaestes/yoga_api) (category data and alternative svg images)
-- [chrisman](https://github.com/Stuwert/yoga-builder) (poses data)
+- [rebeccaestes](https://github.com/rebeccaestes/yoga_api) (category data the "url_svg_alt" image)
+- [chrisman](https://github.com/Stuwert/yoga-builder) (poses details)
 
 ## Contact
 
