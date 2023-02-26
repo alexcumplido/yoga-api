@@ -25,6 +25,7 @@ async function getCategories() {
   });
   return categories;
 }
+
 async function getCategoryById(id) {
   const queryCategory = dbLite.prepare(
     `SELECT * 
@@ -115,6 +116,12 @@ async function getPosesByDifficulty(level) {
 }
 
 async function getPosesByCategoryAndDifficulty(category, difficulty) {
+  const queryCategory = dbLite.prepare(
+    `SELECT *
+    FROM categories
+    WHERE categories.category_name = ? COLLATE NOCASE`
+  );
+  const rowsCategory = queryCategory.get(category);
   const query = dbLite.prepare(
     `SELECT DISTINCT
     poses.id, category_name, difficulty_level, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description pose_benefits,
@@ -127,8 +134,8 @@ async function getPosesByCategoryAndDifficulty(category, difficulty) {
 	    AND difficulty.difficulty_level = ? COLLATE NOCASE
   `
   );
-  const rows = query.all(category, difficulty);
-  return rows;
+  const rows = query.all(rowsCategory.category_name, difficulty);
+  return { ...rowsCategory, poses: [...rows] };
 }
 
 module.exports = {
