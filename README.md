@@ -8,13 +8,13 @@ API Rest returning yoga categories and poses including basic info and images. If
 - `/api` -- get the base url
 - `/categories` -- get all categories
 - `/categories/:id` -- get a category by id
-- `/categories/catName/:name` -- get a category by name (no case sensitive)
+- `/categories/catName/:name` -- get a category by name
 - `/poses` -- get all poses
 - `/poses/:id` -- get a pose by id
-- `/poses/poseName/:name` -- get a pose by name (name must be in english not in sanskrit) (no case sensitive)
+- `/poses/poseName/:name` -- get a pose by name (name must be in english not in sanskrit)
 - `/poses?sort=true` -- get all poses sorted alphabetically by english name
-- `/poses?level=difficulty` -- get poses by level replacing the query param "difficulty" by: beginner, intermediate or expert
-- `/poses?category=name&level=beginner` -- get poses by difficulty in a named category (no case sensitive)
+- `/poses?level=difficulty` -- get poses by level by query param: beginner, intermediate, expert
+- `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
 
 **Request base URL:**
 
