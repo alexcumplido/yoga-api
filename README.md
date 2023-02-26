@@ -4,7 +4,7 @@ API Rest returning yoga categories and poses including basic info and images. If
 
 ## Get endpoints usage
 
-- `https://yoga-api-nzy4.onrender.com/v1/` -- Render deployment url (nothing there)
+- `https://yoga-api-nzy4.onrender.com/v1` -- Render deployment url (nothing there)
 - `/api` -- get the base url
 - `/categories` -- get all categories
 - `/categories/:id` -- get a category by id
