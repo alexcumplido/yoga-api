@@ -1,6 +1,6 @@
 # Yoga API 🧘‍♀️
 
-API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen. This API includes custom and already existing data from projects, credits for the data to [rebeccaestes](https://github.com/rebeccaestes/yoga_api) and [chrisman](https://github.com/Stuwert/yoga-builder).
+API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen.
 
 ## Get endpoints usage
 
@@ -192,8 +192,13 @@ Content-Type: application/json
 3. Implement changes
 4. Commit and submit a pull request with a description
 
+## Credits
+
+This API includes custom and already existing data from projects, credits for the data to
+
+- [rebeccaestes](https://github.com/rebeccaestes/yoga_api) (category data and alternative svg images)
+- [chrisman](https://github.com/Stuwert/yoga-builder) (poses data)
+
 ## Contact
 
-alexcubou@gmail.com
-
-[https://www.linkedin.com/in/alexandrecb/](https://www.linkedin.com/in/alexandrecb/)
+📫 Reach me at alexcubou@gmail.com or via [linkedin](https://www.linkedin.com/in/alexandrecb/)
