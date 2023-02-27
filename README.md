@@ -2,7 +2,7 @@
 
 API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen.
 
-## Get endpoints usage
+## Endpoints usage
 
 - `https://yoga-api-nzy4.onrender.com/v1` -- Render deployment url (nothing there)
 - `/api` -- get the base url
