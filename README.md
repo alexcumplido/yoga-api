@@ -12,9 +12,9 @@ API Rest returning yoga categories and poses including basic info and images. If
 - `/poses` -- get all poses
 - `/poses/:id` -- get a pose by id
 - `/poses/name/:name` -- get a pose by name (name must be in english not in sanskrit)
-- `/poses?sort=true` -- get all poses sorted alphabetically by english name
 - `/poses?level=difficulty` -- get poses by level by query param: beginner, intermediate, expert
 - `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
+- `/poses?sort=true` -- get all poses sorted alphabetically by english name
 
 \*nothing is case-sensitive
 
@@ -33,11 +33,11 @@ https://yoga-api-nzy4.onrender.com/v1/api
   "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories/:id",
   "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories/name/:name",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
-  "pose-by-Id": "https://yoga-api-nzy4.onrender.com/v1/poses/:id",
-  "pose-by-Name": "https://yoga-api-nzy4.onrender.com/v1/poses/name/:name",
-  "poses-alphabetically": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true",
-  "poses-by-Level": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner",
-  "poses-by-category-level": "https://yoga-api-nzy4.onrender.com/v1/poses?category=name&level=difficulty"
+  "pose-by-id": "https://yoga-api-nzy4.onrender.com/v1/poses/:id",
+  "pose-by-name": "https://yoga-api-nzy4.onrender.com/v1/poses/name/:name",
+  "poses-by-level": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner",
+  "poses-by-category-level": "https://yoga-api-nzy4.onrender.com/v1/poses?category=name&level=difficulty",
+  "poses-alphabetically": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true"
 }
 ```
 
