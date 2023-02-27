@@ -26,16 +26,16 @@ https://yoga-api-nzy4.onrender.com/v1/api
 
 ```json
 {
-  "baseURL": "https://yoga-api-nzy4.onrender.com/v1/api",
+  "base": "https://yoga-api-nzy4.onrender.com/v1/api",
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
-  "categoryById": "https://yoga-api-nzy4.onrender.com/v1/categories/:id",
-  "categoryByName": "https://yoga-api-nzy4.onrender.com/v1/categories/catName/:name",
+  "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories/:id",
+  "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories/name/:name",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
-  "poseById": "https://yoga-api-nzy4.onrender.com/v1/poses/:id",
-  "poseByName": "https://yoga-api-nzy4.onrender.com/v1/poses/poseName/:name",
-  "posesAlphabetically": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true",
-  "posesByLevel": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner",
-  "posesByCategoryAndLevel": "https://yoga-api-nzy4.onrender.com/v1/poses?category=name&level=difficulty"
+  "pose-by-Id": "https://yoga-api-nzy4.onrender.com/v1/poses/:id",
+  "pose-by-Name": "https://yoga-api-nzy4.onrender.com/v1/poses/name/:name",
+  "poses-alphabetically": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true",
+  "poses-by-Level": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner",
+  "poses-by-category-level": "https://yoga-api-nzy4.onrender.com/v1/poses?category=name&level=difficulty"
 }
 ```
 
@@ -47,7 +47,7 @@ The base URL is the root of the URL. If you ever make a request and you get back
 
 - `/categories`
 - `/categories/:id`
-- `/categories/catName/:name`
+- `/categories/name/:name`
 
 **Example request categories:**
 
@@ -78,7 +78,7 @@ https://yoga-api-nzy4.onrender.com/v1/categories
 
 ```
 https://yoga-api-nzy4.onrender.com/v1/categories/4
-https://yoga-api-nzy4.onrender.com/v1/categories/catName/Chest Opening Yoga
+https://yoga-api-nzy4.onrender.com/v1/categories/name/Chest Opening Yoga
 ```
 
 **Example response:**
@@ -112,7 +112,7 @@ Content-Type: application/json
 
 - `/poses`
 - `/poses/:id`
-- `/poses/poseName/:name`
+- `/poses/name/:name`
 - `/poses?sort=true`
 - `/poses?level=difficulty`
 - `/poses?category=name&level=beginner`
@@ -133,7 +133,7 @@ https://yoga-api-nzy4.onrender.com/v1/poses
 
 ```
 https://yoga-api-nzy4.onrender.com/v1/poses/5
-https://yoga-api-nzy4.onrender.com/v1/poses/poseName/butterfly
+https://yoga-api-nzy4.onrender.com/v1/poses/name/butterfly
 ```
 
 **Example response:**

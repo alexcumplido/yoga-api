@@ -33,7 +33,7 @@ router.get(
 );
 
 router.get(
-  "/catName/:name",
+  "/name/:name",
   validatorHandler(schemaName, "params"),
   async (req, res, next) => {
     const name = req.params.name;
