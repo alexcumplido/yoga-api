@@ -7,14 +7,11 @@ API Rest returning yoga categories and poses including basic info and images. If
 - `https://yoga-api-nzy4.onrender.com/v1` -- Render deployment url (nothing there)
 - `/api` -- get the base url
 - `/categories` -- get all categories
-- `/categories/:id` -- get a category by id
-- `/categories/name/:name` -- get a category by name
+- `/categories?id=value&name=value` -- get a category by id or name
+- `/categories?id=value&level=value` -- get a category by id filtering its poses by level
 - `/poses` -- get all poses
-- `/poses/:id` -- get a pose by id
-- `/poses/name/:name` -- get a pose by name (name must be in english not in sanskrit)
-- `/poses?level=difficulty` -- get poses by level by query param: beginner, intermediate, expert
-- `/poses?category=name&level=beginner` -- get poses by difficulty in a named category
-- `/poses?sort=true` -- get all poses sorted alphabetically by english name
+- `/poses?id=value&name=value` -- get a pose by id or name
+- `/poses?level=value` -- get poses by level
 
 \*nothing is case-sensitive
 
@@ -30,14 +27,13 @@ https://yoga-api-nzy4.onrender.com/v1/api
 {
   "base": "https://yoga-api-nzy4.onrender.com/v1/api",
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
-  "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories/:id",
-  "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories/name/:name",
+  "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value",
+  "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories?name=value",
+  "category-by-id-level": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value&level=value",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
-  "pose-by-id": "https://yoga-api-nzy4.onrender.com/v1/poses/:id",
-  "pose-by-name": "https://yoga-api-nzy4.onrender.com/v1/poses/name/:name",
-  "poses-by-level": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner",
-  "poses-by-category-level": "https://yoga-api-nzy4.onrender.com/v1/poses?category=name&level=difficulty",
-  "poses-alphabetically": "https://yoga-api-nzy4.onrender.com/v1/poses?sort=true"
+  "pose-by-id": "https://yoga-api-nzy4.onrender.com/v1/poses?id=value",
+  "pose-by-name": "https://yoga-api-nzy4.onrender.com/v1/poses?name=value",
+  "poses-by-level": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner"
 }
 ```
 
@@ -48,8 +44,9 @@ The base URL is the root of the URL. If you ever make a request and you get back
 ### **Endpoints**
 
 - `/categories`
-- `/categories/:id`
-- `/categories/name/:name`
+- `/categories?id=value`
+- `/categories?name=value`
+- `/categories?id=value&level=value`
 
 **Example request categories:**
 
@@ -79,8 +76,8 @@ https://yoga-api-nzy4.onrender.com/v1/categories
 **Example request category by id or name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/categories/4
-https://yoga-api-nzy4.onrender.com/v1/categories/name/Chest Opening Yoga
+https://yoga-api-nzy4.onrender.com/v1/categories?id=4
+https://yoga-api-nzy4.onrender.com/v1/categories?name=Chest Opening Yoga
 ```
 
 **Example response:**
@@ -113,11 +110,9 @@ Content-Type: application/json
 ### **Endpoints**
 
 - `/poses`
-- `/poses/:id`
-- `/poses/name/:name`
-- `/poses?sort=true`
-- `/poses?level=difficulty`
-- `/poses?category=name&level=beginner`
+- `/poses?id=value`
+- `/poses?name=value`
+- `/poses?level=beginner`
 
 **Example request poses:**
 
@@ -134,8 +129,8 @@ https://yoga-api-nzy4.onrender.com/v1/poses
 **Example request pose by Id or by name:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/poses/5
-https://yoga-api-nzy4.onrender.com/v1/poses/name/butterfly
+https://yoga-api-nzy4.onrender.com/v1/poses?id=5
+https://yoga-api-nzy4.onrender.com/v1/poses?name=butterfly
 ```
 
 **Example response:**
