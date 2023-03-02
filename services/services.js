@@ -13,11 +13,11 @@ async function getBaseURL() {
 
 async function getCategories() {
   const queryCount = dbLite.prepare(`SELECT id FROM categories`);
-  const data = queryCount.all();
+  const categoriesID = queryCount.all();
   const categories = [];
-  data.forEach(async function (element) {
+  categoriesID.forEach(async function (element) {
     try {
-      const response = await getCategoryById(element.id);
+      const response = await getCategoriesByParams({ id: element.id });
       categories.push(response);
     } catch (error) {
       console.log(error);
@@ -26,44 +26,44 @@ async function getCategories() {
   return categories;
 }
 
-const rootQuery = `SELECT * 
-    FROM categories
-    WHERE`;
-
-const baseQuery = `SELECT 
+async function getCategoriesByParams(params) {
+  const { id, name, level } = params;
+  let rowsPoses;
+  let rowsCategory;
+  const baseCategoryQuery = `SELECT * 
+    FROM categories`;
+  const modularQuery = `SELECT 
     poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description, pose_benefits, 
     url_svg, url_png, url_svg_alt 
     FROM poses 
       INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id 
       INNER JOIN categories ON categories.id = transitive_poses.category_id`;
-
-async function getCategoryById(id) {
-  const queryCategory = dbLite.prepare(`${rootQuery} categories.id = ?`);
-  const rowsCategory = queryCategory.get(id);
-  const queryPoses = dbLite.prepare(`${baseQuery} WHERE categories.id = ?`);
-  const rowsPoses = queryPoses.all(rowsCategory.id);
+  if (level) {
+    return getCategoriesByLevel(id, level);
+  }
+  if (id) {
+    const queryId = `WHERE categories.id = ?`;
+    const queryCategory = dbLite.prepare(`${baseCategoryQuery} ${queryId}`);
+    rowsCategory = queryCategory.get(id);
+    const queryPoses = dbLite.prepare(`${modularQuery} ${queryId}`);
+    rowsPoses = queryPoses.all(rowsCategory.id);
+  } else if (name) {
+    const queryName = `WHERE categories.category_name = ? COLLATE NOCASE`;
+    const queryCategory = dbLite.prepare(`${baseCategoryQuery} ${queryName}`);
+    rowsCategory = queryCategory.get(name);
+    const queryPoses = dbLite.prepare(`${modularQuery} ${queryName}`);
+    rowsPoses = queryPoses.all(rowsCategory.category_name);
+  }
   return { ...rowsCategory, poses: [...rowsPoses] };
 }
 
-async function getCategoryByName(name) {
-  const queryCategory = dbLite.prepare(
-    `${rootQuery} categories.category_name = ? COLLATE NOCASE`
-  );
-  const rowsCategory = queryCategory.get(name);
-  const queryPoses = dbLite.prepare(
-    `${baseQuery} WHERE categories.category_name = ?`
-  );
-  const rowsPoses = queryPoses.all(rowsCategory.category_name);
-  return { ...rowsCategory, poses: [...rowsPoses] };
-}
-
-async function getPosesByCategoryAndDifficulty(category, difficulty) {
+async function getCategoriesByLevel(id, level) {
   const queryCategory = dbLite.prepare(
     `SELECT *
     FROM categories
-    WHERE categories.category_name = ? COLLATE NOCASE`
+    WHERE categories.id = ? COLLATE NOCASE`
   );
-  const rowsCategory = queryCategory.get(category);
+  const rowsCategory = queryCategory.get(id);
   const query = dbLite.prepare(
     `SELECT DISTINCT
     poses.id, category_name, difficulty_level, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description pose_benefits,
@@ -72,12 +72,12 @@ async function getPosesByCategoryAndDifficulty(category, difficulty) {
       INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id
       INNER JOIN categories ON categories.id = transitive_poses.category_id
 	    INNER JOIN difficulty ON difficulty.id = transitive_poses.difficulty_id
-      WHERE categories.category_name = ? COLLATE NOCASE 
+      WHERE categories.id = ? COLLATE NOCASE 
 	    AND difficulty.difficulty_level = ? COLLATE NOCASE
   `
   );
-  const rows = query.all(rowsCategory.category_name, difficulty);
-  return { ...rowsCategory, poses: [...rows] };
+  const rows = query.all(rowsCategory.id, level);
+  return await { ...rowsCategory, poses: [...rows] };
 }
 
 async function getPoses() {
@@ -128,9 +128,7 @@ async function getPosesByLevel(level) {
 module.exports = {
   getBaseURL,
   getCategories,
-  getCategoryByName,
+  getCategoriesByParams,
   getPoses,
   getPosesByParams,
-  getCategoryById,
-  getPosesByCategoryAndDifficulty,
 };
