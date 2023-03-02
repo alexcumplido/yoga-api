@@ -4,14 +4,15 @@ API Rest returning yoga categories and poses including basic info and images. If
 
 ## Endpoints usage
 
-- `https://yoga-api-nzy4.onrender.com/v1` -- Render deployment url (nothing there)
-- `/api` -- get the base url
+- `https://yoga-api-nzy4.onrender.com/v1` -- get the base url
 - `/categories` -- get all categories
 - `/categories?id=value&name=value` -- get a category by id or name
-- `/categories?id=value&level=value` -- get a category by id filtering its poses by level
+- `/categories?id=value&level=value` -- get a category by id filtering poses by level
 - `/poses` -- get all poses
 - `/poses?id=value&name=value` -- get a pose by id or name
 - `/poses?level=value` -- get poses by level
+
+\*difficulty can be: beginner, intermediate, expert
 
 \*nothing is case-sensitive
 
@@ -29,7 +30,7 @@ https://yoga-api-nzy4.onrender.com/v1
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
   "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value",
   "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories?name=value",
-  "category-by-id-level": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value&level=value",
+  "category-byID-and-level": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value&level=value",
   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
   "pose-by-id": "https://yoga-api-nzy4.onrender.com/v1/poses?id=value",
   "pose-by-name": "https://yoga-api-nzy4.onrender.com/v1/poses?name=value",
@@ -112,7 +113,7 @@ Content-Type: application/json
 - `/poses`
 - `/poses?id=value`
 - `/poses?name=value`
-- `/poses?level=beginner`
+- `/poses?level=value`
 
 **Example request poses:**
 
