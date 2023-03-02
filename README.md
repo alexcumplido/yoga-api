@@ -6,13 +6,17 @@ API Rest returning yoga categories and poses including details and images. If yo
 
 - `https://yoga-api-nzy4.onrender.com/v1` -- get the base url
 - `/categories` -- get all categories
-  - `/categories?id=value&name=value` -- get a category by id or name
-  - `/categories?id=value&level=value` -- get a category by id filtering poses by level
+  - `/categories?id=value` -- get category by id
+  - `/categories?name=value` -- get category by name
+  - `/categories?id=value&level=value` -- get category poses filtered by level
 - `/poses` -- get all poses
-  - `/poses?id=value&name=value` -- get a pose by id or name
-  - `/poses?level=value` -- get poses by level
+  - `/poses?id=value` -- get pose by id
+  - `/poses?name=value` -- get pose name
+  - `/poses?level=value` -- get poses filtered by level
 
-\***level** query: beginner, intermediate, expert
+\* **level**: beginner, intermediate, expert
+
+\* **name** : english and not sanskrit or adpated
 
 \*nothing is case-sensitive
 
