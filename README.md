@@ -6,11 +6,11 @@ API Rest returning yoga categories and poses including details and images. If yo
 
 - `https://yoga-api-nzy4.onrender.com/v1` -- get the base url
 - `/categories` -- get all categories
-- `/categories?id=value&name=value` -- get a category by id or name
-- `/categories?id=value&level=value` -- get a category by id filtering poses by level
+  - `/categories?id=value&name=value` -- get a category by id or name
+  - `/categories?id=value&level=value` -- get a category by id filtering poses by level
 - `/poses` -- get all poses
-- `/poses?id=value&name=value` -- get a pose by id or name
-- `/poses?level=value` -- get poses by level
+  - `/poses?id=value&name=value` -- get a pose by id or name
+  - `/poses?level=value` -- get poses by level
 
 \***level** query: beginner, intermediate, expert
 
@@ -27,16 +27,28 @@ https://yoga-api-nzy4.onrender.com/v1
 ```json
 {
   "base": "https://yoga-api-nzy4.onrender.com/v1",
-  "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
-  "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value",
-  "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories?name=value",
-  "category-byID-and-level": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value&level=value",
-  "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
-  "pose-by-id": "https://yoga-api-nzy4.onrender.com/v1/poses?id=value",
-  "pose-by-name": "https://yoga-api-nzy4.onrender.com/v1/poses?name=value",
-  "poses-by-level": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner"
+  "categories": "/categories",
+  "category-by-id": "/categories?id=value",
+  "category-by-name": "/categories?name=value",
+  "category-byID-and-level": "/categories?id=value&level=value",
+  "poses": "/poses",
+  "pose-by-id": "/poses?id=value",
+  "pose-by-name": "/poses?name=value",
+  "poses-by-level": "/poses?level=value"
 }
 ```
+
+<!-- // {
+   "base": "https://yoga-api-nzy4.onrender.com/v1",//
+   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
+   "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value",
+   "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories?name=value",
+   "category-byID-and-level": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value&level=value",
+   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
+   "pose-by-id": "https://yoga-api-nzy4.onrender.com/v1/poses?id=value",
+   "pose-by-name": "https://yoga-api-nzy4.onrender.com/v1/poses?name=value",
+   "poses-by-level": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner"
+} -->
 
 The base URL is the root of the URL. If you ever make a request and you get back a 404 NOT FOUND response, then check the base URL first.
 
@@ -194,7 +206,7 @@ Content-Type: application/json
 
 This API includes custom data and info from already existing projects. Credits to:
 
-- [rebeccaestes](https://github.com/rebeccaestes/yoga_api) (category data the "url_svg_alt" image)
+- [rebeccaestes](https://github.com/rebeccaestes/yoga_api) (category description and alternative "url_svg_alt")
 - [chrisman](https://github.com/Stuwert/yoga-builder) (poses details)
 
 ## Contact
