@@ -18,14 +18,14 @@ API Rest returning yoga categories and poses including basic info and images. If
 **Request base URL:**
 
 ```
-https://yoga-api-nzy4.onrender.com/v1/api
+https://yoga-api-nzy4.onrender.com/v1
 ```
 
 **Response:**
 
 ```json
 {
-  "base": "https://yoga-api-nzy4.onrender.com/v1/api",
+  "base": "https://yoga-api-nzy4.onrender.com/v1",
   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
   "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value",
   "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories?name=value",
