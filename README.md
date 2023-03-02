@@ -1,6 +1,6 @@
 # Yoga API 🧘‍♀️
 
-API Rest returning yoga categories and poses including basic info and images. If your response looks different, it is normal, modifications can happen.
+API Rest returning yoga categories and poses including details and images. If your response looks different, it is normal, modifications can happen.
 
 ## Endpoints usage
 
@@ -12,7 +12,7 @@ API Rest returning yoga categories and poses including basic info and images. If
 - `/poses?id=value&name=value` -- get a pose by id or name
 - `/poses?level=value` -- get poses by level
 
-\*difficulty can be: beginner, intermediate, expert
+\***level** query: beginner, intermediate, expert
 
 \*nothing is case-sensitive
 
