@@ -5,8 +5,8 @@ const baseurlRouter = require("./baseurlRouter");
 
 function routerApi(app) {
   const router = express.Router();
-  app.use("/", router);
-  router.use("/v1", baseurlRouter);
+  app.use("/v1", router);
+  router.use("/", baseurlRouter);
   router.use("/categories", categoriesRouter);
   router.use("/poses", posesRouter);
 }
