@@ -18,7 +18,6 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "joi": "^17.7.0",
-    "mongodb": "^4.13.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
