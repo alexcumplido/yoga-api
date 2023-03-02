@@ -7,47 +7,19 @@ const { schemaName, schemaId } = require("../schemas/schemas");
 
 router.get("/", async (req, res, next) => {
   try {
-    const data = await services.getCategories();
+    let data;
+    if (Object.keys(req.query).length === 0) {
+      data = await services.getCategories();
+    } else {
+      data = await services.getCategoriesByParams(req.query);
+    }
+    if (!data) {
+      res.status(404).json({ message: "cagegory not found" }).end();
+    }
     res.status(200).json(data).end();
   } catch (error) {
     next(error);
   }
 });
-
-router.get(
-  "/:id",
-  validatorHandler(schemaId, "params"),
-  async (req, res, next) => {
-    const id = req.params.id;
-    try {
-      const data = await services.getCategoryById(id);
-      if (data) {
-        res.status(200).json(data).end();
-      } else {
-        res.status(404).json({ message: "category not found" }).end();
-      }
-    } catch (error) {
-      next(error);
-    }
-  }
-);
-
-router.get(
-  "/name/:name",
-  validatorHandler(schemaName, "params"),
-  async (req, res, next) => {
-    const name = req.params.name;
-    try {
-      const data = await services.getCategoryByName(name);
-      if (data) {
-        res.status(200).json(data).end();
-      } else {
-        res.status(404).json({ message: "category not found" }).end();
-      }
-    } catch (error) {
-      next(error);
-    }
-  }
-);
 
 module.exports = router;
