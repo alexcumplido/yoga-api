@@ -4,6 +4,7 @@ const services = require("../services/services");
 const router = express.Router();
 
 router.get("/", async (req, res, next) => {
+  console.log(req.query);
   try {
     let data;
     if (Object.keys(req.query).length === 0) {
