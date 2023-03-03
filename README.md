@@ -1,24 +1,24 @@
 # Yoga API 🧘‍♀️
 
-API Rest returning yoga categories and poses including details and images. If your response looks different, it is normal, modifications can happen.
+API Rest returning yoga categories and poses including details and images in SVG and png format. If your response looks different, it is normal, modifications can happen. Any new pose or suggestion feel free to reach out or open an issue.
 
-## Endpoints usage
+## Endpoints usage (get)
 
-- `https://yoga-api-nzy4.onrender.com/v1` -- get the base url
-- `/categories` -- get all categories
-  - `/categories?id=value` -- get category by id
-  - `/categories?name=value` -- get category by name
-  - `/categories?id=value&level=value` -- get category poses filtered by level
-- `/poses` -- get all poses
-  - `/poses?id=value` -- get pose by id
-  - `/poses?name=value` -- get pose name
-  - `/poses?level=value` -- get poses filtered by level
+- `https://yoga-api-nzy4.onrender.com/v1` -- base url
+- `/categories` -- all categories
+  - `/categories?id=value` -- category by id
+  - `/categories?name=value` -- category by name
+  - `/categories?id=value&level=value` -- category poses filtered by level
+- `/poses` -- all poses
+  - `/poses?id=value` -- pose by id
+  - `/poses?name=value` -- pose name
+  - `/poses?level=value` -- poses filtered by level
 
 \* **level**: beginner, intermediate, expert
 
 \* **name** : english and not sanskrit or adpated
 
-\*nothing is case-sensitive
+\* nothing is case-sensitive
 
 **Request base URL:**
 
@@ -41,18 +41,6 @@ https://yoga-api-nzy4.onrender.com/v1
   "poses-by-level": "/poses?level=value"
 }
 ```
-
-<!-- // {
-   "base": "https://yoga-api-nzy4.onrender.com/v1",//
-   "categories": "https://yoga-api-nzy4.onrender.com/v1/categories",
-   "category-by-id": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value",
-   "category-by-name": "https://yoga-api-nzy4.onrender.com/v1/categories?name=value",
-   "category-byID-and-level": "https://yoga-api-nzy4.onrender.com/v1/categories?id=value&level=value",
-   "poses": "https://yoga-api-nzy4.onrender.com/v1/poses",
-   "pose-by-id": "https://yoga-api-nzy4.onrender.com/v1/poses?id=value",
-   "pose-by-name": "https://yoga-api-nzy4.onrender.com/v1/poses?name=value",
-   "poses-by-level": "https://yoga-api-nzy4.onrender.com/v1/poses?level=beginner"
-} -->
 
 The base URL is the root of the URL. If you ever make a request and you get back a 404 NOT FOUND response, then check the base URL first.
 
@@ -106,6 +94,40 @@ https://yoga-api-nzy4.onrender.com/v1/categories?name=Chest Opening Yoga
   "category_description": "Open your heart and shoulders in chest opening yoga poses like Camel Pose, Fish Pose and Wild Thing.",
   "poses": [ {...}, {...}, {...}, {...}, {...}]
 
+}
+```
+
+**Example request category poses filtered by level:**
+
+```
+https://yoga-api-nzy4.onrender.com/v1/categories?id=5&level=beginner
+```
+
+**Example response:**
+
+```json
+ {
+  "id": 5,
+  "category_name": "Backbend Yoga",
+  "category_description": "Discover the powerful effects of yoga backbends with step-by-step instructions, sequences, and expert advice to keep your practice pain-free.",
+  "poses": [
+     {
+      "id": 8,
+      "category_name": "Backbend Yoga",
+      "difficulty_level": "Beginner",
+      "english_name": "Cow",
+      "sanskrit_name_adapted": "Bitilasana",
+      "sanskrit_name": "Bitilāsana",
+      "translation_name": "bitil = cow, āsana = posture",
+      "pose_benefits": "From  box neutral the ribcage is lifted with a gentle sway in the low back.  The tailbone lifts up into dog tilt.  The eyes are soft and the gaze is to the sky.",
+      "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483077/yoga-api/8_wi10sn.svg",
+      "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483077/yoga-api/8_wi10sn.png",
+      "url_svg_alt": "https://www.dropbox.com/s/neau4ceai1rskh6/cow.svg?raw=1"
+    },
+    {...},
+    {...},
+    {...}
+  ]
 }
 ```
 
@@ -164,6 +186,22 @@ https://yoga-api-nzy4.onrender.com/v1/poses?name=butterfly
   "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483074/yoga-api/5_i64gif.svg",
   "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483074/yoga-api/5_i64gif.png",
   "url_svg_alt": "https://www.dropbox.com/s/3h2pts6xbn28dh7/butterfly%3F.svg?raw=1"
+}
+```
+
+**Example request poses level:**
+
+```
+https://yoga-api-nzy4.onrender.com/v1/poses?level=intermediate
+```
+
+**Example response:**
+
+```json
+{
+  "id": 2,
+  "difficulty_level": "Intermediate",
+  "poses": [ {...}, {...}, {...}, {...}, {...}]
 }
 ```
 
