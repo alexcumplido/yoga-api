@@ -28,32 +28,27 @@ async function getCategories() {
 
 async function getCategoriesByParams(params) {
   const { id, name, level } = params;
-  let rowsPoses;
-  let rowsCategory;
-  const baseCategoryQuery = `SELECT * 
-    FROM categories`;
-  const modularQuery = `SELECT 
-    poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description, pose_benefits, 
-    url_svg, url_png, url_svg_alt 
-    FROM poses 
-      INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id 
-      INNER JOIN categories ON categories.id = transitive_poses.category_id`;
+  const baseCategoryQuery = `SELECT * FROM categories`;
+  const posesColumns = `poses.id, category_name, english_name, sanskrit_name_adapted, sanskrit_name, translation_name, pose_description, pose_benefits,
+  url_svg, url_png, url_svg_alt`;
+  const innerUnionByCategory = `
+  INNER JOIN transitive_poses ON poses.id = transitive_poses.pose_id
+  INNER JOIN categories ON categories.id = transitive_poses.category_id`;
   if (level) {
     return getCategoriesByLevel(id, level);
   }
-  if (id) {
-    const queryId = `WHERE categories.id = ?`;
-    const queryCategory = dbLite.prepare(`${baseCategoryQuery} ${queryId}`);
-    rowsCategory = queryCategory.get(id);
-    const queryPoses = dbLite.prepare(`${modularQuery} ${queryId}`);
-    rowsPoses = queryPoses.all(rowsCategory.id);
-  } else if (name) {
-    const queryName = `WHERE categories.category_name = ? COLLATE NOCASE`;
-    const queryCategory = dbLite.prepare(`${baseCategoryQuery} ${queryName}`);
-    rowsCategory = queryCategory.get(name);
-    const queryPoses = dbLite.prepare(`${modularQuery} ${queryName}`);
-    rowsPoses = queryPoses.all(rowsCategory.category_name);
-  }
+  const queryId = `WHERE categories.id = ${id}`;
+  const queryName = `WHERE categories.category_name = '${name}' COLLATE NOCASE`;
+  const queryCategory = dbLite.prepare(
+    `${baseCategoryQuery} ${(id && queryId) || (name && queryName)}`
+  );
+  const rowsCategory = queryCategory.get();
+  const queryPoses = dbLite.prepare(
+    `SELECT ${posesColumns} FROM poses ${innerUnionByCategory} ${
+      (id && queryId) || (name && queryName)
+    }`
+  );
+  const rowsPoses = queryPoses.all();
   return { ...rowsCategory, poses: [...rowsPoses] };
 }
 
