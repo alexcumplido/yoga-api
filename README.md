@@ -1,10 +1,8 @@
 # Yoga API 🧘‍♀️
 
-API Rest returning yoga categories and poses including details and images in SVG and png format. If your response looks different, it is normal, modifications can happen. Any new pose or suggestion feel free to reach out or open an issue.
+API Rest returning yoga categories and poses including details and images in SVG and png format. If your response looks different, it is normal, modifications can happen. Any new pose or suggestion feel free to reach out or open an issue. The base url is:
 
-```
-Base url: https://yoga-api-nzy4.onrender.com/v1
-```
+`https://yoga-api-nzy4.onrender.com/v1`
 
 ## Endpoints usage (get)
 
