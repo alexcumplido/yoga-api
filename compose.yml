@@ -1,0 +1,6 @@
+services:
+  app:
+    image: yoga-api
+    ports:
+      - 8000:8000:8000
+    working_dir: /app

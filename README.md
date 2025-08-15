@@ -1,5 +1,8 @@
 # Yoga API 🧘‍♀️
 
+🛠️ **UDPDATE** New Docker file and compose added. Faster setup locally using the docker. 🛠️
+- [Check the usage section](#installation)
+
 API Rest returning yoga categories and poses including details and images in SVG and png format. If your response looks different, it is normal, modifications can happen. Any new pose or suggestion feel free to reach out or open an issue. The base url is:
 
 `https://yoga-api-nzy4.onrender.com/v1`
@@ -220,6 +223,21 @@ Content-Type: application/json
 ```
 
 ## Installation
+
+# DOCKER
+
+```
+  # Build the image
+  docker build -t yoga-api .
+
+  # Run a container using the base image
+  docker run --name dv-yoga-api -p 8000:8000 yoga-api
+
+  # Or using docker compose
+  docker compose up -d
+```
+
+# NPM or YARN
 
 ```shell
     # Clone repo
