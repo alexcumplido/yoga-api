@@ -1,7 +1,7 @@
 # Yoga API 🧘‍♀️
 
 🛠️ **UDPDATE** New Docker file and compose added. Faster setup locally using the docker. 🛠️
-- [Check the usage section](https://github.com/alexcumplido/yoga-api/blob/main/README.md#L225)
+- [Check the usage section](#installation)
 
 API Rest returning yoga categories and poses including details and images in SVG and png format. If your response looks different, it is normal, modifications can happen. Any new pose or suggestion feel free to reach out or open an issue. The base url is:
 
