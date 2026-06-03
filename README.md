@@ -256,6 +256,24 @@ Content-Type: application/json
     yarn start
 ```
 
+# ⚖️ License & Attribution
+
+The **codebase and API structure** of this repository are licensed under the [MIT License](LICENSE).  
+If you use this API in your app or project, attribution to this repository is greatly appreciated:
+
+> HappyYoga poses from [Yoga API](https://github.com/alexcumplido/yoga-api/) by Alexandre C.
+
+### 🖼️ Image Assets Licensing & Credits
+The image assets served by this API are subject to different licenses based on their styles. The terms of use:
+
+**🔴 Red images:** Licensed under **CC0 (Public Domain)**. You are free to use them without attribution.
+
+**🌸 Pink and 🟢 green images:** Sourced from Flaticon. Commercial use is permitted, but **the following attribution must be included** somewhere in your project:
+- pink: ```<a href="https://www.flaticon.com/free-icons/easy" title="easy icons">Easy icons created by monkik - Flaticon</a>```
+- green: ```<a href="https://www.flaticon.com/free-icons/yoga" title="yoga icons">Yoga icons created by dDara - Flaticon</a>```
+
+** Note: As the API creator, I do not own the copyrights to the pink and green illustrations and cannot sublicense them to you. AI style-generation using the Flaticon assets is strictly prohibited by their platform terms.*
+
 ## Contributing
 
 1. Fork the repo
